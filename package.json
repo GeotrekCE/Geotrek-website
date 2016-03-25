@@ -1,0 +1,11 @@
+{
+  "name": "geotrek",
+  "version": "1.0.0",
+  "description": "Geotrek.fr website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alexandra JANIN (Makina Corpus)",
+  "license": "MIT"
+}

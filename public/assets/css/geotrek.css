@@ -1,4 +1,25 @@
 @import url(../vendors/normalize.css/normalize.css);
+.grid {
+  position: relative;
+  margin: 0 auto;
+  width: 90%;
+  margin: 4em auto; }
+  @media (min-width: 980px) {
+    .grid {
+      width: 980px; } }
+  @media (min-width: 1280px) {
+    .grid {
+      width: 1280px; } }
+  .grid__item {
+    width: 100%; }
+    @media (min-width: 768px) {
+      .grid__item {
+        padding: 0 .75em;
+        box-sizing: border-box; }
+        .grid__item--3 {
+          width: 33%;
+          float: left; } }
+
 .header {
   width: 100%;
   background-image: url("../img/home-bg.jpg");
@@ -125,7 +146,24 @@
     .menu--toggled .menu__liste__item {
       display: block; }
 
+.home__center {
+  text-align: center; }
+
+.home__image {
+  height: 100px;
+  width: auto; }
+
+html {
+  font-size: 14px;
+  line-height: 1.5em; }
+
 body {
   margin: 0;
   padding: 0;
   font-family: "Raleway", sans-serif; }
+
+p, h1, h2, h3 {
+  color: #383933; }
+
+h1, h2 {
+  text-transform: uppercase; }

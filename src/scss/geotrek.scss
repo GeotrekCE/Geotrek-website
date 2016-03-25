@@ -3,9 +3,23 @@
 @import 'components/mixins';
 @import 'components/grid';
 @import 'components/header';
+@import 'components/home';
+
+html {
+    font-size: 14px;
+    line-height: 1.5em;
+}
 
 body {
     margin: 0;
     padding: 0;
     font-family: $base-font-family;
+}
+
+p, h1, h2, h3 {
+    color: $text-color;
+}
+
+h1, h2 {
+    text-transform: uppercase;
 }

@@ -1,0 +1,75 @@
+{
+  "name": "normalize.css",
+  "version": "4.0.0",
+  "description": "A modern alternative to CSS resets",
+  "style": "normalize.css",
+  "files": [
+    "LICENSE.md",
+    "normalize.css"
+  ],
+  "devDependencies": {
+    "stylelint": "^5.1.0",
+    "stylelint-config-standard": "^4.0.1"
+  },
+  "scripts": {
+    "test": "stylelint normalize.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/necolas/normalize.css.git"
+  },
+  "contributors": [
+    {
+      "name": "Jonathan Neal",
+      "email": "jonathantneal@hotmail.com",
+      "url": "http://jonathantneal.com/"
+    },
+    {
+      "name": "Nicolas Gallagher",
+      "email": "nicolas@nicolasgallagher.com",
+      "url": "http://nicolasgallagher.com/"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/necolas/normalize.css/issues"
+  },
+  "homepage": "https://necolas.github.io/normalize.css#readme",
+  "stylelint": {
+    "extends": "stylelint-config-standard"
+  },
+  "gitHead": "d311749e127ea3ea13eb900ad953270d62734f4f",
+  "_id": "normalize.css@4.0.0",
+  "_shasum": "efa9cf0b7e19cb707055fbebbea6930dbf3589d6",
+  "_from": "normalize.css@latest",
+  "_npmVersion": "3.7.5",
+  "_nodeVersion": "5.4.1",
+  "_npmUser": {
+    "name": "jonathantneal",
+    "email": "jonathantneal@hotmail.com"
+  },
+  "dist": {
+    "shasum": "efa9cf0b7e19cb707055fbebbea6930dbf3589d6",
+    "tarball": "http://registry.npmjs.org/normalize.css/-/normalize.css-4.0.0.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "jonathantneal",
+      "email": "jonathantneal@hotmail.com"
+    },
+    {
+      "name": "necolas",
+      "email": "nicolasgallagher@gmail.com"
+    },
+    {
+      "name": "tjholowaychuk",
+      "email": "tj@vision-media.ca"
+    }
+  ],
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/normalize.css-4.0.0.tgz_1458422690039_0.3100588077213615"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/normalize.css/-/normalize.css-4.0.0.tgz"
+}

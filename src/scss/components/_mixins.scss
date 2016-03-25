@@ -1,0 +1,20 @@
+// Media queries mixins
+
+@mixin mq($size) {
+    @media (min-width: #{$size}) {
+        @content;
+    }
+}
+
+@mixin wrapper {
+    position: relative;
+    margin: 0 auto;
+    width: 90%;
+
+    @include mq($md) {
+        width: $md;
+    }
+    @include mq($lg) {
+        width: $lg;
+    }
+}

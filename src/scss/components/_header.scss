@@ -1,0 +1,157 @@
+.header {
+    width: 100%;
+    background-image: url('../img/home-bg.jpg');
+    background-size: cover;
+
+    &__logo {
+        @include wrapper;
+        display: block;
+        max-width: 640px;
+        padding: 60px 0;
+        position: relative;
+        z-index: 1;
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+}
+
+.menu {
+    background: white;
+    display: block;
+    height: 56px;
+    position: relative;
+    z-index: 2;
+
+    @include mq($sm) {
+        height: 76px;
+    }
+
+    &__liste {
+        position: relative;
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        background: white;
+        width: 100%;
+        text-align: center;
+
+        height: 0;
+        transition: height .3s;
+
+        @include mq($sm) {
+            @include wrapper;
+            display: flex;
+            align-items: center;
+            height: 100%;
+            padding-right: 20px;
+            justify-content: flex-end;
+        }
+
+        &__item {
+            padding: 10px;
+            display: block;
+            text-decoration: none;
+            color: $text-color;
+            display: none;
+            @include mq($sm) {
+                display: block;
+            }
+
+            &--logo {
+                position: absolute;
+                display: block;
+                top: -56px;
+                left: 10px;
+
+                img {
+                    height: 80px;
+                    width: auto;
+                }
+
+                @include mq($sm) {
+                    left: 0;
+                    top: 0;
+                    img {
+                        height: 130px;
+                        width: auto;
+                    }
+                }
+            }
+
+            &--active {
+                font-weight: bold;
+            }
+        }
+    }
+
+    &__bar {
+        display: block;
+        position: absolute;
+        right: 20px;
+        width: 1.5rem;
+        height: .2rem;
+        margin-top: 18px;
+        transition: top .4s ease-out, transform .4s ease-out;
+        background-color: $text-color;
+
+        &:nth-child(1) {
+            top: 0;
+        }
+
+        &:nth-child(2) {
+            top: .5rem;
+        }
+
+        &:nth-child(3) {
+            top: 1rem;
+        }
+    }
+
+    &--mobile {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        padding-right: 20px;
+        justify-content: flex-end;
+        cursor: pointer;
+        position: relative;
+
+        @include mq($sm) {
+            display: none;
+        }
+    }
+
+    &--toggled {
+        .menu__bar {
+            &:nth-child(1) {
+                top: .5rem;
+                transform: rotate(45deg);
+            }
+
+            &:nth-child(2) {
+                transform: translateX(100%) scale(0);
+            }
+
+            &:nth-child(3) {
+                top: .5rem;
+                transform: rotate(-45deg);
+            }
+        }
+
+        .menu__liste {
+            height: 200px;
+
+            @include mq($sm) {
+                height: auto;
+            }
+
+            &__item {
+                display: block;
+            }
+        }
+
+    }
+}

@@ -1,0 +1,85 @@
+//  Table of Contents:
+//
+//   1. General
+//   2. Button
+//   3. Grid
+
+
+// 1. General
+// ---------
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 14px;
+    line-height: 1.5em;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: $base-font-family;
+}
+
+p, h1, h2, h3 {
+    color: $text-color;
+}
+
+h1, h2 {
+    text-transform: uppercase;
+}
+
+
+
+// 2. Button
+// ---------
+
+.button {
+    background: $orange;
+    border-radius: 60px;
+    width: 210px;
+    height: 60px;
+    line-height: 60px;
+    margin: .5em auto;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+
+
+// 3. Grid
+// ---------
+
+.grid {
+    @include wrapper;
+    overflow: hidden;
+    margin: 4em auto;
+
+    &--center {
+        text-align: center;
+
+        @include mq($lg) {
+            padding: 0 6em;
+        }
+    }
+
+    &__item {
+        width: 100%;
+
+        @include mq($sm) {
+            padding: 0 2em;
+
+            &--3 {
+                width: 33%;
+                float: left;
+            }
+        }
+
+    }
+
+}

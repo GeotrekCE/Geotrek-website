@@ -2,20 +2,26 @@
     width: 100%;
     background-image: url('../img/home-bg.jpg');
     background-size: cover;
+    color: white;
 
-    &__logo {
+    &__content {
         @include wrapper;
         display: block;
-        max-width: 640px;
         padding: 6em $base-padding;
         position: relative;
         z-index: 1;
+        text-align: center;
 
         img {
+            max-width: 640px;
             width: 100%;
             height: auto;
-            margin: 4em 0;
+            margin: 4em auto;
         }
+    }
+    &--produit {
+        background-image: url('../img/produit-bg.jpg');
+        overflow: hidden;
     }
 }
 

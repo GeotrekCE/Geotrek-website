@@ -1,0 +1,32 @@
+.produit {
+    &__header {
+        padding: 2em 0;
+        width: 1024px;;
+
+        h1 {
+            color: white;
+            line-height: 150%;
+        }
+
+        small {
+            display: block;
+            font-weight: normal;
+        }
+    }
+
+    &__header-wrapper {
+        text-align: center;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        margin: 0 0 2em 0;
+
+        &__item {
+            background: white;
+            width: 20%;
+            float: left;
+            margin: 0 2%;
+            padding: 16px;
+        }
+    }
+}

@@ -7,7 +7,7 @@
         @include wrapper;
         display: block;
         max-width: 640px;
-        padding: 60px 0;
+        padding: 60px 16px;
         position: relative;
         z-index: 1;
 
@@ -90,7 +90,7 @@
     &__bar {
         display: block;
         position: absolute;
-        right: 20px;
+        right: 16px;
         width: 1.5rem;
         height: .2rem;
         margin-top: 18px;
@@ -114,7 +114,7 @@
         display: flex;
         align-items: center;
         height: 100%;
-        padding-right: 20px;
+        padding-right: 16px;
         justify-content: flex-end;
         cursor: pointer;
         position: relative;

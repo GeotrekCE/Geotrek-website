@@ -1,7 +1,27 @@
 .footer {
     background: $grey;
+    overflow: hidden;
+    padding: 2em 0;
+    text-align: center;
+
+    @include mq($sm) {
+        padding: 4em 0;
+    }
+
+    &__wrapper {
+        @include wrapper;
+        overflow: hidden;
+    }
 
     &__sitemap {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+
+        @include mq($sm) {
+            width: 20%;
+            float: left;
+        }
 
         &__title {
             color: $grey-light;
@@ -10,6 +30,25 @@
 
         a {
             color: white;
+            text-decoration: none;
+        }
+    }
+
+    &__mentions {
+        @include mq($sm) {
+            width: 30%;
+            float: right;
+            text-align: right;
+        }
+        color: white;
+
+        &__button {
+            margin-top: 1em;
+            @include mq($sm) {
+                margin-top: 0;
+                margin-right: 0;
+            }
+            margin-bottom: 2em;
         }
     }
 }

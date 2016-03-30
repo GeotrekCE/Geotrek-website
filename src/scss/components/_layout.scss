@@ -2,7 +2,7 @@
 //
 //   1. General
 //   2. Button
-//   3. Grid
+//   3. Breakpoints
 
 
 // 1. General
@@ -33,7 +33,7 @@ h1, h2 {
 
 
 
-// 2. Button
+// . Button
 // ---------
 
 .button {
@@ -59,6 +59,12 @@ h1, h2 {
     @include wrapper;
     overflow: hidden;
     margin: 4em auto;
+
+    &::before, &::after {
+        clear: both;
+        display: table;
+        content: " ";
+    }
 
     &--center {
         text-align: center;

@@ -9,12 +9,13 @@
 @mixin wrapper {
     position: relative;
     margin: 0 auto;
-    width: 90%;
+    width: 100%;
+    padding: 0 16px;
 
     @include mq($md) {
-        width: $md;
+        width: $md - 20px;
     }
     @include mq($lg) {
-        width: $lg;
+        width: $lg - 40px;
     }
 }

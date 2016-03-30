@@ -37,6 +37,7 @@ h1, h2 {
 // ---------
 
 .button {
+    display: block;
     background: $orange;
     border-radius: 60px;
     width: 210px;
@@ -59,6 +60,10 @@ h1, h2 {
     @include wrapper;
     overflow: hidden;
     margin: 4em auto;
+
+    @include mq($sm) {
+        margin: 5em auto;
+    }
 
     &::before, &::after {
         clear: both;

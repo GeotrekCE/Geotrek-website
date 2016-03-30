@@ -19,61 +19,15 @@
         &__text {
             color: white;
             font-weight: normal;
-            font-size: 2.5em;
+            font-size: $big-font-size;
             line-height: 150%;
             margin: 0;
         }
     }
 
-    &__actus {
-        margin: 4em auto;
-
-        &__title {
-            text-align: center;
-            padding: 0 16px;
-        }
-
-        &__link {
-            position: relative;
-            display: block;
-            width: 245px;
-            margin: 0 auto;
-            text-align: center;
-            text-decoration: none;
-            color: black;
-            opacity: .5;
-            transition: opacity .5s;
-
-            &::before {
-                content: '';
-                position: absolute;
-                z-index: 1;
-                bottom: 9px;
-                display: block;
-                width: 100%;
-                height: 1px;
-                background: black;
-            }
-
-            &::after {
-                position: relative;
-                z-index: 3;
-                margin: .5em auto;
-                content: '+';
-                display: block;
-                border: solid 1px black;
-                border-radius: 18px;
-                width: 18px;
-                height: 18px;
-                line-height: 18px;
-                background: white;
-                box-shadow: 0 0 0 10px white;
-            }
-
-            &:hover, &:focus {
-                opacity: 1;
-            }
+    &__title {
+        &--medium {
+            font-size: $medium-font-size;
         }
     }
-
 }

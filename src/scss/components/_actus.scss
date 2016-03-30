@@ -1,0 +1,85 @@
+.actus {
+    margin: 4em auto;
+
+    @include mq($sm) {
+        margin: 6em auto;
+    }
+
+    &__title {
+        text-align: center;
+        padding: 0 16px;
+        font-weight: normal;
+        text-transform: none;
+        font-size: $big-font-size;
+        line-height: 150%;
+
+        &--medium {
+            padding: 4px 0;
+            margin: 0;
+            font-size: $medium-font-size;
+
+            &::before {
+                width: 27px;
+                height: 3px;
+                display: block;
+                content: '';
+                background: $green;
+                margin-bottom: 12px;
+            }
+        }
+    }
+
+
+    &__date {
+        color: $beige;
+        font-weight: bold;
+        padding: 0;
+        margin: 0;
+    }
+
+    &__link {
+        position: relative;
+        display: block;
+        width: 245px;
+        margin: 0 auto;
+        text-align: center;
+        text-decoration: none;
+        color: $grey-light;
+        transition: color .5s;
+
+        &::before {
+            content: '';
+            position: absolute;
+            z-index: 1;
+            bottom: 9px;
+            display: block;
+            width: 100%;
+            height: 1px;
+            background: $beige;
+        }
+
+        &::after {
+            position: relative;
+            z-index: 3;
+            margin: .5em auto;
+            content: '+';
+            display: block;
+            border: solid 2px $beige;
+            border-radius: 18px;
+            width: 18px;
+            height: 18px;
+            line-height: 18px;
+            background: white;
+            box-shadow: 0 0 0 10px white;
+            transition: background .5s;
+        }
+
+        &:hover, &:focus {
+            color: $text-color;
+            &::after {
+                color: white;
+                background: $beige;
+            }
+        }
+    }
+}

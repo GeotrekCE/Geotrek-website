@@ -18,6 +18,7 @@ h1, h2 {
   text-transform: uppercase; }
 
 .button {
+  display: block;
   background: #e8491e;
   border-radius: 60px;
   width: 210px;
@@ -42,6 +43,9 @@ h1, h2 {
   @media (min-width: 1280px) {
     .grid {
       width: 1240px; } }
+  @media (min-width: 768px) {
+    .grid {
+      margin: 5em auto; } }
   .grid::before, .grid::after {
     clear: both;
     display: table;
@@ -188,6 +192,72 @@ h1, h2 {
     .menu--toggled .menu__liste__item {
       display: block; }
 
+.actus {
+  margin: 4em auto; }
+  @media (min-width: 768px) {
+    .actus {
+      margin: 6em auto; } }
+  .actus__title {
+    text-align: center;
+    padding: 0 16px;
+    font-weight: normal;
+    text-transform: none;
+    font-size: 32px;
+    line-height: 150%; }
+    .actus__title--medium {
+      padding: 4px 0;
+      margin: 0;
+      font-size: 20px; }
+      .actus__title--medium::before {
+        width: 27px;
+        height: 3px;
+        display: block;
+        content: '';
+        background: #b4cc1b;
+        margin-bottom: 12px; }
+  .actus__date {
+    color: #cbcbc9;
+    font-weight: bold;
+    padding: 0;
+    margin: 0; }
+  .actus__link {
+    position: relative;
+    display: block;
+    width: 245px;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+    color: #999797;
+    transition: color .5s; }
+    .actus__link::before {
+      content: '';
+      position: absolute;
+      z-index: 1;
+      bottom: 9px;
+      display: block;
+      width: 100%;
+      height: 1px;
+      background: #cbcbc9; }
+    .actus__link::after {
+      position: relative;
+      z-index: 3;
+      margin: .5em auto;
+      content: '+';
+      display: block;
+      border: solid 2px #cbcbc9;
+      border-radius: 18px;
+      width: 18px;
+      height: 18px;
+      line-height: 18px;
+      background: white;
+      box-shadow: 0 0 0 10px white;
+      transition: background .5s; }
+    .actus__link:hover, .actus__link:focus {
+      color: #383933; }
+      .actus__link:hover::after, .actus__link:focus::after {
+        color: white;
+        background: #cbcbc9; }
+
 .footer {
   background: #272828;
   overflow: hidden;
@@ -195,7 +265,8 @@ h1, h2 {
   text-align: center; }
   @media (min-width: 768px) {
     .footer {
-      padding: 4em 0; } }
+      padding: 4em 0;
+      text-align: left; } }
   .footer__wrapper {
     position: relative;
     margin: 0 auto;
@@ -254,46 +325,9 @@ h1, h2 {
   .home__banner__text {
     color: white;
     font-weight: normal;
-    font-size: 2.5em;
+    font-size: 32px;
     line-height: 150%;
     margin: 0; }
 
-.home__actus {
-  margin: 4em auto; }
-  .home__actus__title {
-    text-align: center;
-    padding: 0 16px; }
-  .home__actus__link {
-    position: relative;
-    display: block;
-    width: 245px;
-    margin: 0 auto;
-    text-align: center;
-    text-decoration: none;
-    color: black;
-    opacity: .5;
-    transition: opacity .5s; }
-    .home__actus__link::before {
-      content: '';
-      position: absolute;
-      z-index: 1;
-      bottom: 9px;
-      display: block;
-      width: 100%;
-      height: 1px;
-      background: black; }
-    .home__actus__link::after {
-      position: relative;
-      z-index: 3;
-      margin: .5em auto;
-      content: '+';
-      display: block;
-      border: solid 1px black;
-      border-radius: 18px;
-      width: 18px;
-      height: 18px;
-      line-height: 18px;
-      background: white;
-      box-shadow: 0 0 0 10px white; }
-    .home__actus__link:hover, .home__actus__link:focus {
-      opacity: 1; }
+.home__title--medium {
+  font-size: 20px; }

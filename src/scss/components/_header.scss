@@ -7,13 +7,14 @@
         @include wrapper;
         display: block;
         max-width: 640px;
-        padding: 60px 16px;
+        padding: 6em $base-padding;
         position: relative;
         z-index: 1;
 
         img {
             width: 100%;
             height: auto;
+            margin: 4em 0;
         }
     }
 }
@@ -90,7 +91,7 @@
     &__bar {
         display: block;
         position: absolute;
-        right: 16px;
+        right: $base-padding;
         width: 1.5rem;
         height: .2rem;
         margin-top: 18px;
@@ -114,7 +115,7 @@
         display: flex;
         align-items: center;
         height: 100%;
-        padding-right: 16px;
+        padding-right: $base-padding;
         justify-content: flex-end;
         cursor: pointer;
         position: relative;

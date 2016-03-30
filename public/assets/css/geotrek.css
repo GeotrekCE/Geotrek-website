@@ -24,11 +24,22 @@ h1, h2 {
   width: 210px;
   height: 60px;
   line-height: 60px;
-  margin: .5em auto;
+  margin: 16px auto;
   color: white;
+  border: solid 2px #e8491e;
   text-decoration: none;
   text-transform: uppercase;
-  text-align: center; }
+  text-align: center;
+  font-weight: bold;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s; }
+  .button:hover {
+    background-color: transparent;
+    border-color: white;
+    color: white; }
+  .button--white {
+    background: white;
+    border-color: white;
+    color: #677331; }
 
 .grid {
   position: relative;
@@ -56,7 +67,8 @@ h1, h2 {
       .grid--center {
         padding: 0 6em; } }
   .grid__item {
-    width: 100%; }
+    width: 100%;
+    padding-bottom: 16px; }
     @media (min-width: 768px) {
       .grid__item {
         padding: 0 2em; }
@@ -75,7 +87,7 @@ h1, h2 {
     padding: 0 16px;
     display: block;
     max-width: 640px;
-    padding: 60px 16px;
+    padding: 6em 16px;
     position: relative;
     z-index: 1; }
     @media (min-width: 980px) {
@@ -86,7 +98,8 @@ h1, h2 {
         width: 1240px; } }
     .header__logo img {
       width: 100%;
-      height: auto; }
+      height: auto;
+      margin: 4em 0; }
 
 .menu {
   background: white;

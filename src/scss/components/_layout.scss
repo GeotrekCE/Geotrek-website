@@ -43,11 +43,27 @@ h1, h2 {
     width: 210px;
     height: 60px;
     line-height: 60px;
-    margin: .5em auto;
+    margin: $base-padding auto;
     color: white;
+    border: solid 2px $orange;
     text-decoration: none;
     text-transform: uppercase;
     text-align: center;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+
+
+    &:hover {
+        background-color: transparent;
+        border-color: white;
+        color: white;
+    }
+
+    &--white {
+        background: white;
+        border-color: white;
+        color: $green-dark;
+    }
 }
 
 
@@ -81,6 +97,7 @@ h1, h2 {
 
     &__item {
         width: 100%;
+        padding-bottom: 16px;
 
         @include mq($sm) {
             padding: 0 2em;

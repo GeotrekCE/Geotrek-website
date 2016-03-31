@@ -1,8 +1,7 @@
 //  Table of Contents:
 //
 //   1. General
-//   2. Button
-//   3. Breakpoints
+//   2. Grid
 
 
 // 1. General
@@ -31,60 +30,26 @@ h1, h2 {
     text-transform: uppercase;
 }
 
-
-
-// . Button
-// ---------
-
-.button {
-    display: block;
-    background: $orange;
-    border-radius: 60px;
-    width: 210px;
-    height: 60px;
-    line-height: 60px;
-    margin: $base-padding auto;
-    color: white;
-    border: solid 2px $orange;
-    text-decoration: none;
-    text-transform: uppercase;
-    text-align: center;
-    font-weight: bold;
-    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
-
-
-    &:hover {
-        background-color: transparent;
-        border-color: white;
-        color: white;
-    }
-
-    &--white {
-        background: white;
-        border-color: white;
-        color: $green-dark;
-    }
+.title {
+    letter-spacing: 1px;
+    line-height: 150%;
+    font-size: $medium-font-size;
 }
 
 
-
-
-// 3. Grid
+// 2. Grid
 // ---------
 
 .grid {
     @include wrapper;
     overflow: hidden;
     margin: 4em auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 
     @include mq($sm) {
         margin: 5em auto;
-    }
-
-    &::before, &::after {
-        clear: both;
-        display: table;
-        content: " ";
     }
 
     &--center {
@@ -92,6 +57,27 @@ h1, h2 {
 
         @include mq($lg) {
             padding: 0 6em;
+        }
+    }
+
+    &--space-between {
+        @include mq($sm) {
+            justify-content: space-between;
+        }
+        .grid__item {
+            background: white;
+            padding: 2em;
+            border-radius: 4px;
+            margin-bottom: $base-padding;
+
+            @include mq($sm) {
+                width: 30%;
+                margin-bottom: 0;
+            }
+
+            img {
+                width: 125px;
+            }
         }
     }
 
@@ -104,10 +90,8 @@ h1, h2 {
 
             &--3 {
                 width: 33%;
-                float: left;
             }
         }
 
     }
-
 }

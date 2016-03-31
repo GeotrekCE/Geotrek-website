@@ -1,0 +1,32 @@
+// . Button
+// ---------
+
+.button {
+    display: block;
+    background: $orange;
+    border-radius: 60px;
+    width: 210px;
+    height: 60px;
+    line-height: 60px;
+    margin: $base-padding auto;
+    color: white;
+    border: solid 2px $orange;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s, border-ccolor 0.3s;
+
+
+    &:hover {
+        background-color: transparent;
+        border-color: white;
+        color: white;
+    }
+
+    &--white {
+        background: white;
+        border-color: white;
+        color: $green-dark;
+    }
+}

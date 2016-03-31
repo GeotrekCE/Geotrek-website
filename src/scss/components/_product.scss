@@ -1,0 +1,53 @@
+.product {
+    &__header {
+        padding: 2em 0 0 0;
+
+        h1 {
+            color: white;
+            line-height: 150%;
+            padding: 0 $base-padding;
+            margin-bottom: -20px;
+            @include mq($sm) {
+                font-size: 47px;
+            }
+            small {
+                font-size: 24px;
+                line-height: 150%;
+                display: block;
+                font-weight: 500;
+            }
+        }
+    }
+
+    &__header-wrapper {
+        text-align: center;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        margin: 0 0 2em 0;
+
+        &__item {
+            background: white;
+            width: 20%;
+            float: left;
+            margin: 0 2%;
+            padding: 16px;
+        }
+    }
+
+    &__title {
+        font-size: $medium-font-size * 1.2;
+        margin-bottom: 0;
+    }
+
+    &__subtitle {
+        color: $grey-light;
+        font-weight: normal;
+        text-transform: uppercase;
+        font-size: $medium-font-size * .8;
+        margin: 0 auto;
+        padding: $base-padding 0;
+        max-width: 200px;
+        border-bottom: solid 1px $beige;
+    }
+}

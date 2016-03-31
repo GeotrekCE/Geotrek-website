@@ -7,9 +7,9 @@
             line-height: 150%;
             padding: 0 $base-padding;
             margin-top: 0;
-            margin-bottom: -20px;
             @include mq($sm) {
                 font-size: 47px;
+                margin-bottom: -20px;
             }
             small {
                 font-size: 24px;
@@ -48,10 +48,15 @@
         }
 
         &__title {
-            font-size: 37px;
             padding-bottom: 0;
             margin-bottom: 0;
+            font-size: 27px;
             line-height: 150%;
+
+            @include mq($sm) {
+                font-size: 37px;
+                line-height: 150%;
+            }
         }
 
         &__subtitle {

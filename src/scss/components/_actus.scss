@@ -1,5 +1,5 @@
 .actus {
-    margin: 4em auto;
+    margin: 0 auto 4em auto;
 
     @include mq($sm) {
         margin: 6em auto;
@@ -10,8 +10,13 @@
         padding: 0 $base-padding;
         font-weight: normal;
         text-transform: none;
-        font-size: $big-font-size;
+        font-size: $big-font-size * .8;
         line-height: 150%;
+
+        @include mq($sm) {
+            font-size: $big-font-size;
+            line-height: 150%;
+        }
     }
 
 

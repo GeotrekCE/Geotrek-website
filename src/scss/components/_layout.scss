@@ -94,7 +94,7 @@ h1, h2 {
 .grid {
     @include wrapper;
     overflow: hidden;
-    margin: 4em auto;
+    margin: 2em auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -134,7 +134,7 @@ h1, h2 {
 
     &__item {
         width: 100%;
-        padding-bottom: 16px;
+        padding: $base-padding 0;
 
         @include mq($sm) {
             padding: 0 2em;

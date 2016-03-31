@@ -465,7 +465,7 @@ h1, h2 {
     margin: 0 auto;
     padding: 16px 0;
     max-width: 200px;
-    border-bottom: solid 1px #cbcbc9; }
+    border-bottom: solid 1px #f0efec; }
   .product__header__desc {
     margin-bottom: 24px; }
 
@@ -486,6 +486,14 @@ h1, h2 {
   width: 100%;
   height: auto;
   margin-top: -20px; }
+
+.product__section:nth-child(odd) {
+  background: #f0efec;
+  margin-bottom: 0;
+  overflow: hidden; }
+  @media (min-width: 768px) {
+    .product__section:nth-child(odd) .grid__item--70 {
+      order: 2; } }
 
 .product__content {
   margin-top: 0;

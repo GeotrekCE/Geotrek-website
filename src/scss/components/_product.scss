@@ -32,7 +32,7 @@
             margin: 0 auto;
             padding: $base-padding 0;
             max-width: 200px;
-            border-bottom: solid 1px $beige;
+            border-bottom: solid 1px $beige-light;
         }
 
         &__desc {
@@ -64,6 +64,17 @@
             margin-top: -20px;
         }
 
+        &:nth-child(odd) {
+            background: $beige-light;
+            margin-bottom: 0;
+            overflow: hidden;
+
+            @include mq($sm) {
+                .grid__item--70 {
+                    order: 2
+                }
+            }
+        }
     }
 
     &__content {

@@ -14,6 +14,10 @@ body {
 p, h1, h2, h3 {
   color: #383933; }
 
+p {
+  font-size: 13px;
+  line-height: 180%; }
+
 h1, h2 {
   text-transform: uppercase; }
 
@@ -38,6 +42,9 @@ h1, h2 {
   @media (min-width: 1280px) {
     .grid {
       width: 1240px; } }
+  @media (min-width: 1440px) {
+    .grid {
+      width: 1400px; } }
   @media (min-width: 768px) {
     .grid {
       margin: 5em auto; } }
@@ -141,6 +148,9 @@ h1, h2 {
     @media (min-width: 1280px) {
       .header__content {
         width: 1240px; } }
+    @media (min-width: 1440px) {
+      .header__content {
+        width: 1400px; } }
     .header__content img {
       max-width: 640px;
       width: 100%;
@@ -186,6 +196,9 @@ h1, h2 {
   @media (min-width: 768px) and (min-width: 1280px) {
     .menu__liste {
       width: 1240px; } }
+  @media (min-width: 768px) and (min-width: 1440px) {
+    .menu__liste {
+      width: 1400px; } }
     .menu__liste__item {
       padding: 10px;
       display: block;
@@ -341,6 +354,9 @@ h1, h2 {
     @media (min-width: 1280px) {
       .footer__wrapper {
         width: 1240px; } }
+    @media (min-width: 1440px) {
+      .footer__wrapper {
+        width: 1400px; } }
   .footer__sitemap {
     list-style-type: none;
     margin: 0;
@@ -351,10 +367,12 @@ h1, h2 {
         float: left; } }
     .footer__sitemap__title {
       color: #999797;
-      font-weight: bold; }
+      font-weight: bold;
+      padding-bottom: 16px; }
     .footer__sitemap a {
       color: white;
-      text-decoration: none; }
+      text-decoration: none;
+      line-height: 200%; }
   .footer__mentions {
     color: white; }
     @media (min-width: 768px) {

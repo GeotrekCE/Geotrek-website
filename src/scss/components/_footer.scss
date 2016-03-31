@@ -26,6 +26,7 @@
 
         &__title {
             color: $grey-light;
+            font-size: $base-font-size * 1.2;
             font-weight: bold;
             padding-bottom: $base-padding;
         }
@@ -54,6 +55,49 @@
                 margin-right: 0;
             }
             margin-bottom: 2em;
+        }
+    }
+}
+
+
+.logos {
+    background: $beige-light;
+    padding: 2em 0;
+    &__wrapper {
+        @include wrapper;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+
+    }
+
+    &__item {
+        list-style-type: none;
+        padding: 12px;
+        width: 135px;
+
+        @include mq($sm) {
+            flex-basis: 25%;
+            padding: 12px 24px;
+        }
+
+        @include mq($md) {
+            flex-basis: 10%;
+            padding: 12px;
+        }
+
+        @include mq($lg) {
+            flex-basis: 135px;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        &:last-child {
+            flex-shrink: 10;
         }
     }
 }

@@ -35,6 +35,7 @@
         text-align: center;
         text-decoration: none;
         color: $grey-light;
+        font-size: $base-font-size * 1.2;
         transition: color .5s;
 
         &::before {

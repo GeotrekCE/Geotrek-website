@@ -26,6 +26,11 @@ p, h1, h2, h3 {
     color: $text-color;
 }
 
+p {
+    font-size: 13px;
+    line-height: 180%;
+}
+
 h1, h2 {
     text-transform: uppercase;
 }

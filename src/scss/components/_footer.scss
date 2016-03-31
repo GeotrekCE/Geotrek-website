@@ -27,21 +27,25 @@
         &__title {
             color: $grey-light;
             font-weight: bold;
+            padding-bottom: $base-padding;
         }
 
         a {
             color: white;
             text-decoration: none;
+            line-height: 200%;
         }
     }
 
     &__mentions {
+        color: white;
+
         @include mq($sm) {
             width: 30%;
             float: right;
             text-align: right;
         }
-        color: white;
+
 
         &__button {
             margin-top: 1em;

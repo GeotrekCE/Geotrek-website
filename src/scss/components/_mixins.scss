@@ -18,4 +18,7 @@
     @include mq($lg) {
         width: $lg - 40px;
     }
+    @include mq($xl) {
+        width: $xl - 40px;
+    }
 }

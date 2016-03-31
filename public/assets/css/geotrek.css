@@ -58,8 +58,6 @@ h1, h2 {
       .grid--space-between .grid__item {
         width: 30%;
         margin-bottom: 0; } }
-    .grid--space-between .grid__item img {
-      width: 125px; }
   .grid__item {
     width: 100%;
     padding-bottom: 16px; }
@@ -88,10 +86,39 @@ h1, h2 {
     background-color: transparent;
     border-color: white;
     color: white; }
+  .button--small {
+    height: 44px;
+    line-height: 40px;
+    font-size: .8em;
+    width: 150px; }
   .button--white {
     background: white;
     border-color: white;
     color: #677331; }
+  .button--orange {
+    background: #ee6b4d;
+    border-color: #ee6b4d;
+    color: white; }
+    .button--orange:hover {
+      background-color: transparent;
+      border-color: #ee6b4d;
+      color: #ee6b4d; }
+  .button--turquoise {
+    background: #3bb6b3;
+    border-color: #3bb6b3;
+    color: white; }
+    .button--turquoise:hover {
+      background-color: transparent;
+      border-color: #3bb6b3;
+      color: #3bb6b3; }
+  .button--violet {
+    background: #9d6bc9;
+    border-color: #9d6bc9;
+    color: white; }
+    .button--violet:hover {
+      background-color: transparent;
+      border-color: #9d6bc9;
+      color: #9d6bc9; }
 
 .header {
   width: 100%;
@@ -379,30 +406,20 @@ h1, h2 {
       line-height: 150%;
       display: block;
       font-weight: 500; }
-
-.product__header-wrapper {
-  text-align: center;
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-  margin: 0 0 2em 0; }
-  .product__header-wrapper__item {
-    background: white;
-    width: 20%;
-    float: left;
-    margin: 0 2%;
-    padding: 16px; }
-
-.product__title {
-  font-size: 24px;
-  margin-bottom: 0; }
-
-.product__subtitle {
-  color: #999797;
-  font-weight: normal;
-  text-transform: uppercase;
-  font-size: 16px;
-  margin: 0 auto;
-  padding: 16px 0;
-  max-width: 200px;
-  border-bottom: solid 1px #cbcbc9; }
+  .product__header__image {
+    width: 125px;
+    margin-top: 24px; }
+  .product__header__title {
+    font-size: 24px;
+    margin-bottom: 0; }
+  .product__header__subtitle {
+    color: #999797;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin: 0 auto;
+    padding: 16px 0;
+    max-width: 200px;
+    border-bottom: solid 1px #cbcbc9; }
+  .product__header__desc {
+    margin-bottom: 24px; }

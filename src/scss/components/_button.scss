@@ -24,9 +24,54 @@
         color: white;
     }
 
+    // Size variables
+
+    &--small {
+        height: 44px;
+        line-height: 40px;
+        font-size: .8em;
+        width: 150px;
+    }
+
+    // Colors variables
+
     &--white {
         background: white;
         border-color: white;
         color: $green-dark;
+    }
+
+    &--orange {
+        background: $orange-light;
+        border-color: $orange-light;
+        color: white;
+
+        &:hover {
+            background-color: transparent;
+            border-color: $orange-light;
+            color: $orange-light;
+        }
+    }
+
+    &--turquoise {
+        background: $turquoise;
+        border-color: $turquoise;
+        color: white;
+        &:hover {
+            background-color: transparent;
+            border-color: $turquoise;
+            color: $turquoise;
+        }
+    }
+
+    &--violet {
+        background: $violet;
+        border-color: $violet;
+        color: white;
+        &:hover {
+            background-color: transparent;
+            border-color: $violet;
+            color: $violet;
+        }
     }
 }

@@ -15,7 +15,7 @@ npm run build:css
 ```
 
 ## Publish to Github Pages
-Commit on master for development, push public folder on gh-pages for website preview (http://makinacorpus.github.io/Geotrek-website/).
+Push on master for development, push public folder on gh-pages for website preview (http://makinacorpus.github.io/Geotrek-website/).
 
 ```
 git subtree push --prefix public origin gh-pages

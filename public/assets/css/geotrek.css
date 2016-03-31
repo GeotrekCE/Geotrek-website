@@ -53,6 +53,7 @@ h1, h2 {
 .grid {
   position: relative;
   margin: 0 auto;
+  min-width: 320px;
   width: 100%;
   padding: 0 16px;
   overflow: hidden;
@@ -87,8 +88,11 @@ h1, h2 {
     margin-bottom: 16px; }
     @media (min-width: 768px) {
       .grid--space-between .grid__item {
-        width: 30%;
+        width: 32%;
         margin-bottom: 0; } }
+    @media (min-width: 1280px) {
+      .grid--space-between .grid__item {
+        width: 30%; } }
   .grid__item {
     width: 100%;
     padding-bottom: 16px; }
@@ -174,29 +178,18 @@ h1, h2 {
   background-size: cover;
   color: white; }
   .header__content {
-    position: relative;
-    margin: 0 auto;
-    width: 100%;
-    padding: 0 16px;
-    display: block;
-    padding: 6em 16px;
-    position: relative;
-    z-index: 1;
-    text-align: center; }
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 320px; }
+    @media (min-width: 768px) {
+      .header__content {
+        min-height: 654px; } }
     @media (min-width: 980px) {
       .header__content {
-        width: 960px; } }
-    @media (min-width: 1280px) {
-      .header__content {
-        width: 1240px; } }
-    @media (min-width: 1440px) {
-      .header__content {
-        width: 1400px; } }
-    .header__content img {
-      max-width: 640px;
-      width: 100%;
-      height: auto;
-      margin: 4em auto; }
+        min-height: 754px; } }
   .header--produit {
     background-image: url("../img/produit-bg.jpg");
     overflow: hidden; }
@@ -224,6 +217,7 @@ h1, h2 {
       .menu__liste {
         position: relative;
         margin: 0 auto;
+        min-width: 320px;
         width: 100%;
         padding: 0 16px;
         display: flex;
@@ -302,7 +296,7 @@ h1, h2 {
     top: .5rem;
     transform: rotate(-45deg); }
   .menu--toggled .menu__liste {
-    height: 200px; }
+    height: 204px; }
     @media (min-width: 768px) {
       .menu--toggled .menu__liste {
         height: auto; } }
@@ -376,6 +370,7 @@ h1, h2 {
   .footer__wrapper {
     position: relative;
     margin: 0 auto;
+    min-width: 320px;
     width: 100%;
     padding: 0 16px;
     overflow: hidden; }
@@ -419,6 +414,27 @@ h1, h2 {
           margin-top: 0;
           margin-right: 0; } }
 
+.home__header {
+  position: relative;
+  margin: 0 auto;
+  min-width: 320px;
+  width: 100%;
+  padding: 0 16px;
+  padding: 0 16px; }
+  @media (min-width: 980px) {
+    .home__header {
+      width: 960px; } }
+  @media (min-width: 1280px) {
+    .home__header {
+      width: 1240px; } }
+  @media (min-width: 1440px) {
+    .home__header {
+      width: 1400px; } }
+  .home__header img {
+    max-width: 640px;
+    width: 100%;
+    height: auto; }
+
 .home__image {
   height: 100px;
   width: auto; }
@@ -446,6 +462,7 @@ h1, h2 {
     color: white;
     line-height: 150%;
     padding: 0 16px;
+    margin-top: 0;
     margin-bottom: -20px; }
     @media (min-width: 768px) {
       .product__header h1 {

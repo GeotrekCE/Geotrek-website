@@ -6,6 +6,7 @@
             color: white;
             line-height: 150%;
             padding: 0 $base-padding;
+            margin-top: 0;
             margin-bottom: -20px;
             @include mq($sm) {
                 font-size: 47px;

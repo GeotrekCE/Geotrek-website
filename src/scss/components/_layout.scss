@@ -118,8 +118,12 @@ h1, h2 {
             margin-bottom: $base-padding;
 
             @include mq($sm) {
-                width: 30%;
+                width: 32%;
                 margin-bottom: 0;
+            }
+
+            @include mq($lg) {
+                width: 30%;
             }
         }
     }

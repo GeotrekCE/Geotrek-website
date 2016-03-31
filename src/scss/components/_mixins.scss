@@ -9,6 +9,7 @@
 @mixin wrapper {
     position: relative;
     margin: 0 auto;
+    min-width: 320px;
     width: 100%;
     padding: 0 16px;
 

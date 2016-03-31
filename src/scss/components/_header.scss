@@ -4,19 +4,21 @@
     background-size: cover;
     color: white;
 
-    &__content {
-        @include wrapper;
-        display: block;
-        padding: 6em $base-padding;
-        position: relative;
-        z-index: 1;
-        text-align: center;
 
-        img {
-            max-width: 640px;
-            width: 100%;
-            height: auto;
-            margin: 4em auto;
+    &__content {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 320px;
+
+        @include mq($sm) {
+            min-height: 654px;
+        }
+
+        @include mq($md) {
+            min-height: 754px;
         }
     }
     &--produit {
@@ -151,7 +153,7 @@
         }
 
         .menu__liste {
-            height: 200px;
+            height: 204px;
 
             @include mq($sm) {
                 height: auto;

@@ -1,5 +1,16 @@
 .home {
 
+    &__header {
+        @include wrapper;
+        padding: 0 $base-padding;
+
+        img {
+            max-width: 640px;
+            width: 100%;
+            height: auto;
+        }
+    }
+
     &__image {
         height: 100px;
         width: auto;

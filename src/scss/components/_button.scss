@@ -26,11 +26,25 @@
 
     // Size variables
 
+    &--medium {
+        height: 44px;
+        line-height: 40px;
+        font-size: .8em;
+        width: 150px;
+    }
+
     &--small {
         height: 44px;
         line-height: 40px;
         font-size: .8em;
         width: 150px;
+
+        @include mq($sm) {
+            height: 38px;
+            line-height: 36px;
+            font-size: .8em;
+            width: 130px;
+        }
     }
 
     // Colors variables

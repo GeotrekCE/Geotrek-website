@@ -29,10 +29,6 @@
         }
 
         &__subtitle {
-            color: $grey-light;
-            font-weight: normal;
-            text-transform: uppercase;
-            font-size: $medium-font-size * .8;
             margin: 0 auto;
             padding: $base-padding 0;
             max-width: 200px;
@@ -41,6 +37,41 @@
 
         &__desc {
             margin-bottom: 24px;
+        }
+    }
+
+    &__section {
+        &__header {
+            text-align: center;
+            padding: 2em $base-padding;
+        }
+
+        &__title {
+            font-size: 37px;
+            padding-bottom: 0;
+            margin-bottom: 0;
+            line-height: 150%;
+        }
+
+        &__subtitle {
+            margin: 0;
+        }
+
+
+        &__image {
+            width: 100%;
+            height: auto;
+            margin-top: -20px;
+        }
+
+    }
+
+    &__content {
+        margin-top: 0;
+        display: flex;
+        align-items: center;
+        .button {
+            margin-left: 0;
         }
     }
 

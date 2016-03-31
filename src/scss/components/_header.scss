@@ -63,6 +63,8 @@
             text-decoration: none;
             color: $text-color;
             display: none;
+            font-size: $base-font-size * 1.2;
+
             @include mq($sm) {
                 display: block;
             }

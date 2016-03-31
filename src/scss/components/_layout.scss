@@ -12,7 +12,7 @@
 }
 
 html {
-    font-size: 14px;
+    font-size: $base-font-size;
     line-height: 1.5em;
 }
 
@@ -22,12 +22,12 @@ body {
     font-family: $base-font-family;
 }
 
-p, h1, h2, h3 {
+p, h1, h2, h3, h4 {
     color: $text-color;
 }
 
 p {
-    font-size: 13px;
+    font-size: $base-font-size;
     line-height: 180%;
 }
 
@@ -39,6 +39,48 @@ h1, h2 {
     letter-spacing: 1px;
     line-height: 150%;
     font-size: $medium-font-size;
+
+    &--medium {
+        letter-spacing: 0;
+        padding: 0;
+        margin: 0;
+        font-size: $medium-font-size;
+        line-height: 150%;
+
+        &::before {
+            width: 27px;
+            height: 3px;
+            display: block;
+            content: '';
+            background: $green;
+            margin-bottom: 12px;
+        }
+    }
+
+    &--medium-orange {
+        &::before {
+            background: $orange-light;
+        }
+    }
+
+    &--medium-turquoise {
+        &::before {
+            background: $turquoise;
+        }
+    }
+
+    &--medium-violet {
+        &::before {
+            background: $violet;
+        }
+    }
+
+    &--min {
+        color: $grey-light;
+        font-weight: normal;
+        text-transform: uppercase;
+        font-size: $medium-font-size * .8;
+    }
 }
 
 
@@ -89,8 +131,20 @@ h1, h2 {
         @include mq($sm) {
             padding: 0 2em;
 
-            &--3 {
+            &--100 {
+                width: 100%;
+            }
+
+            &--33 {
                 width: 33%;
+            }
+
+            &--70 {
+                width: 60%;
+            }
+
+            &--30 {
+                width: 40%;
             }
         }
 

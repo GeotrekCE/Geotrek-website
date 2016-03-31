@@ -3,7 +3,7 @@
     background-image: url('../img/home-bg.jpg');
     background-size: cover;
     color: white;
-
+    overflow: hidden;
 
     &__content {
         text-align: center;
@@ -153,7 +153,7 @@
         }
 
         .menu__liste {
-            height: 204px;
+            height: 224px;
 
             @include mq($sm) {
                 height: auto;

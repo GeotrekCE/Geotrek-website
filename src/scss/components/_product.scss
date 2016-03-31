@@ -86,5 +86,52 @@
             margin-left: 0;
         }
     }
+}
 
+.features {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+    &__item {
+        width: 192px;
+        padding: 0 $base-padding $base-padding 0;
+        list-style-type: none;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        font-weight: bold;
+        font-size: .8em;
+        text-transform: uppercase;
+    }
+
+    &__image {
+        border: solid 1px transparent;
+        width: 42px;
+        height: 42px;
+        display: block;
+        border-radius: 4px;
+        padding: 6px;
+        margin-right: 12px;
+    }
+
+    &--orange {
+        .features__image {
+            border-color: $orange;
+        }
+    }
+
+    &--turquoise {
+        .features__image {
+            border-color: $turquoise;
+        }
+    }
+
+    &--violet {
+        .features__image {
+            border-color: $violet;
+        }
+    }
 }

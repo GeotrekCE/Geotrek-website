@@ -1,7 +1,8 @@
 //  Table of Contents:
 //
 //   1. General
-//   2. Grid
+//   2. Title
+//   3. Grid
 
 
 // 1. General
@@ -22,11 +23,11 @@ body {
     font-family: $base-font-family;
 }
 
-p, h1, h2, h3, h4 {
+p, h1, h2, h3, h4, li {
     color: $text-color;
 }
 
-p {
+p, li {
     font-size: $base-font-size;
     line-height: 180%;
 }
@@ -34,6 +35,9 @@ p {
 h1, h2 {
     text-transform: uppercase;
 }
+
+// 2. Title
+// ---------
 
 .title {
     letter-spacing: 1px;
@@ -84,7 +88,7 @@ h1, h2 {
 }
 
 
-// 2. Grid
+// 3. Grid
 // ---------
 
 .grid {

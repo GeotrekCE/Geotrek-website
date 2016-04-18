@@ -174,7 +174,7 @@ h1, h2 {
 
 .header {
   width: 100%;
-  background-image: url("../img/home-bg.jpg");
+  background: url("../img/home-bg.jpg") center center no-repeat;
   background-size: cover;
   color: white;
   overflow: hidden; }

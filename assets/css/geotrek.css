@@ -178,6 +178,18 @@ h1, h2 {
   background-size: cover;
   color: white;
   overflow: hidden; }
+  .header.test1 {
+    background-image: url("../img/home-bg-test1.jpg");
+  }
+  .header.test2 {
+    background-image: url("../img/home-bg-test2.jpg");
+  }
+  .header.test3 {
+    background-image: url("../img/home-bg-test3.jpg");
+  }
+  .header.test4 {
+    background-image: url("../img/home-bg-test4.jpg");
+  }
   .header__content {
     text-align: center;
     display: flex;

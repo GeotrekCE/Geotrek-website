@@ -85,6 +85,24 @@ h1, h2 {
         text-transform: uppercase;
         font-size: $medium-font-size * .8;
     }
+
+    &--light {
+        text-align: center;
+        padding: 0 $base-padding;
+        font-weight: normal;
+        font-size: $big-font-size * .8;
+
+        @include mq($sm) {
+            font-size: $big-font-size;
+        }
+    }
+}
+
+.subtitle {
+    color: $beige;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
 }
 
 

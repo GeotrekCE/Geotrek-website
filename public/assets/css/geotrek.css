@@ -49,6 +49,20 @@ h1, h2 {
     font-weight: normal;
     text-transform: uppercase;
     font-size: 16px; }
+  .title--light {
+    text-align: center;
+    padding: 0 16px;
+    font-weight: normal;
+    font-size: 25.6px; }
+    @media (min-width: 768px) {
+      .title--light {
+        font-size: 32px; } }
+
+.subtitle {
+  color: #cbcbc9;
+  font-weight: bold;
+  padding: 0;
+  margin: 0; }
 
 .grid {
   position: relative;
@@ -309,22 +323,6 @@ h1, h2 {
   @media (min-width: 768px) {
     .actus {
       margin: 6em auto; } }
-  .actus__title {
-    text-align: center;
-    padding: 0 16px;
-    font-weight: normal;
-    text-transform: none;
-    font-size: 25.6px;
-    line-height: 150%; }
-    @media (min-width: 768px) {
-      .actus__title {
-        font-size: 32px;
-        line-height: 150%; } }
-  .actus__date {
-    color: #cbcbc9;
-    font-weight: bold;
-    padding: 0;
-    margin: 0; }
   .actus__link {
     position: relative;
     display: block;
@@ -608,3 +606,6 @@ h1, h2 {
     border-color: #3bb6b3; }
   .features--violet .features__image {
     border-color: #9d6bc9; }
+
+.open-source {
+  margin: 6em auto; }

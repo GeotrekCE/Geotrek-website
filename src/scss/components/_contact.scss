@@ -1,0 +1,21 @@
+.contact {
+    &__banner {
+        height: 274px;
+        width: 100%;
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+        background-image: url('../img/home-bg-2.jpg');
+        background-size: cover;
+        text-align: center;
+        margin: 0;
+
+        &__text {
+            color: white;
+            font-weight: normal;
+            font-size: $big-font-size;
+            line-height: 150%;
+            margin: 0;
+        }
+    }
+}

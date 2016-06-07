@@ -364,6 +364,23 @@ h1, h2 {
         color: white;
         background: #cbcbc9; }
 
+.contact__banner {
+  height: 274px;
+  width: 100%;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("../img/home-bg-2.jpg");
+  background-size: cover;
+  text-align: center;
+  margin: 0; }
+  .contact__banner__text {
+    color: white;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 150%;
+    margin: 0; }
+
 .footer {
   background: #272828;
   overflow: hidden;
@@ -493,23 +510,6 @@ h1, h2 {
 .home__image {
   height: 100px;
   width: auto; }
-
-.home__banner {
-  height: 274px;
-  width: 100%;
-  display: inline-flex;
-  flex-direction: column;
-  justify-content: center;
-  background-image: url("../img/home-bg-2.jpg");
-  background-size: cover;
-  text-align: center;
-  margin: 0; }
-  .home__banner__text {
-    color: white;
-    font-weight: normal;
-    font-size: 32px;
-    line-height: 150%;
-    margin: 0; }
 
 .product__header {
   padding: 2em 0 0 0; }

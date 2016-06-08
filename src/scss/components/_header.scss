@@ -1,6 +1,6 @@
 .header {
     width: 100%;
-    background-image: url('../img/home-bg.jpg');
+    background: url('../img/home-bg.jpg') center center no-repeat;
     background-size: cover;
     color: white;
     overflow: hidden;
@@ -55,17 +55,17 @@
             display: flex;
             align-items: center;
             height: 100%;
-            padding-right: 20px;
+            padding-right: 1.5rem;
             justify-content: flex-end;
         }
 
         &__item {
-            padding: 10px 2rem;
+            padding: 0.76rem 2rem;
             display: block;
             text-decoration: none;
             color: $text-color;
             display: none;
-            font-size: $base-font-size * 1.2;
+            font-size: 1.2rem;
 
             @include mq($sm) {
                 display: block;
@@ -74,8 +74,8 @@
             &--logo {
                 position: absolute;
                 display: block;
-                top: -56px;
-                left: 10px;
+                top: 4.3rem;
+                left: 0.76rem;
 
                 img {
                     height: 80px;
@@ -101,10 +101,10 @@
     &__bar {
         display: block;
         position: absolute;
-        right: $base-padding;
+        right: 1.2rem;
         width: 1.5rem;
         height: .2rem;
-        margin-top: 18px;
+        margin-top: 1.4rem;
         transition: top .4s ease-out, transform .4s ease-out;
         background-color: $text-color;
 
@@ -125,7 +125,7 @@
         display: flex;
         align-items: center;
         height: 100%;
-        padding-right: $base-padding;
+        padding-right: 1.2rem;
         justify-content: flex-end;
         cursor: pointer;
         position: relative;

@@ -13,43 +13,48 @@
 }
 
 html {
-    font-size: $base-font-size;
-    line-height: 1.5em;
-}
-
-body {
     margin: 0;
     padding: 0;
     font-family: $base-font-family;
-}
-
-p, h1, h2, h3, h4, li {
-    color: $text-color;
-}
-
-p, li {
     font-size: $base-font-size;
-    line-height: 180%;
-}
-
-h1, h2 {
-    text-transform: uppercase;
+    color: $text-color;
+    line-height: 1.8em;
 }
 
 // 2. Title
 // ---------
 
+.page {
+
+    &__title {
+        color: white;
+        line-height: 1.5em;
+        padding: 0 1.2rem;
+        margin-top: 0;
+        text-transform: uppercase;
+        @include mq($sm) {
+            font-size: 3.6rem;
+            margin-bottom: -1.5rem;
+        }
+
+        small {
+            font-size: 1.8rem;
+            line-height: 1.5em;
+            display: block;
+            font-weight: 500;
+        }
+    }
+
+}
+
 .title {
-    letter-spacing: 1px;
-    line-height: 150%;
-    font-size: $medium-font-size;
+    line-height: 1.5em;
+    font-size: 1.5rem;
 
     &--medium {
-        letter-spacing: 0;
         padding: 0;
         margin: 0;
-        font-size: $medium-font-size;
-        line-height: 150%;
+        font-size: 1.5rem;
 
         &::before {
             width: 27px;
@@ -57,7 +62,7 @@ h1, h2 {
             display: block;
             content: '';
             background: $green;
-            margin-bottom: 12px;
+            margin-bottom: 0.8rem;
         }
     }
 
@@ -83,17 +88,17 @@ h1, h2 {
         color: $grey-light;
         font-weight: normal;
         text-transform: uppercase;
-        font-size: $medium-font-size * .8;
+        font-size: 1.2rem;
     }
 
     &--light {
         text-align: center;
-        padding: 0 $base-padding;
+        padding: 0 1.2rem;
         font-weight: normal;
-        font-size: $big-font-size * .8;
+        font-size: 2rem;
 
         @include mq($sm) {
-            font-size: $big-font-size;
+            font-size: 2.5rem;
         }
     }
 }
@@ -112,20 +117,20 @@ h1, h2 {
 .grid {
     @include wrapper;
     overflow: hidden;
-    margin: 2em auto;
+    margin: 2rem auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 
     @include mq($sm) {
-        margin: 5em auto;
+        margin: 5rem auto;
     }
 
     &--center {
         text-align: center;
 
         @include mq($lg) {
-            padding: 0 6em;
+            padding: 0 6rem;
         }
     }
 
@@ -135,9 +140,9 @@ h1, h2 {
         }
         .grid__item {
             background: white;
-            padding: 2em;
+            padding: 2rem;
             border-radius: 4px;
-            margin-bottom: $base-padding;
+            margin-bottom: 1.2rem;
 
             @include mq($sm) {
                 width: 32%;
@@ -152,10 +157,10 @@ h1, h2 {
 
     &__item {
         width: 100%;
-        padding: $base-padding 0;
+        padding: 1.2rem 0;
 
         @include mq($sm) {
-            padding: 0 2em;
+            padding: 0 2rem;
 
             &--100 {
                 width: 100%;

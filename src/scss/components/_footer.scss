@@ -1,11 +1,11 @@
 .footer {
     background: $grey;
     overflow: hidden;
-    padding: 2em 0;
+    padding: 2rem 0;
     text-align: center;
 
     @include mq($sm) {
-        padding: 4em 0;
+        padding: 4rem 0;
         text-align: left;
     }
 
@@ -26,15 +26,15 @@
 
         &__title {
             color: $grey-light;
-            font-size: $base-font-size * 1.2;
+            font-size: 1.2rem;
             font-weight: bold;
-            padding-bottom: $base-padding;
+            padding-bottom: 1.2rem;
         }
 
         a {
             color: white;
             text-decoration: none;
-            line-height: 200%;
+            line-height: 2rem;
         }
     }
 
@@ -49,7 +49,7 @@
 
 
         &__button {
-            margin-top: 1em;
+            margin-top: 1rem;
             @include mq($sm) {
                 margin-top: 0;
                 margin-right: 0;
@@ -62,7 +62,7 @@
 
 .logos {
     background: $beige-light;
-    padding: 2em 0;
+    padding: 2rem 0;
     &__wrapper {
         @include wrapper;
         display: flex;
@@ -74,17 +74,17 @@
 
     &__item {
         list-style-type: none;
-        padding: 12px;
+        padding: 1rem;
         width: 135px;
 
         @include mq($sm) {
             flex-basis: 25%;
-            padding: 12px 24px;
+            padding: 1rem 2rem;
         }
 
         @include mq($md) {
             flex-basis: 10%;
-            padding: 12px;
+            padding: 1rem;
         }
 
         @include mq($lg) {

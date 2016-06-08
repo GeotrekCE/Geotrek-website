@@ -11,7 +11,7 @@
     margin: 0 auto;
     min-width: 320px;
     width: 100%;
-    padding: 0 16px;
+    padding: 0 1.2rem;
 
     @include mq($md) {
         width: $md - 20px;

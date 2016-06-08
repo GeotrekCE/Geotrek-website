@@ -121,6 +121,7 @@ html {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-around;
 
     @include mq($sm) {
         margin: 5rem auto;
@@ -134,48 +135,31 @@ html {
         }
     }
 
-    &--space-between {
-        @include mq($sm) {
-            justify-content: space-between;
-        }
-        .grid__item {
-            background: white;
-            padding: 2rem;
-            border-radius: 4px;
-            margin-bottom: 1.2rem;
-
-            @include mq($sm) {
-                width: 32%;
-                margin-bottom: 0;
-            }
-
-            @include mq($lg) {
-                width: 30%;
-            }
-        }
-    }
-
     &__item {
-        width: 100%;
+        flex: 0 0 100%;
         padding: 1.2rem 0;
 
         @include mq($sm) {
             padding: 0 2rem;
 
             &--100 {
-                width: 100%;
+                flex-basis: 100%;
             }
 
             &--33 {
-                width: 33%;
+                flex-basis: 33%;
+            }
+
+            &--25 {
+                flex-basis: 25%;
             }
 
             &--70 {
-                width: 60%;
+                flex-basis: 60%;
             }
 
             &--30 {
-                width: 40%;
+                flex-basis: 40%;
             }
         }
 

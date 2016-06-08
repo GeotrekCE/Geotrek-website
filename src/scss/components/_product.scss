@@ -2,6 +2,17 @@
 
     &__cards {
         color: $text-color;
+        @include mq($md) {
+            flex-wrap: nowrap;
+        }
+
+        &__item {
+            background: white;
+            margin: 0 2rem;
+            border-radius: 4px;
+            margin-bottom: 2rem;
+
+        }
     }
 
     &__header {

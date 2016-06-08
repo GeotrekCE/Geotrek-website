@@ -277,7 +277,8 @@ html {
               height: 130px;
               width: auto; } }
       .menu__liste__item--active {
-        font-weight: bold; }
+        font-weight: bold;
+        cursor: default; }
   .menu__bar {
     display: block;
     position: absolute;

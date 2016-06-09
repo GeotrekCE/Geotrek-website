@@ -15,16 +15,22 @@ html {
   line-height: 1.5em;
   padding: 0 1.2rem;
   margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
   text-transform: uppercase; }
   @media (min-width: 768px) {
     .page__title {
       font-size: 3.6rem;
       margin-bottom: -1.5rem; } }
-  .page__title small {
-    font-size: 1.8rem;
-    line-height: 1.5em;
-    display: block;
-    font-weight: 500; }
+
+.page__title small, .page__subtitle {
+  font-size: 1.8rem;
+  line-height: 1.5em;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 500;
+  margin-left: auto;
+  margin-right: auto; }
 
 .title {
   line-height: 1.5em;
@@ -127,9 +133,10 @@ html {
   text-align: center;
   font-weight: bold;
   transition: background-color 0.3s, color 0.3s, border-ccolor 0.3s; }
-  .button:hover {
+  .button:hover, .button:focus {
     background-color: transparent;
     border-color: white;
+    outline-color: white;
     color: white; }
   .button--medium {
     height: 44px;
@@ -155,25 +162,28 @@ html {
     background: #ee6b4d;
     border-color: #ee6b4d;
     color: white; }
-    .button--orange:hover {
+    .button--orange:hover, .button--orange:focus {
       background-color: transparent;
       border-color: #ee6b4d;
+      outline-color: #ee6b4d;
       color: #ee6b4d; }
   .button--turquoise {
     background: #3bb6b3;
     border-color: #3bb6b3;
     color: white; }
-    .button--turquoise:hover {
+    .button--turquoise:hover, .button--turquoise:focus {
       background-color: transparent;
       border-color: #3bb6b3;
+      outline-color: #3bb6b3;
       color: #3bb6b3; }
   .button--violet {
     background: #9d6bc9;
     border-color: #9d6bc9;
     color: white; }
-    .button--violet:hover {
+    .button--violet:hover, .button--violet:focus {
       background-color: transparent;
       border-color: #9d6bc9;
+      outline-color: #9d6bc9;
       color: #9d6bc9; }
 
 .header {
@@ -197,6 +207,9 @@ html {
         min-height: 754px; } }
   .header--produit {
     background-image: url("../img/produit-bg.jpg");
+    overflow: hidden; }
+  .header--contact {
+    background-image: url("../img/contact-bg.jpg");
     overflow: hidden; }
   .header--references {
     background-image: url("../img/bg-references-old.jpg");
@@ -373,6 +386,35 @@ html {
     font-size: 2.5rem;
     line-height: 1.5em;
     margin: 0; }
+
+.contact .header__content {
+  min-height: 250px; }
+
+.contact__content {
+  padding: 1px 0;
+  background: #f0efec; }
+  .contact__content__title {
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-transform: uppercase; }
+  .contact__content__form p {
+    display: flex;
+    justify-content: space-between; }
+  .contact__content__form input:not([type=submit]), .contact__content__form textarea {
+    padding: 0.5rem 1rem; }
+    .contact__content__form input:not([type=submit]):hover, .contact__content__form input:not([type=submit]):focus, .contact__content__form textarea:hover, .contact__content__form textarea:focus {
+      outline-color: #e8491e; }
+  .contact__content__form input:not([type=submit]) {
+    flex: 0 1 48%; }
+  .contact__content__form textarea {
+    flex: 0 1 100%; }
+  .contact__content__form input[type=submit]:hover, .contact__content__form input[type=submit]:focus {
+    color: #e8491e;
+    border-color: #e8491e; }
+
+.contact__footer .button {
+  opacity: 0; }
 
 .footer {
   background: #272828;
@@ -613,10 +655,9 @@ html {
 
 .references .header__content {
   min-height: 540px;
-  flex-direction: row; }
+  justify-content: flex-start; }
 
 .references .page__title {
-  align-self: flex-start;
   margin-top: 7rem; }
 
 .references .story {

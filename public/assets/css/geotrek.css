@@ -501,6 +501,12 @@ html {
     width: 100%;
     height: auto; }
 
+.home__baseline {
+  margin: 0 0 3rem 0;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  text-align: right; }
+
 .home__intro__title {
   letter-spacing: 1px;
   text-transform: uppercase; }

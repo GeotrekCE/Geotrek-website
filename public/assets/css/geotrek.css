@@ -269,10 +269,10 @@ html {
       .menu__liste__item--logo {
         position: absolute;
         display: block;
-        top: -40px;
+        top: -57px;
         left: 0.76rem; }
         .menu__liste__item--logo img {
-          height: 80px;
+          height: 60px;
           width: auto; }
         @media (min-width: 768px) {
           .menu__liste__item--logo {
@@ -605,6 +605,12 @@ html {
     margin: 0 2rem;
     border-radius: 4px;
     margin-bottom: 2rem; }
+    @media (min-width: 768px) {
+      .product__cards__item {
+        flex-basis: 40%; } }
+    @media (min-width: 980px) {
+      .product__cards__item {
+        flex-basis: 33%; } }
 
 .product__header {
   padding: 2rem 0 0 0; }

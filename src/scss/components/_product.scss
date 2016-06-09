@@ -12,6 +12,13 @@
             border-radius: 4px;
             margin-bottom: 2rem;
 
+            @include mq($sm) {
+                flex-basis: 40%;
+            }
+
+            @include mq($md) {
+                flex-basis: 33%;
+            }
         }
     }
 

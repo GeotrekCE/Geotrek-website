@@ -86,17 +86,18 @@
             &--logo {
                 position: absolute;
                 display: block;
-                top: -40px;
+                top: -57px;
                 left: 0.76rem;
 
                 img {
-                    height: 80px;
+                    height: 60px;
                     width: auto;
                 }
 
                 @include mq($sm) {
                     left: 0;
                     top: 0;
+
                     img {
                         height: 130px;
                         width: auto;

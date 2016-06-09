@@ -458,6 +458,8 @@ html {
       color: white;
       text-decoration: none;
       line-height: 2rem; }
+      .footer__sitemap a:hover, .footer__sitemap a:focus {
+        text-decoration: underline; }
   .footer__mentions {
     color: white; }
     @media (min-width: 768px) {

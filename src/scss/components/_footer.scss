@@ -35,6 +35,10 @@
             color: white;
             text-decoration: none;
             line-height: 2rem;
+
+            &:hover, &:focus {
+                text-decoration: underline;
+            }
         }
     }
 

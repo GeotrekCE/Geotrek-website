@@ -31,18 +31,23 @@ html {
         line-height: 1.5em;
         padding: 0 1.2rem;
         margin-top: 0;
+        margin-left: auto;
+        margin-right: auto;
         text-transform: uppercase;
         @include mq($sm) {
             font-size: 3.6rem;
             margin-bottom: -1.5rem;
         }
+    }
 
-        small {
-            font-size: 1.8rem;
-            line-height: 1.5em;
-            display: block;
-            font-weight: 500;
-        }
+    &__title small, &__subtitle {
+        font-size: 1.8rem;
+        line-height: 1.5em;
+        text-transform: uppercase;
+        display: block;
+        font-weight: 500;
+        margin-left: auto;
+        margin-right: auto;
     }
 
 }

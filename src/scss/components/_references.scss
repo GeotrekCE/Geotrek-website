@@ -2,11 +2,10 @@
 
     .header__content {
         min-height: 540px;
-        flex-direction: row;
+        justify-content: flex-start;
     }
 
     .page__title {
-        align-self: flex-start;
         margin-top: 7rem;
     }
 

@@ -67,7 +67,12 @@
 
         &__grid__item {
             flex: none;
-            margin-bottom: 2rem;
+            margin-bottom: 4rem;
+            padding: 0 3rem;
+
+            img {
+                max-height: 80px;
+            }
         }
 
         &__subtitle {

@@ -48,33 +48,77 @@
             text-transform: uppercase;
         }
 
-        &__form {
+    }
 
-            p {
-                display: flex;
-                justify-content: space-between;
+    &__form {
+
+        > p {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+            @include mq($sm) {
+                flex-wrap: no-wrap;
             }
+        }
 
-            input:not([type=submit]), textarea {
-                padding: 0.5rem 1rem;
+        input:not([type=submit]), textarea {
+            padding: 0.5rem 1rem;
+            outline: none;
+            box-shadow: none;
+            flex: 0 0 100%;
+            margin-bottom: 1em;
 
-                &:hover, &:focus {
-                    outline-color: $orange;
-                }
+            border: 1px solid lighten($beige, 10%);
+            &:hover, &:focus {
+                border-color: $green;
             }
+        }
 
-            input:not([type=submit]) {
+        input:not([type=submit]) {
+            @include mq($sm) {
                 flex: 0 1 48%;
             }
+        }
 
-            textarea {
+        textarea {
+            resize: none;
+            @include mq($sm) {
                 flex: 0 1 100%;
             }
+        }
 
-            input[type=submit]  {
+        input[type=submit]  {
+            &:hover, &:focus {
+                color: $orange;
+                border-color: $orange;
+            }
+        }
+
+        &__message {
+            background: white;
+            padding: 1.4rem 2rem;
+            border: 1px solid $beige;
+            width: 100%;
+            margin-bottom: 1rem;
+
+            &--error {
+                background: lighten($orange, 40%);
+                color: darken($orange, 10%);
+            }
+
+            &--success {
+                background: lighten($green, 40%);
+                color: darken($green, 20%);
+            }
+
+            a {
+                flex: none;
+                color: currentColor;
+                text-decoration: none;
+
                 &:hover, &:focus {
-                    color: $orange;
-                    border-color: $orange;
+                    text-decoration: underline;
                 }
             }
         }

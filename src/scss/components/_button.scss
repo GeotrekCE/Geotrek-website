@@ -18,9 +18,10 @@
     transition: background-color 0.3s, color 0.3s, border-ccolor 0.3s;
 
 
-    &:hover {
+    &:hover, &:focus {
         background-color: transparent;
         border-color: white;
+        outline-color: white;
         color: white;
     }
 
@@ -60,9 +61,10 @@
         border-color: $orange-light;
         color: white;
 
-        &:hover {
+        &:hover, &:focus {
             background-color: transparent;
             border-color: $orange-light;
+            outline-color: $orange-light;
             color: $orange-light;
         }
     }
@@ -71,9 +73,10 @@
         background: $turquoise;
         border-color: $turquoise;
         color: white;
-        &:hover {
+        &:hover, &:focus {
             background-color: transparent;
             border-color: $turquoise;
+            outline-color: $turquoise;
             color: $turquoise;
         }
     }
@@ -82,9 +85,10 @@
         background: $violet;
         border-color: $violet;
         color: white;
-        &:hover {
+        &:hover, &:focus {
             background-color: transparent;
             border-color: $violet;
+            outline-color: $violet;
             color: $violet;
         }
     }

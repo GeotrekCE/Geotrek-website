@@ -198,6 +198,10 @@ html {
   .header--produit {
     background-image: url("../img/produit-bg.jpg");
     overflow: hidden; }
+  .header--references {
+    background-image: url("../img/bg-references-old.jpg");
+    background-position: bottom center;
+    overflow: hidden; }
 
 .menu {
   background: white;
@@ -606,3 +610,62 @@ html {
 
 .open-source {
   margin: 6rem auto; }
+
+.references .header__content {
+  min-height: 540px;
+  flex-direction: row; }
+
+.references .page__title {
+  align-self: flex-start;
+  margin-top: 7rem; }
+
+.references .story {
+  padding-bottom: 4rem; }
+  .references .story::after {
+    content: "";
+    display: block;
+    height: 1px;
+    background: #f0efec;
+    width: 60vw;
+    margin: auto; }
+
+.references .partnership {
+  margin-bottom: 6rem; }
+  .references .partnership__title {
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 0.6rem; }
+  .references .partnership__grid {
+    margin: 0rem auto; }
+    @media (min-width: 980px) {
+      .references .partnership__grid {
+        flex-wrap: nowrap; } }
+  .references .partnership__grid__item {
+    background: #f0efec;
+    padding: 6rem 2rem;
+    margin: 1rem 0.8rem;
+    flex-shrink: 1; }
+    .references .partnership__grid__item a, .references .partnership__grid__item img {
+      display: block;
+      max-width: 100%;
+      height: auto;
+      margin: auto; }
+
+.references .users {
+  background: #f0efec;
+  padding: 4rem 0 2rem; }
+  .references .users__title {
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 0.6rem; }
+  .references .users__grid__item {
+    flex: none;
+    margin-bottom: 2rem; }
+  .references .users__subtitle {
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    letter-spacing: 1px; }

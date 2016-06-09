@@ -21,8 +21,15 @@
             min-height: 754px;
         }
     }
+
     &--produit {
         background-image: url('../img/produit-bg.jpg');
+        overflow: hidden;
+    }
+
+    &--references {
+        background-image: url('../img/bg-references-old.jpg');
+        background-position: bottom center;
         overflow: hidden;
     }
 }

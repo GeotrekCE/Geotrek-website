@@ -23,6 +23,20 @@
         min-height: 250px;
     }
 
+    &__field {
+        &__title {
+            margin-bottom: 0;
+        }
+        &__link {
+            color: $text-color;
+            text-decoration: none;
+
+            &:hover, &:focus {
+                text-decoration: underline;
+            }
+        }
+    }
+
     &__content {
         padding: 1px 0;
         background: $beige-light;

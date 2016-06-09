@@ -390,6 +390,15 @@ html {
 .contact .header__content {
   min-height: 250px; }
 
+.contact__field__title {
+  margin-bottom: 0; }
+
+.contact__field__link {
+  color: #383933;
+  text-decoration: none; }
+  .contact__field__link:hover, .contact__field__link:focus {
+    text-decoration: underline; }
+
 .contact__content {
   padding: 1px 0;
   background: #f0efec; }

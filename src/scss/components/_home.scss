@@ -32,6 +32,18 @@
 
     &__intro {
 
+        &__headline {
+            max-width: 800px;
+            text-align: center;
+            margin: 4rem auto;
+            padding: 2rem;
+            font-size: 2rem;
+
+            small {
+                display: block;
+            }
+        }
+
         &__title {
             // font-size: 1.4rem;
             letter-spacing: 1px;

@@ -10,6 +10,21 @@ html {
   color: #383933;
   line-height: 1.8em; }
 
+a {
+  color: #383933; }
+  a:hover, a:focus {
+    color: #677331; }
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0; }
+
 .page__title {
   color: white;
   line-height: 1.5em;
@@ -556,6 +571,15 @@ html {
   text-transform: uppercase;
   text-align: right; }
 
+.home__intro__headline {
+  max-width: 800px;
+  text-align: center;
+  margin: 4rem auto;
+  padding: 2rem;
+  font-size: 2rem; }
+  .home__intro__headline small {
+    display: block; }
+
 .home__intro__title {
   letter-spacing: 1px;
   text-transform: uppercase; }
@@ -596,7 +620,8 @@ html {
       flex-shrink: 10; }
 
 .product__cards {
-  color: #383933; }
+  color: #383933;
+  padding: 3rem 2rem; }
   @media (min-width: 980px) {
     .product__cards {
       flex-wrap: nowrap; } }
@@ -624,7 +649,7 @@ html {
     text-transform: uppercase; }
   .product__header__subtitle {
     margin: 0 auto;
-    padding: 1.2rem 0;
+    padding: 0 0 1.2rem 0;
     letter-spacing: 1px;
     max-width: 200px;
     border-bottom: solid 1px #f0efec; }

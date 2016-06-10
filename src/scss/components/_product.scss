@@ -2,6 +2,7 @@
 
     &__cards {
         color: $text-color;
+        padding: 3rem 2rem;
         @include mq($md) {
             flex-wrap: nowrap;
         }
@@ -40,7 +41,7 @@
 
         &__subtitle {
             margin: 0 auto;
-            padding: 1.2rem 0;
+            padding: 0 0 1.2rem 0;
             letter-spacing: 1px;
             max-width: 200px;
             border-bottom: solid 1px $beige-light;

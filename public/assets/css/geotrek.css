@@ -628,6 +628,7 @@ a {
   .product__cards__item {
     background: white;
     margin: 0 2rem;
+    padding: 2rem 4rem;
     border-radius: 4px;
     margin-bottom: 2rem; }
     @media (min-width: 768px) {
@@ -705,6 +706,7 @@ a {
     width: 192px;
     padding: 0 1.2rem 1.2rem 0;
     list-style-type: none;
+    line-height: 1rem;
     display: flex;
     justify-content: flex-start;
     align-items: center;

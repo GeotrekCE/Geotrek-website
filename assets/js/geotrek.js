@@ -37,24 +37,20 @@
                 '.contact__form__message--success'
             );
 
-            request.open("POST", url, true);
-            request.setRequestHeader(
-                "Content-type", "application/x-www-form-urlencoded"
-            );
-
-            request.onreadystatechange = function() {
-                if(request.readyState === 4) {
-
-                    if (request.status === 200) {
-                        successMessage.removeAttribute('hidden');
-                        form.reset();
-                    } else {
-                        errorMessage.removeAttribute('hidden');
-                    }
+            window.callback = function(json) {
+                if (json.success) {
+                    successMessage.removeAttribute('hidden');
+                    form.reset();
+                } else {
+                    errorMessage.removeAttribute('hidden');
                 }
-            };
+            }
 
-            request.send(params);
+            var script = document.createElement('script');
+            script.src = url + '&' + params + '&callback=callback';
+
+            document.getElementsByTagName('head')[0].appendChild(script);
+
         }
     }
 

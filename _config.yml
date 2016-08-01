@@ -23,3 +23,6 @@ analytics: UA-40919875-1
 # Build settings
 markdown: kramdown
 future: true
+sass:
+    sass_dir: assets/css/
+    style: :nested

@@ -1,0 +1,44 @@
+//  Table of Contents:
+//
+//   1. Fonts
+//   2. Colors
+//   3. Breakpoints
+
+
+// 1. Fonts
+// ---------
+
+$base-font-family: 'Raleway', Helvetica, Arial, sans-serif;
+$base-font-size: 13px;
+
+
+// 2. Colors
+// ---------
+
+$text-color: #383933;
+$grey: #272828;
+$grey-light: #999797;
+$beige: #cbcbc9;
+$beige-light: #f0efec;
+$green: #b4cc1b;
+$green-soft: #848e40;
+$green-dark: #677331;
+$orange: #e8491e;
+$orange-light: #ee6b4d;
+$turquoise: #3bb6b3;
+$violet: #9d6bc9;
+
+
+// 3. Breakpoints
+// ---------
+
+// Commons screens size :
+// 800×480, 1024×768, 1152×864, 1280×800, 1280×960, 1440×900,
+// 1680×1200, 1920×1080, 2560×1440
+
+// $xs: 800px;
+$sm: 768px;
+$md: 980px;
+$lg: 1280px;
+$xl: 1440px;
+// $xxl: 1920px;

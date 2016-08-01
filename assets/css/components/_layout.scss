@@ -1,0 +1,191 @@
+//  Table of Contents:
+//
+//   1. General
+//   2. Title
+//   3. Grid
+
+
+// 1. General
+// ---------
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    font-family: $base-font-family;
+    font-size: $base-font-size;
+    color: $text-color;
+    line-height: 1.8em;
+}
+
+a {
+    color: $text-color;
+
+    &:hover, &:focus {
+        color: $green-dark;
+    }
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;
+}
+
+// 2. Title
+// ---------
+
+.page {
+
+    &__title {
+        color: white;
+        line-height: 1.5em;
+        padding: 0 1.2rem;
+        margin-top: 0;
+        margin-left: auto;
+        margin-right: auto;
+        text-transform: uppercase;
+        @include mq($sm) {
+            font-size: 3.6rem;
+            margin-bottom: -1.5rem;
+        }
+    }
+
+    &__title small, &__subtitle {
+        font-size: 1.8rem;
+        line-height: 1.5em;
+        text-transform: uppercase;
+        display: block;
+        font-weight: 500;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+.title {
+    line-height: 1.5em;
+    font-size: 1.5rem;
+
+    &--medium {
+        padding: 0;
+        margin: 0;
+        font-size: 1.5rem;
+
+        &::before {
+            width: 27px;
+            height: 3px;
+            display: block;
+            content: '';
+            background: $green;
+            margin-bottom: 0.8rem;
+        }
+    }
+
+    &--medium-orange {
+        &::before {
+            background: $orange-light;
+        }
+    }
+
+    &--medium-turquoise {
+        &::before {
+            background: $turquoise;
+        }
+    }
+
+    &--medium-violet {
+        &::before {
+            background: $violet;
+        }
+    }
+
+    &--min {
+        color: $grey-light;
+        font-weight: normal;
+        text-transform: uppercase;
+        font-size: 1.2rem;
+    }
+
+    &--light {
+        text-align: center;
+        padding: 0 1.2rem;
+        font-weight: normal;
+        font-size: 2rem;
+
+        @include mq($sm) {
+            font-size: 2.5rem;
+        }
+    }
+}
+
+.subtitle {
+    color: $beige;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+
+
+// 3. Grid
+// ---------
+
+.grid {
+    @include wrapper;
+    overflow: hidden;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    @include mq($sm) {
+        margin: 5rem auto;
+    }
+
+    &--center {
+        text-align: center;
+
+        @include mq($lg) {
+            padding: 0 6rem;
+        }
+    }
+
+    &__item {
+        flex: 0 0 100%;
+        padding: 1.2rem 0;
+
+        @include mq($sm) {
+            padding: 0 2rem;
+
+            &--100 {
+                flex-basis: 100%;
+            }
+
+            &--33 {
+                flex-basis: 33%;
+            }
+
+            &--25 {
+                flex-basis: 25%;
+            }
+
+            &--70 {
+                flex-basis: 60%;
+            }
+
+            &--30 {
+                flex-basis: 40%;
+            }
+        }
+
+    }
+}

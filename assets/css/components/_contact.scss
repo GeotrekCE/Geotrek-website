@@ -1,0 +1,132 @@
+.contact {
+    &__banner {
+        height: 274px;
+        width: 100%;
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+        background-image: url('../img/home-bg-2.jpg');
+        background-size: cover;
+        text-align: center;
+        margin: 0;
+
+        &__text {
+            color: white;
+            font-weight: normal;
+            font-size: 2.5rem;
+            line-height: 1.5em;
+            margin: 0;
+        }
+    }
+
+    .header__content {
+        min-height: 250px;
+    }
+
+    &__field {
+        &__title {
+            margin-bottom: 0;
+        }
+        &__link {
+            color: $text-color;
+            text-decoration: none;
+
+            &:hover, &:focus {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    &__content {
+        padding: 1px 0;
+        background: $beige-light;
+
+        &__title {
+            margin-top: 1rem;
+            font-size: 1.3rem;
+            font-weight: 500;
+            text-transform: uppercase;
+        }
+
+    }
+
+    &__form {
+
+        > p {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+            @include mq($sm) {
+                flex-wrap: no-wrap;
+            }
+        }
+
+        input:not([type=submit]), textarea {
+            padding: 0.5rem 1rem;
+            outline: none;
+            box-shadow: none;
+            flex: 0 0 100%;
+            margin-bottom: 1em;
+
+            border: 1px solid lighten($beige, 10%);
+            &:hover, &:focus {
+                border-color: $green;
+            }
+        }
+
+        input:not([type=submit]) {
+            @include mq($sm) {
+                flex: 0 1 48%;
+            }
+        }
+
+        textarea {
+            resize: none;
+            @include mq($sm) {
+                flex: 0 1 100%;
+            }
+        }
+
+        input[type=submit]  {
+            &:hover, &:focus {
+                color: $orange;
+                border-color: $orange;
+            }
+        }
+
+        &__message {
+            background: white;
+            padding: 1.4rem 2rem;
+            border: 1px solid $beige;
+            width: 100%;
+            margin-bottom: 1rem;
+
+            &--error {
+                background: lighten($orange, 40%);
+                color: darken($orange, 10%);
+            }
+
+            &--success {
+                background: lighten($green, 40%);
+                color: darken($green, 20%);
+            }
+
+            a {
+                flex: none;
+                color: currentColor;
+                text-decoration: none;
+
+                &:hover, &:focus {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+
+    &__footer {
+        .button {
+            opacity: 0;
+        }
+    }
+}

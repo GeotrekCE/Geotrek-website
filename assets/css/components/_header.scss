@@ -1,0 +1,182 @@
+.header {
+    width: 100%;
+    background: url('../img/home-bg.jpg') center center no-repeat;
+    background-size: cover;
+    color: white;
+    overflow: hidden;
+
+    &__content {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 320px;
+
+        @include mq($sm) {
+            min-height: 654px;
+        }
+
+        @include mq($md) {
+            min-height: 754px;
+        }
+    }
+
+    &--produit {
+        background-image: url('../img/produit-bg.jpg');
+        overflow: hidden;
+    }
+
+    &--contact {
+        background-image: url('../img/contact-bg.jpg');
+        overflow: hidden;
+    }
+
+    &--references {
+        background-image: url('../img/bg-references-old.jpg');
+        background-position: bottom center;
+        overflow: hidden;
+    }
+}
+
+.menu {
+    background: white;
+    display: block;
+    height: 56px;
+    position: relative;
+    z-index: 2;
+
+    @include mq($sm) {
+        height: 76px;
+    }
+
+    &__liste {
+        position: relative;
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        background: white;
+        width: 100%;
+        text-align: center;
+
+        height: 0;
+        transition: height .3s;
+
+        @include mq($sm) {
+            @include wrapper;
+            display: flex;
+            align-items: center;
+            height: 100%;
+            padding-right: 1.5rem;
+            justify-content: flex-end;
+        }
+
+        &__item {
+            padding: 0.76rem 2rem;
+            display: block;
+            text-decoration: none;
+            color: $text-color;
+            display: none;
+            font-size: 1.2rem;
+
+            @include mq($sm) {
+                display: block;
+            }
+
+            &--logo {
+                position: absolute;
+                display: block;
+                top: -57px;
+                left: 0.76rem;
+
+                img {
+                    height: 60px;
+                    width: auto;
+                }
+
+                @include mq($sm) {
+                    left: 0;
+                    top: 0;
+
+                    img {
+                        height: 130px;
+                        width: auto;
+                    }
+                }
+            }
+
+            &--active {
+                font-weight: bold;
+                cursor: default;
+            }
+        }
+    }
+
+    &__bar {
+        display: block;
+        position: absolute;
+        right: 1.2rem;
+        width: 1.5rem;
+        height: .2rem;
+        margin-top: 1.4rem;
+        transition: top .4s ease-out, transform .4s ease-out;
+        background-color: $text-color;
+
+        &:nth-child(1) {
+            top: 0;
+        }
+
+        &:nth-child(2) {
+            top: .5rem;
+        }
+
+        &:nth-child(3) {
+            top: 1rem;
+        }
+    }
+
+    &--mobile {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        padding-right: 1.2rem;
+        justify-content: flex-end;
+        cursor: pointer;
+        position: relative;
+
+        @include mq($sm) {
+            display: none;
+        }
+    }
+
+    &--toggled {
+        .menu__bar {
+            &:nth-child(1) {
+                top: .5rem;
+                transform: rotate(45deg);
+            }
+
+            &:nth-child(2) {
+                transform: translateX(100%) scale(0);
+            }
+
+            &:nth-child(3) {
+                top: .5rem;
+                transform: rotate(-45deg);
+            }
+        }
+
+        .menu__liste {
+            height: 224px;
+
+            @include mq($sm) {
+                height: auto;
+            }
+
+            &__item {
+                display: block;
+            }
+        }
+
+    }
+}

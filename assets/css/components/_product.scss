@@ -1,0 +1,161 @@
+.product {
+
+    &__cards {
+        color: $text-color;
+        padding: 3rem 2rem;
+        @include mq($md) {
+            flex-wrap: nowrap;
+        }
+
+        &__item {
+            background: white;
+            margin: 0 2rem;
+            padding: 2rem 4rem;
+            border-radius: 4px;
+            margin-bottom: 2rem;
+
+            @include mq($sm) {
+                flex-basis: 40%;
+            }
+
+            @include mq($md) {
+                flex-basis: 33%;
+            }
+        }
+    }
+
+    &__header {
+        padding: 2rem 0 0 0;
+
+
+        &__image {
+            width: 125px;
+            margin-top: 1.8rem;
+        }
+
+        &__title {
+            letter-spacing: 1px;
+            font-size: 1.8rem;
+            margin-bottom: 0;
+            text-transform: uppercase;
+        }
+
+        &__subtitle {
+            margin: 0 auto;
+            padding: 0 0 1.2rem 0;
+            letter-spacing: 1px;
+            max-width: 200px;
+            border-bottom: solid 1px $beige-light;
+        }
+
+        &__desc {
+            margin-bottom: 1.8rem;
+        }
+    }
+
+    &__section {
+        &__header {
+            text-align: center;
+            padding: 2rem 1.2rem;
+        }
+
+        &__title {
+            padding-bottom: 0;
+            margin-bottom: 0;
+            letter-spacing: 1px;
+            font-size: 27px;
+            line-height: 1.5em;
+            text-transform: uppercase;
+
+            @include mq($sm) {
+                font-size: 2.85rem;
+            }
+        }
+
+        &__subtitle {
+            margin: 0;
+            letter-spacing: 1px;
+        }
+
+
+        &__image {
+            width: 100%;
+            height: auto;
+            margin-top: -1.5rem;
+        }
+
+        &:nth-child(odd) {
+            background: $beige-light;
+            margin-bottom: 0;
+            overflow: hidden;
+
+            @include mq($sm) {
+                .grid__item--70 {
+                    order: 2
+                }
+            }
+        }
+    }
+
+    &__content {
+        margin-top: 0;
+        display: flex;
+        align-items: center;
+        .button {
+            margin-left: 0;
+        }
+    }
+}
+
+.features {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+    &__item {
+        width: 192px;
+        padding: 0 1.2rem 1.2rem 0;
+        list-style-type: none;
+        line-height: 1rem;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        font-weight: bold;
+        font-size: .8rem;
+        text-transform: uppercase;
+    }
+
+    &__image {
+        border: solid 1px transparent;
+        width: 42px;
+        height: 42px;
+        display: block;
+        border-radius: 4px;
+        padding: 6px;
+        margin-right: 12px;
+    }
+
+    &--orange {
+        .features__image {
+            border-color: $orange;
+        }
+    }
+
+    &--turquoise {
+        .features__image {
+            border-color: $turquoise;
+        }
+    }
+
+    &--violet {
+        .features__image {
+            border-color: $violet;
+        }
+    }
+}
+
+.open-source {
+    margin: 6rem auto;
+}

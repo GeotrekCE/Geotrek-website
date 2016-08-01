@@ -1,0 +1,14 @@
+<nav class="menu" data-menu>
+    <a href="#" class="menu--mobile" data-toggle-menu>
+        <span class="menu__bar"></span>
+        <span class="menu__bar"></span>
+        <span class="menu__bar"></span>
+    </a>
+    <ul class="menu__liste">
+        <li><a href="index.html" title="Accueil Geotrek" class="menu__liste__item--logo"><img src="assets/img/logo.svg" alt="Geotrek"></a></li>
+        <li><a class="menu__liste__item {% if page.url == "/" %}menu__liste__item--active{% endif %}" href="index.html" title="Accueil">Accueil</a></li>
+        <li><a class="menu__liste__item {% if page.url == "/produit.html" %}menu__liste__item--active{% endif %}" href="produit.html" title="Produit">Produit</a></li>
+        <li><a class="menu__liste__item {% if page.url == "/references.html" %}menu__liste__item--active{% endif %}" href="references.html" title="Références">Références</a></li>
+        <li><a class="menu__liste__item {% if page.url == "/contact.html" %}menu__liste__item--active{% endif %}" href="contact.html" title="Contact">Contact</a></li>
+    </ul>
+</nav>

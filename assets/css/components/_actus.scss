@@ -1,0 +1,55 @@
+.actus {
+    margin: 0 auto 4rem auto;
+
+    @include mq($sm) {
+        margin: 6rem auto;
+    }
+
+    &__link {
+        position: relative;
+        display: block;
+        width: 245px;
+        margin: 0 auto;
+        text-align: center;
+        text-decoration: none;
+        color: $grey-light;
+        font-size: 1.2rem;
+        transition: color .5s;
+
+        &::before {
+            content: '';
+            position: absolute;
+            z-index: 1;
+            bottom: 9px;
+            display: block;
+            width: 100%;
+            height: 1px;
+            background: $beige;
+        }
+
+        &::after {
+            $actu-more-icon-size: 18px;
+            position: relative;
+            z-index: 3;
+            margin: .5em auto;
+            content: '+';
+            display: block;
+            border: solid 2px $beige;
+            border-radius: $actu-more-icon-size;
+            width: $actu-more-icon-size;
+            height: $actu-more-icon-size;
+            line-height: $actu-more-icon-size;
+            background: white;
+            box-shadow: 0 0 0 10px white;
+            transition: background .5s;
+        }
+
+        &:hover, &:focus {
+            color: $text-color;
+            &::after {
+                color: white;
+                background: $beige;
+            }
+        }
+    }
+}

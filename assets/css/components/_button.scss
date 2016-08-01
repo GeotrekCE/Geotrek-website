@@ -1,0 +1,95 @@
+// . Button
+// ---------
+
+.button {
+    display: block;
+    background: $orange;
+    border-radius: 60px;
+    width: 210px;
+    height: 60px;
+    line-height: 60px;
+    margin: 1.2rem auto;
+    color: white;
+    border: solid 2px $orange;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s, border-ccolor 0.3s;
+
+
+    &:hover, &:focus {
+        background-color: transparent;
+        border-color: white;
+        outline-color: white;
+        color: white;
+    }
+
+    // Size variables
+
+    &--medium {
+        height: 44px;
+        line-height: 40px;
+        font-size: .8em;
+        width: 150px;
+    }
+
+    &--small {
+        height: 44px;
+        line-height: 40px;
+        font-size: .8em;
+        width: 150px;
+
+        @include mq($sm) {
+            height: 38px;
+            line-height: 36px;
+            font-size: .8em;
+            width: 130px;
+        }
+    }
+
+    // Colors variables
+
+    &--white {
+        background: white;
+        border-color: white;
+        color: $grey;
+    }
+
+    &--orange {
+        background: $orange-light;
+        border-color: $orange-light;
+        color: white;
+
+        &:hover, &:focus {
+            background-color: transparent;
+            border-color: $orange-light;
+            outline-color: $orange-light;
+            color: $orange-light;
+        }
+    }
+
+    &--turquoise {
+        background: $turquoise;
+        border-color: $turquoise;
+        color: white;
+        &:hover, &:focus {
+            background-color: transparent;
+            border-color: $turquoise;
+            outline-color: $turquoise;
+            color: $turquoise;
+        }
+    }
+
+    &--violet {
+        background: $violet;
+        border-color: $violet;
+        color: white;
+        &:hover, &:focus {
+            background-color: transparent;
+            border-color: $violet;
+            outline-color: $violet;
+            color: $violet;
+        }
+    }
+}

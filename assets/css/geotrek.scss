@@ -1,3 +1,9 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
+@charset "utf-8";
+
 @import '../vendors/normalize.css/normalize.css';
 @import 'variables';
 @import 'components/mixins';
@@ -10,3 +16,4 @@
 @import 'components/home';
 @import 'components/product';
 @import 'components/references';
+@import 'components/actualites';

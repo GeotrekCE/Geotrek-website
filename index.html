@@ -1,0 +1,104 @@
+---
+layout: default
+title: Accueil
+class: home
+---
+
+<header class="header">
+    {% include navigation.html %}
+
+    <div class="header__content home__header">
+        <div class="home__header__content">
+            <h1 class="sr-only">Geotrek</h1>
+            <img src="assets/img/logo-home.svg" alt="Geotrek logo">
+            <h2 class="home__baseline">Gérez et valorisez vos sentiers et activités touristiques</h2>
+            <a href="produit.html" class="button button--white">En savoir plus</a>
+        </div>
+    </div>
+</header>
+
+<section class="home__intro">
+    <h2 class="title home__intro__headline">Suite logicielle webmapping <small>composée d’un outil métier SIG, d’un site internet et d’une application mobile</small></h2>
+    <div class="grid grid--center">
+        <div class="grid__item grid__item--33">
+            <img class="home__image" src="assets/img/home-ui.svg" alt="">
+            <h3 class="home__intro__title title">Gestion et valorisation</h3>
+            <p>Ergonomique et complète, Geotrek permet une gestion et une valorisation fine du territoire à travers des fonctionnalités riches et innovantes</p>
+        </div>
+        <div class="grid__item grid__item--33">
+            <img class="home__image" src="assets/img/home-apps.svg" alt="">
+            <h3 class="home__intro__title title">Solution 3 en 1</h3>
+            <p>Geotrek-Admin pour la gestion des données, Geotrek-Rando pour la promotion des activités et Geotrek-Mobile sur le terrain constituent une offre unique et incontournable</p>
+        </div>
+        <div class="grid__item grid__item--33">
+            <img class="home__image" src="assets/img/home-github.svg" alt="">
+            <h3 class="home__intro__title title">Open source</h3>
+            <p>Publiée sous licence libre BSD, Geotrek évolue grâce à sa communauté utilisatrice qui peut profiter des investissements réalisés en amont et l’enrichir au profit de tous</p>
+        </div>
+    </div>
+</section>
+
+<section class="grid contact__banner">
+    <h3 class="contact__banner__text">Envie d'adopter Geotrek&nbsp;?</h3>
+    <a href="contact.html" class="button">Nous contacter</a>
+</section>
+
+<section class="actus">
+    <h2 class="title title--light">Toutes les actualités autour de Geotrek</h2>
+
+    <div class="grid actus__items">
+        {% for post in site.posts %}
+          <div class="grid__item grid__item--33">
+            <h3 class="title title--medium">{{ post.title }}</h3>
+            <p class="subtitle">{{ post.date | date: "%b %-d, %Y" }}</p>
+            <p>{{ post.content }}</p>
+          </div>
+        {% endfor %}
+    </div>
+    <a href="actualites.html" class="actus__link">Voir toutes les actualités</a>
+</section>
+
+<aside class="logos">
+    <ul class="logos__wrapper">
+        <li class="logos__item">
+            <a target="_blank" href="http://rando.ecrins-parcnational.fr/" title="Parc National des Ecrins">
+                <img src="assets/img/parc_ecrins.png" alt="Logo du Parc National des Ecrins"/>
+            </a>
+        </li>
+        <li class="logos__item">
+            <a target="_blank" href="http://rando.mercantour.eu/" title="Parc National du Mercantour">
+                <img src="assets/img/parc_mercantour.png" alt="Logo du Parc National du Mercantour"/>
+            </a>
+        </li>
+        <li class="logos__item">
+            <a target="_blank" href="http://www.cevennes-parcnational.fr/" title="Parc national de Cévennes">
+                <img src="assets/img/logo-pn-cevennes.png" alt="Logo PN Cévennes">
+            </a>
+        </li>
+        <li class="logos__item">
+            <a target="_blank" href="http://rando.loire-atlantique.fr/" title="Conseil Général de la Loire Atlantique">
+                <img src="assets/img/logo-cg44.png" alt="Logo CG44">
+            </a>
+        </li>
+        <li class="logos__item">
+            <a target="_blank" href="http://www.ign.fr/" title="IGN">
+                <img src="assets/img/logo-ign.png" alt="Logo IGN">
+            </a>
+        </li>
+        <li class="logos__item">
+            <a target="_blank" href="http://www.parc-camargue.fr/" title="Parc naturel régional de Camargue">
+                <img src="assets/img/logo-pnr-camargue.png" alt="Logo PNR Camargue">
+            </a>
+        </li>
+        <li class="logos__item">
+            <a target="_blank" href="http://www.parcduluberon.fr/" title="Parc naturel régional du Luberon">
+                <img src="assets/img/logo-pnr-luberon.png" alt="Logo PNR Luberon">
+            </a>
+        </li>
+        <li class="logos__item">
+            <a target="_blank" href="http://www.parc-naturel-normandie-maine.fr/" title="PNR Normandie Maine">
+                <img src="assets/img/logo-pnr-normandie-maine.png" alt="Logo PNR Normandie Maine">
+            </a>
+        </li>
+    </ul>
+</aside>

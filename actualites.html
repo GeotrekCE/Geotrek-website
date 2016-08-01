@@ -1,0 +1,77 @@
+---
+layout: default
+title: Actualités
+class: actualites
+---
+
+<header class="header header--actualites">
+    {% include navigation.html %}
+
+    <div class="header__content">
+        <div class="header__content">
+          <h1 class="page__title">Suivez l'actualité de Geotrek</h1>
+          <h2 class="page__subtitle">Restez informé des évolutions ou des nouveautés sur les sites partenaires</h2>
+        </div>
+    </div>
+</header>
+
+<section>
+    <div class="grid actualites__breadcrumb">
+      <h3 class="grid__item"><a href="index.html">Accueil</a> > Toutes les actualités autour de Geotrek</h3>
+    </div>
+
+    <div class="grid actualites__items">
+        {% for post in site.posts %}
+          <div class="grid__item grid__item--actualite">
+            <h3 class="title title--medium">{{ post.title }}</h3>
+            <p class="subtitle">{{ post.date | date: "%b %-d, %Y" }}</p>
+            <p>{{ post.content }}</p>
+          </div>
+        {% endfor %}
+    </div>
+</section>
+
+<aside class="logos">
+    <ul class="logos__wrapper">
+        <li class="logos__item">
+            <a target="_blank" href="http://rando.ecrins-parcnational.fr/" title="Parc National des Ecrins">
+                <img src="assets/img/parc_ecrins.png" alt="Logo du Parc National des Ecrins"/>
+            </a>
+        </li>
+        <li class="logos__item">
+            <a target="_blank" href="http://rando.mercantour.eu/" title="Parc National du Mercantour">
+                <img src="assets/img/parc_mercantour.png" alt="Logo du Parc National du Mercantour"/>
+            </a>
+        </li>
+        <li class="logos__item">
+            <a target="_blank" href="http://www.cevennes-parcnational.fr/" title="Parc national de Cévennes">
+                <img src="assets/img/logo-pn-cevennes.png" alt="Logo PN Cévennes">
+            </a>
+        </li>
+        <li class="logos__item">
+            <a target="_blank" href="http://rando.loire-atlantique.fr/" title="Conseil Général de la Loire Atlantique">
+                <img src="assets/img/logo-cg44.png" alt="Logo CG44">
+            </a>
+        </li>
+        <li class="logos__item">
+            <a target="_blank" href="http://www.ign.fr/" title="IGN">
+                <img src="assets/img/logo-ign.png" alt="Logo IGN">
+            </a>
+        </li>
+        <li class="logos__item">
+            <a target="_blank" href="http://www.parc-camargue.fr/" title="Parc naturel régional de Camargue">
+                <img src="assets/img/logo-pnr-camargue.png" alt="Logo PNR Camargue">
+            </a>
+        </li>
+        <li class="logos__item">
+            <a target="_blank" href="http://www.parcduluberon.fr/" title="Parc naturel régional du Luberon">
+                <img src="assets/img/logo-pnr-luberon.png" alt="Logo PNR Luberon">
+            </a>
+        </li>
+        <li class="logos__item">
+            <a target="_blank" href="http://www.parc-naturel-normandie-maine.fr/" title="PNR Normandie Maine">
+                <img src="assets/img/logo-pnr-normandie-maine.png" alt="Logo PNR Normandie Maine">
+            </a>
+        </li>
+    </ul>
+</aside>

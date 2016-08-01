@@ -22,7 +22,4 @@ analytics: UA-40919875-1
 
 # Build settings
 markdown: kramdown
-destination: _site
-sass:
-    sass_dir: assets/css
 future: true

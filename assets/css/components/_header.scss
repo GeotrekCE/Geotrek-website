@@ -109,7 +109,31 @@
                 font-weight: bold;
                 cursor: default;
             }
+
         }
+
+    }
+
+    &__lang {
+      &::after {
+        content: '/';
+        color: $beige;
+      }
+
+      &:last-child::after {
+        content: '';
+      }
+
+      &__item {
+        padding: 0.76rem 1rem;
+        color: $beige;
+      }
+    }
+
+    .en:lang(en), .fr:lang(fr) {
+      font-weight: bold;
+      cursor: default;
+      text-decoration: none;
     }
 
     &__bar {

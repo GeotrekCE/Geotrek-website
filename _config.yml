@@ -25,3 +25,4 @@ markdown: kramdown
 destination: _site
 sass:
     sass_dir: assets/css
+future: true

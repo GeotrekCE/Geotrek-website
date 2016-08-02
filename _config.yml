@@ -18,7 +18,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://geotrek.fr" # the base hostname & protocol for your site
 analytics: UA-40919875-1
 
-tranlate_meta:
+translate_meta:
   en:
     title: Geotrek, manage and enhance your paths and tourist activities
     description: Webmapping application suite composed of a GIS business-specific tool, a website and a mobile application
@@ -36,7 +36,7 @@ sass:
     style: :nested
 
 
-tranlate_menu:
+translate_menu:
   en:
     home:
       name: "Home"

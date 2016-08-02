@@ -6,7 +6,7 @@
     </a>
     <ul class="menu__liste">
       <li><a href="index.html" title="Accueil Geotrek" class="menu__liste__item--logo"><img src="assets/img/logo.svg" alt="Geotrek"></a></li>
-      {% for menu in site.tranlate_menu[page.lang] %}
+      {% for menu in site.translate_menu[page.lang] %}
       <li><a class="menu__liste__item {% if page.url == menu[1].url %}menu__liste__item--active{% endif %}" href="{{ menu[1].url }}" title="{{ menu[1].name }}">{{ menu[1].name }}</a></li>
       {% endfor %}
 

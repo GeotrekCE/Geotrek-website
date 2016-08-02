@@ -26,3 +26,33 @@ future: true
 sass:
     sass_dir: assets/css/
     style: :nested
+
+
+tranlate_menu:
+  en:
+    home:
+      name: "Home"
+      url: "/index-en.html"
+    product:
+      name: "Product"
+      url: "/product-en.html"
+    references:
+      name: "References"
+      url: "/references-en.html"
+    contact:
+      name: "Contact"
+      url: "/contact-en.html"
+
+  fr:
+    home:
+      name: "Accueil"
+      url: "/index.html"
+    product:
+      name: "Produit"
+      url: "/produit.html"
+    references:
+      name: "Références"
+      url: "/references.html"
+    contact:
+      name: "Contact"
+      url: "/contact.html"

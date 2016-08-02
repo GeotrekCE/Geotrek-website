@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js">
+<html class="no-js" lang="{{page.lang}}">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -23,7 +23,11 @@
 
     {{ content }}
 
+    {% if page.lang == 'fr' %}
     {% include footer.html %}
+    {% else %}
+    {% include footer-en.html %}
+    {% endif %}
 
     <script type="text/javascript" src="assets/js/geotrek.js"></script>
 

@@ -5,10 +5,21 @@
         <span class="menu__bar"></span>
     </a>
     <ul class="menu__liste">
-        <li><a href="index.html" title="Accueil Geotrek" class="menu__liste__item--logo"><img src="assets/img/logo.svg" alt="Geotrek"></a></li>
-        <li><a class="menu__liste__item {% if page.url == "/" %}menu__liste__item--active{% endif %}" href="index.html" title="Accueil">Accueil</a></li>
-        <li><a class="menu__liste__item {% if page.url == "/produit.html" %}menu__liste__item--active{% endif %}" href="produit.html" title="Produit">Produit</a></li>
-        <li><a class="menu__liste__item {% if page.url == "/references.html" %}menu__liste__item--active{% endif %}" href="references.html" title="Références">Références</a></li>
-        <li><a class="menu__liste__item {% if page.url == "/contact.html" %}menu__liste__item--active{% endif %}" href="contact.html" title="Contact">Contact</a></li>
+      <li><a href="index.html" title="Accueil Geotrek" class="menu__liste__item--logo"><img src="assets/img/logo.svg" alt="Geotrek"></a></li>
+      {% for menu in site.tranlate_menu[page.lang] %}
+      <li><a class="menu__liste__item {% if page.url == menu[1].url %}menu__liste__item--active{% endif %}" href="{{ menu[1].url }}" title="{{ menu[1].name }}">{{ menu[1].name }}</a></li>
+      {% endfor %}
+
+      <!-- {% assign currentpagelang=page.lang %}
+      {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+      {% for page in pages %}
+      <li class="menu__lang">
+        {% if currentpagelang == page.lang %}
+        <span class="menu__lang__item {{ page.lang }}">{{ page.lang }}</span>
+        {% else %}
+        <a href="{{ page.url }}" class="menu__lang__item {{ page.lang }}">{{ page.lang }}</a>
+        {% endif %}
+      </li>
+      {% endfor %} -->
     </ul>
 </nav>

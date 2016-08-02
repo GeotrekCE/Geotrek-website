@@ -13,12 +13,20 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Geotrek, gérez et valorisez vos sentiers et activités touristiques
-email: your-email@domain.com
-description: Suite logicielle webmapping composée d’un outil métier SIG, d’un site internet et d’une application mobile
+email: projets-sig@makina-corpus.com
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://geotrek.fr" # the base hostname & protocol for your site
 analytics: UA-40919875-1
+
+tranlate_meta:
+  en:
+    title: Geotrek, manage and enhance your paths and tourist activities
+    description: Webmapping application suite composed of a GIS business-specific tool, a website and a mobile application
+    keywords: geotrek, GIS, trek software
+  fr:
+    title: Geotrek, gérez et valorisez vos sentiers et activités touristiques
+    description: Suite logicielle webmapping composée d’un outil métier SIG, d’un site internet et d’une application mobile
+    keywords: geotrek, SIG, logiciel randonnée, application randonnée
 
 # Build settings
 markdown: kramdown

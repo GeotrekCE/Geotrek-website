@@ -4,7 +4,7 @@ Please gives us a visit at [http://geotrek.fr/](http://geotrek.fr/)
 
 ## Publication
 
-Pour toute nouvelle publication, il est important de [respécter une certaine nomenclature](https://github.com/makinacorpus/Geotrek-website#nommage-des-fichiers).
+Pour toute nouvelle publication, il est important de [respécter une certaine nomenclature](#nommage-des-fichiers).
 
 Les articles se trouvent dans le dossier `_post`:  
 https://github.com/makinacorpus/Geotrek-website/tree/gh-pages/_posts

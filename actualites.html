@@ -23,11 +23,11 @@ ref: actualites
     </div>
 
     <div class="grid actualites__items">
-        {% assign posts=site.posts | where:"lang", page.lang %}
+        {% assign posts=site.posts | where:"lang", "fr" %}
         {% for post in posts %}
           <div class="grid__item grid__item--actualite">
             <h3 class="title title--medium">{{ post.title }}</h3>
-            <p class="subtitle">{{ post.date | date: "%b %-d, %Y" }}</p>
+            <p class="subtitle">{% include date.html date=post.date %}{{ month }} {{ year }}</p>
             <p>{{ post.content }}</p>
           </div>
         {% endfor %}

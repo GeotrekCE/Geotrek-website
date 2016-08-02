@@ -49,12 +49,13 @@ ref: home
     <h2 class="title title--light">Toutes les actualités autour de Geotrek</h2>
 
     <div class="grid actus__items">
-        {% for post in site.posts %}
-          <div class="grid__item grid__item--33">
-            <h3 class="title title--medium">{{ post.title }}</h3>
-            <p class="subtitle">{{ post.date | date: "%b %-d, %Y" }}</p>
-            <p>{{ post.content }}</p>
-          </div>
+        {% assign featured_posts = (site.posts|where:"lang","fr") %}
+        {% for post in featured_posts limit:3 %}
+        <div class="grid__item grid__item--33">
+          <h3 class="title title--medium">{{ post.title }}</h3>
+          <p class="subtitle">{% include date.html date=post.date %}{{ month }} {{ year }}</p>
+          <p>{{ post.content }}</p>
+        </div>
         {% endfor %}
     </div>
     <a href="actualites.html" class="actus__link">Voir toutes les actualités</a>

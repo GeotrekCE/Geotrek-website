@@ -1,6 +1,6 @@
 ---
-title:  Le Parc national des Cévennes et sa nouvelle plateforme touristique
-date:   2016-02-01
+title: Le Parc national des Cévennes et sa nouvelle plateforme touristique
+date: 2016-02-01
 lang: fr
 ref: post-20160201
 ---

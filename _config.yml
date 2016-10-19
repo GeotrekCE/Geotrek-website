@@ -61,6 +61,9 @@ translate_menu:
     references:
       name: "Références"
       url: "references.html"
+    ressources:
+      name: "Ressources"
+      url: "ressources.html"
     contact:
       name: "Contact"
       url: "contact.html"

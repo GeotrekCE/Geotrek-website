@@ -1,0 +1,21 @@
+---
+layout: default
+title: Ressources
+class: ressources
+lang: fr
+ref: ressources
+---
+
+<header class="header header--ressources">
+    {% include navigation.html %}
+
+    <div class="header__content ressources__header">
+        <h1 class="page__title">Ressources</h1>
+        <h2 class="page__subtitle">créée par la communauté autour de Geotrek</h2>
+    </div>
+</header>
+
+<section class="ressources__content">
+    {% capture ressources_include %}{% include ressources.md %}{% endcapture %}
+    {{ ressources_include | markdownify }}
+</section>

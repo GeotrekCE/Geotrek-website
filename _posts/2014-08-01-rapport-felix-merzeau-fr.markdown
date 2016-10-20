@@ -5,4 +5,4 @@ lang: fr
 ref: post-20140801
 ---
 
-Vous souhaitez des informations sur Geotrek et le fonctionnement de son éco-système ? Découvrez <a target="_blank" href="http://www.cmonchicourt.fr/TESTS/GEOTREK/fichiers/files/STAGES/Rapport%20final_Felix_Merzeau_Geotrek.pdf">le chemin de Félix Merzeau</a>, stagiaire au Parc national de la Guadeloupe.
+Vous souhaitez des informations sur Geotrek et le fonctionnement de son éco-système ? Découvrez <a target="_blank" href="http://geotrek.ecrins-parcnational.fr/ressources/stages/2014-08-Felix-Merzeau-Geotrek-PNG.pdf">le chemin de Félix Merzeau</a>, stagiaire au Parc national de la Guadeloupe.

@@ -40,27 +40,30 @@ translate_menu:
   en:
     home:
       name: "Home"
-      url: "/index-en.html"
+      url: "index-en.html"
     product:
       name: "Product"
-      url: "/product-en.html"
+      url: "product-en.html"
     references:
       name: "References"
-      url: "/references-en.html"
+      url: "references-en.html"
     contact:
       name: "Contact"
-      url: "/contact-en.html"
+      url: "contact-en.html"
 
   fr:
     home:
       name: "Accueil"
-      url: "/index.html"
+      url: "index.html"
     product:
       name: "Produit"
-      url: "/produit.html"
+      url: "produit.html"
     references:
       name: "Références"
-      url: "/references.html"
+      url: "references.html"
+    ressources:
+      name: "Ressources"
+      url: "ressources.html"
     contact:
       name: "Contact"
-      url: "/contact.html"
+      url: "contact.html"

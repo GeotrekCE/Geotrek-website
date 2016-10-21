@@ -38,6 +38,7 @@
 - [Perspectives d'enrichissement de l'outil](http://geotrek.ecrins-parcnational.fr/rencontres/2016/03-evolutions-Geotrek.pdf)
 - [Comment intégrer un outil de réservation en ligne dans Geotrek ?](http://geotrek.ecrins-parcnational.fr/rencontres/2016/04-reflexion-reservation-Geotrek.pdf)
 - [Quelle gouvernance pour faire vivre et évoluer Geotrek ?](http://geotrek.ecrins-parcnational.fr/rencontres/2016/05-communaute-gouvernance.pdf)
+- [SYNTHESE des rencontres 2016](http://geotrek.ecrins-parcnational.fr/rencontres/2016/2016-10-premieres-rencontres-geotrek-Synthese.pdf)
 
 ## Communauté
 

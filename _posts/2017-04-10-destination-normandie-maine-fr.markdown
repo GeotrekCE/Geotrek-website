@@ -11,4 +11,4 @@ En donnant à voir l’ensemble des services proposés sur le territoire, le sit
 
 Voir le <a href="http://www.parc-naturel-normandie-maine.fr/actualites/laissez-vous-tenter-par-la-destination-normandie-maine-_253.html" target="_blank">communiqué complet sur le site du PNR</a>.
  
-<img src="http://www.parc-naturel-normandie-maine.fr/upload/actualite/reduites/photo_253.gif">
+<a href="http://tourisme.parc-naturel-normandie-maine.fr" target="_blank"><img src="http://www.parc-naturel-normandie-maine.fr/upload/actualite/reduites/photo_253.gif"></a>

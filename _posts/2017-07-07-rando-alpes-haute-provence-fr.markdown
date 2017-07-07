@@ -1,5 +1,5 @@
 ---
-title : Découvrez Rando-alpes-provence.fr
+title : Découvrez Rando-alpes-haute-provence.fr
 date: 2017-07-07
 lang: fr
 ref: post-20170707

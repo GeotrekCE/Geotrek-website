@@ -12,3 +12,4 @@ Il met l'accent sur la randonnée pédestre avec 72 circuits en ligne pour le mo
 
 
 <a href="http://pilat-rando.fr/" target="_blank"><img style="max-width: 100%;" src="/assets/img/pnr-pilat.png"></a>
+

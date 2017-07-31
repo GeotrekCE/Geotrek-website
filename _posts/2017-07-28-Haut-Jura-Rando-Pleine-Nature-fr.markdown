@@ -13,4 +13,4 @@ Le Parc innove en ayantfait le choix d’intégrer en tant que POI l’ensemble 
 
 Plus de détails sont présentés sur le <a href="http://www.parc-haut-jura.fr/fr/site-habitant/tourismedurable/jura-rando-pleine-nature.263-892__2772.php" target="_blank">site du parc</a>.
 
-<a href="http://randonature.parc-haut-jura.fr" target="_blank"><img style="max-width: 100%;" src="/assets/img/pnr-ht-jura_1.jpeg"></a>
+<a href="http://randonature.parc-haut-jura.fr" target="_blank"><img style="max-width: 100%;" src="/assets/img/pnr-ht-jura_1.jpg"></a>

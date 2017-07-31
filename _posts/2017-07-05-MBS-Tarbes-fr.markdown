@@ -4,7 +4,8 @@ date:   2017-07-05
 lang: fr
 ref: post-20170705
 ---
-Makina Corpus a présenté l'application <a href="http://http://geotrek.fr" target="_blank">Geotrek</a> au <a href="http://www.mountainbusinesssummit.com/index.php/fr/" target="_blank">Mountain Business Summit de Tarbes</a>.
+
+<a href="https://makina-corpus.com/" target="_blank">Makina Corpus</a> a présenté l'application <a href="http://geotrek.fr" target="_blank">Geotrek</a> au <a href="http://www.mountainbusinesssummit.com/index.php/fr/" target="_blank">Mountain Business Summit de Tarbes</a>.
 
 Lors de la <a href="http://www.mountainbusinesssummit.com/index.php/fr/programme/conferences" target="_blank">conférence</a> du 5 juillet 2017, sur les enjeux et les attentes de la montagne connectée, c'était l'occasion d'évoquer le rôle de Geotrek dans la gestion des espaces naturels à travers des fonctionnalités métiers dédiés aux profesionnels, et la valorisation des atouts des territoire auprès d'un large public.
 

@@ -5,8 +5,10 @@ lang: fr
 ref: post-20170919
 ---
 
-Pour la deuxième année consécutive, une rencontre est organisée entre les utilisateurs de Geotrek. Elle aura lieu à Montpellier le 19 octobre prochain. Nous reviendrons sur l'activité du comité de pilotage et des groupes de travail depuis les [dernières rencontres en 2016](http://www.ecrins-parcnational.fr/actualite/premieres-rencontres-techniques-utilisateurs-geotrek), sur les nouveaux développements à venir et de nombreux autres sujets.
+Pour la deuxième année consécutive, une rencontre est organisée entre les utilisateurs de Geotrek. Elle aura lieu à Montpellier le 19 octobre prochain. Nous reviendrons sur l'activité du comité de pilotage et des groupes de travail depuis les <a target="_blank" href="http://www.ecrins-parcnational.fr/actualite/premieres-rencontres-techniques-utilisateurs-geotrek">dernières rencontres en 2016</a>, sur les nouveaux développements à venir et de nombreux autres sujets.
 
-Découvrez [le programme de ces rencontres](http://geotrek.ecrins-parcnational.fr/rencontres/2017/Rencontres-Geotrek-2017-Programme.pdf).
+Découvrez <a target="_blank" href="http://geotrek.ecrins-parcnational.fr/rencontres/2017/Rencontres-Geotrek-2017-Programme.pdf">le programme de ces rencontres</a>.
 
-Vous pouvez vous dès aujourd'hui [vous inscrire en ligne](https://framaforms.org/inscription-rencontres-geotrek-2017-1505389947).
+Vous pouvez dès aujourd'hui vous <a target="_blank" href="https://framaforms.org/inscription-rencontres-geotrek-2017-1505389947">inscrire en ligne</a>.
+
+<img alt="Geotrek" src="/assets/img/geotrek_bandeau-800.png" style="max-width: 100%"/>

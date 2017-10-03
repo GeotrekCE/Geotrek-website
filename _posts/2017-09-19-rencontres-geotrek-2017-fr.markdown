@@ -11,4 +11,6 @@ Découvrez <a target="_blank" href="http://geotrek.ecrins-parcnational.fr/rencon
 
 Vous pouvez dès aujourd'hui vous <a target="_blank" href="https://framaforms.org/inscription-rencontres-geotrek-2017-1505389947">inscrire en ligne</a>.
 
+**Adresse :** Cap Alpha / 9 Avenue de l'Europe, 34830 Clapiers - <a target="_blank" href="https://www.openstreetmap.org/note/1160912#map=14/43.6564/3.8997">Plan</a>.
+
 <img alt="Geotrek" src="/assets/img/geotrek_bandeau-800.png" style="max-width: 100%"/>

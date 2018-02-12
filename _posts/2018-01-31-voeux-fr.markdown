@@ -4,6 +4,6 @@ date: 2018-01-31
 lang: fr
 ref: post-20180131
 ---
-<img src="/assets/img/2018-02-12-Geotrek-voeux-2018.png">
+<img style="max-width: 100%;" src="/assets/img/2018-02-12-Geotrek-voeux-2018.png">
 A l'horizon 2018, Geotrek vous accompagne dans toutes vos activités touristiques en valorisant la randonnée, le patrimoine, le terroir...
 Nous restons proches de vous !

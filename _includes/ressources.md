@@ -7,6 +7,7 @@
 
 ## Tutoriels
 
+- [Installation de Geotrek-admin et Geotrek-rando pas à pas](http://geotrek.ecrins-parcnational.fr/articles/en/2018-02-geotrek-jamaica.html) 🇬🇧
 - [Importer une couche de tronçons dans Geotrek](https://makina-corpus.com/blog/metier/2014/importer-une-couche-de-troncons-dans-geotrek)
 - [Tutoriel de saisie des randos au PNR Grands Causses](http://geotrek.ecrins-parcnational.fr/ressources/outils/2016-06-tutoriel-saisie-PNRGC-V8.pdf)
 - [Présentation des fonctionnalités, de la saisie, des droits, du multistructure...](http://geotrek.ecrins-parcnational.fr/ressources/outils/2014-04-Geotrek-Fonctionnalites.pdf)

@@ -18,6 +18,9 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://geotrek.fr" # the base hostname & protocol for your site
 analytics: UA-40919875-1
 
+paginate_path: "/page/:num/"
+paginate: 5
+
 translate_meta:
   en:
     title: Geotrek, manage and enhance your paths and tourist activities
@@ -35,6 +38,13 @@ sass:
     sass_dir: assets/css/
     style: :nested
 
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts" # previously `post` in Jekyll 2.2.
+    values:
+      layout: "post"
 
 translate_menu:
   en:
@@ -67,3 +77,7 @@ translate_menu:
     contact:
       name: "Contact"
       url: "contact.html"
+
+gems:
+  - jekyll-paginate
+  

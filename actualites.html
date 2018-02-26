@@ -25,14 +25,29 @@ ref: actualites
     <div class="grid actualites__items">
         {% assign posts=site.posts | where:"lang", "fr" %}
         {% for post in posts %}
-          <div class="grid__item grid__item--actualite">
-            <h3 class="title title--medium">{{ post.title }}</h3>
+          <div class="grid__item grid__item--50 grid__item--actualite">
+            <a href="{{ post.url | absolute_url }}" title="{{ post.title }}"><h3 class="title title--medium">{{ post.title }}</h3></a>
             <p class="subtitle">{% include date.html date=post.date %}{{ month }} {{ year }}</p>
             <p>{{ post.content }}</p>
           </div>
         {% endfor %}
     </div>
 </section>
+
+<!-- Pagination links -->
+<div class="pagination">
+{% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+{% else %}
+    <span class="previous">Previous</span>
+{% endif %}
+<span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+{% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+{% else %}
+    <span class="next ">Next</span>
+{% endif %}
+</div>
 
 <aside class="logos">
     <ul class="logos__wrapper">

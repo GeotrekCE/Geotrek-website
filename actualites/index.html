@@ -20,7 +20,7 @@ ref: actualites
 <section>
   <div class="grid actualites__breadcrumb">
     <h3 class="grid__item">
-      <a href="{{ site.baseurl }}">Accueil</a> > Toutes les actualités autour de Geotrek</h3>
+      <a href="{{ site.baseurl }}/index.html">Accueil</a> > Toutes les actualités</h3>
   </div>
 
   <div class="grid actualites__items">
@@ -30,7 +30,14 @@ ref: actualites
         <h3 class="title title--medium">{{ post.title }}</h3>
       </a>
       <p class="subtitle">{% include date.html date=post.date %}{{ month }} {{ year }}</p>
-      <p>{{ post.content }}</p>
+      {% if post.excerpt %}
+        {{ post.excerpt }}
+      {% endif %}
+
+      {% if post.image %}
+        <img src="{{ site.baseurl }}/{{ post.image }}" style="width: 100%; height: auto">
+      {% endif %}
+      
     </div>
     {% endfor %}
   </div>

@@ -20,6 +20,7 @@ analytics: UA-40919875-1
 
 paginate_path: "/actualites/:num/"
 paginate: 6
+excerpt_separator: <!--more-->
 
 translate_meta:
   en:

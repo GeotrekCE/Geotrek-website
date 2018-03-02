@@ -17,4 +17,4 @@ Celui-ci a été réalisé avec 6 offices du tourisme partenaires et contient ac
 
 Il est aussi utilisé pour alimenter le portail national <a href="https://ignrando.fr/fr/communautes/parc-naturel-regional-des-vosges-du-nord" target="_blank">IGNrando'</a> grace à l'API disponible dans Geotrek.
 
-<a href="http://www.randovosgesdunord.fr" target="_blank"><img src="/assets/img/2017-rando-vosges-nord.jpg"></a>
+<a href="http://www.randovosgesdunord.fr" target="_blank"><img src="{{ site.baseurl }}/assets/img/2017-rando-vosges-nord.jpg"></a>

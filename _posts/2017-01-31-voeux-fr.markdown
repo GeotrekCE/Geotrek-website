@@ -4,4 +4,4 @@ date: 2017-01-29
 lang: fr
 ref: post-20170129
 ---
-<img src="/assets/img/Geotrek-voeux-2017.jpg">
+<img src="{{ site.baseurl }}/assets/img/Geotrek-voeux-2017.jpg">

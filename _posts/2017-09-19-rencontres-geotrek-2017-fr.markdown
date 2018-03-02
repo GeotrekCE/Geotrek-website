@@ -13,4 +13,4 @@ Vous pouvez dès aujourd'hui vous <a target="_blank" href="https://framaforms.or
 
 **Adresse :** Cap Alpha / 9 Avenue de l'Europe, 34830 Clapiers - <a target="_blank" href="https://www.openstreetmap.org/note/1160912#map=14/43.6564/3.8997">Plan</a>.
 
-<img alt="Geotrek" src="/assets/img/geotrek_bandeau-800.png" style="max-width: 100%"/>
+<img alt="Geotrek" src="{{ site.baseurl }}/assets/img/geotrek_bandeau-800.png" style="max-width: 100%"/>

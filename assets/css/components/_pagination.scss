@@ -1,0 +1,11 @@
+.pagination {
+  &__link {
+    font-size: 1.2em;
+    color: $green-dark;
+    margin: 0 .25rem;
+  }
+
+  &__current {
+    font-weight: bold;
+  }
+}

@@ -11,4 +11,4 @@ Lors de la <a href="http://www.mountainbusinesssummit.com/index.php/fr/programme
 
 Retrouvez le détail de cette première édition sur le <a href="http://www.madeeli.fr/actualites/retour-sur-mountain-business-summit/?utm_source=newsletter&utm_medium=email&utm_campaign=madeelink-20-juillet-2017" target="_blank">site de Madeeli</a>.
 
-<a ><img style="max-width: 100%;" src="/assets/img/MBS_2017.png"></a>
+<a ><img style="max-width: 100%;" src="{{ site.baseurl }}/assets/img/MBS_2017.png"></a>

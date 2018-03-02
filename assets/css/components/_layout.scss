@@ -107,7 +107,7 @@ a {
             background: $violet;
         }
     }
-
+    
     &--min {
         color: $grey-light;
         font-weight: normal;
@@ -183,11 +183,11 @@ a {
             }
 
             &--70 {
-                flex-basis: 60%;
+                flex-basis: 70%;
             }
 
             &--30 {
-                flex-basis: 40%;
+                flex-basis: 30%;
             }
         }
 

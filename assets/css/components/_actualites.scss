@@ -24,5 +24,15 @@
       height: auto;
     }
   }
+}
 
+.articles__item {
+  margin-bottom: 1em;
+  display: block;
+  text-decoration: none;
+
+  &__title {
+    font-size: 1.2rem;
+    margin: 0;
+  }
 }

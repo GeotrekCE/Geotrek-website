@@ -29,8 +29,8 @@
 
     <div class="header__content">
       <div class="header__content">
-        <h1 class="page__title">Suivez l'actualité de Geotrek</h1>
-        <h2 class="page__subtitle">Restez informé des évolutions ou des nouveautés sur les sites partenaires</h2>
+        <p class="page__title">Suivez l'actualité de Geotrek</p>
+        <p class="page__subtitle">Restez informé des évolutions ou des nouveautés sur les sites partenaires</p>
       </div>
     </div>
   </header>
@@ -43,10 +43,28 @@
     </div>
 
     <div class="grid actualites__items">
-      <div class="grid__item grid__item">
-        <h3 class="title title--medium">{{ page.title }}</h3>
+      <div class="grid__item grid__item--70">
+        <h1 class="title title--medium">{{ page.title }}</h1>
         <p class="subtitle">{% include date.html date=page.date %}{{ month }} {{ year }}</p>
         {{ content }}
+      </div>
+      <div class="grid__item grid__item--30">
+        <h2 class="title title--min">Partager</h2>
+        <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: fr_FR</script>
+        <script type="IN/Share" data-url="{{site.base_url}}{{ page.url }}"></script>
+        <h2 class="title title--min">Les derniers articles</h2>
+        <aside class="articles">
+          {% assign featured_posts = (site.posts|where:"lang","fr") %} {% for post in featured_posts limit:5 %}
+            {% if post.title != page.title %}
+              <a href="{{ post.url }}" title="{{ post.title }}" class="articles__item">
+                <h3 class="articles__item__title">{{ post.title }}</h3>
+                <span class="articles__item__date">{% include date.html date=post.date %}{{ month }} {{ year }}</span>
+              </a>
+            {% endif %}
+          {% endfor %}
+        </aside>
+
       </div>
     </div>
 

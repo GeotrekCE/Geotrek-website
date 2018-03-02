@@ -18,8 +18,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://geotrek.fr" # the base hostname & protocol for your site
 analytics: UA-40919875-1
 
-paginate_path: "/page/:num/"
-paginate: 5
+paginate_path: "/actualites/:num/"
+paginate: 6
 
 translate_meta:
   en:
@@ -80,4 +80,3 @@ translate_menu:
 
 gems:
   - jekyll-paginate
-  

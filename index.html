@@ -58,50 +58,8 @@ ref: home
         </div>
         {% endfor %}
     </div>
-    <a href="actualites.html" class="actus__link">Voir toutes les actualités</a>
+    <a href="{{ site.baseurl }}/actualites" class="actus__link">Voir toutes les actualités</a>
 </section>
 
-<aside class="logos">
-    <ul class="logos__wrapper">
-        <li class="logos__item">
-            <a target="_blank" href="http://rando.ecrins-parcnational.fr/" title="Parc National des Ecrins">
-                <img src="assets/img/parc_ecrins.png" alt="Logo du Parc National des Ecrins"/>
-            </a>
-        </li>
-        <li class="logos__item">
-            <a target="_blank" href="http://rando.mercantour.eu/" title="Parc National du Mercantour">
-                <img src="assets/img/parc_mercantour.png" alt="Logo du Parc National du Mercantour"/>
-            </a>
-        </li>
-        <li class="logos__item">
-            <a target="_blank" href="http://www.cevennes-parcnational.fr/" title="Parc national de Cévennes">
-                <img src="assets/img/logo-pn-cevennes.png" alt="Logo PN Cévennes">
-            </a>
-        </li>
-        <li class="logos__item">
-            <a target="_blank" href="http://rando.loire-atlantique.fr/" title="Conseil Général de la Loire Atlantique">
-                <img src="assets/img/logo-cg44.png" alt="Logo CG44">
-            </a>
-        </li>
-        <li class="logos__item">
-            <a target="_blank" href="http://ignrando.fr" title="IGNrando'">
-                <img src="assets/img/logo-ignrando.png" alt="Logo IGNrando'">
-            </a>
-        </li>
-        <li class="logos__item">
-            <a target="_blank" href="http://www.parc-camargue.fr/" title="Parc naturel régional de Camargue">
-                <img src="assets/img/logo-pnr-camargue.png" alt="Logo PNR Camargue">
-            </a>
-        </li>
-        <li class="logos__item">
-            <a target="_blank" href="http://www.parcduluberon.fr/" title="Parc naturel régional du Luberon">
-                <img src="assets/img/logo-pnr-luberon.png" alt="Logo PNR Luberon">
-            </a>
-        </li>
-        <li class="logos__item">
-            <a target="_blank" href="http://www.parc-naturel-normandie-maine.fr/" title="PNR Normandie Maine">
-                <img src="assets/img/logo-pnr-normandie-maine.png" alt="Logo PNR Normandie Maine">
-            </a>
-        </li>
-    </ul>
-</aside>
+
+{% include logos-parcs.html %}

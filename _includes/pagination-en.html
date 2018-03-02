@@ -1,17 +1,12 @@
 <aside class="grid">
-    {% if paginator.total_pages > 1 %}  
-    <div class="pagination">  
-      {% if paginator.previous_page %}  
-        <a class="pagination__link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>   
-      {% endif %}  
-      
-      Page <span class="pagination__current">{{ paginator.page }}</span> / {{ paginator.total_pages }}
-      
-      {% if paginator.next_page %}  
-        <a class="pagination__link" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>  
-      {% endif %}  
-    </div>  
-    {% endif %}  
-      
-  </aside>
-  
+  {% if paginator.total_pages > 1 %}
+  <div class="pagination">
+    {% if paginator.previous_page %}
+    <a class="pagination__link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
+    {% endif %} Page
+    <span class="pagination__current">{{ paginator.page }}</span> / {{ paginator.total_pages }} {% if paginator.next_page %}
+    <a class="pagination__link" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
+    {% endif %}
+  </div>
+  {% endif %}
+</aside>

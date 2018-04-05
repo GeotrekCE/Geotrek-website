@@ -23,6 +23,10 @@ paginate: 6
 excerpt_separator: <!--more-->
 
 translate_meta:
+  es:
+    title: Geotrek, gestiona y promueve tus rutas y actividades turísticas
+    description: Solución Webmapping compuesta de una herramienta SIG específica, una web y una aplicación móvil
+    keywords: geotrek, GIS, trek software
   en:
     title: Geotrek, manage and enhance your paths and tourist activities
     description: Webmapping application suite composed of a GIS business-specific tool, a website and a mobile application
@@ -48,6 +52,20 @@ defaults:
       layout: "post"
 
 translate_menu:
+  es:
+    home:
+      name: "Inicio"
+      url: "index-es.html"
+    product:
+      name: "Producto"
+      url: "product-es.html"
+    references:
+      name: "Referencias"
+      url: "references-es.html"
+    contact:
+      name: "Contacto"
+      url: "contact-es.html"
+
   en:
     home:
       name: "Home"

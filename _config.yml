@@ -58,13 +58,13 @@ translate_menu:
       url: "index-es.html"
     product:
       name: "Producto"
-      url: "product-es.html"
+      url: "producto-es.html"
     references:
       name: "Referencias"
       url: "references-es.html"
     contact:
       name: "Contacto"
-      url: "contact-es.html"
+      url: "contacto-es.html"
 
   en:
     home:

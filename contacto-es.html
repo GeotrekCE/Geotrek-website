@@ -1,0 +1,54 @@
+---
+layout: default-en
+title: Contact
+class: contact
+lang: es
+ref: contact
+---
+
+<header class="header header--contact">
+    {% include navigation.html %}
+
+    <div class="header__content contact__header">
+        <h1 class="page__title">Crear tu Geotrek ?</h1>
+        <h2 class="page__subtitle">Nuestros expertos están disponibles para responder a tus preguntas</h2>
+    </div>
+</header>
+
+<section class="contact__content">
+    <div class="grid">
+        <div class="grid__item grid__item--30">
+            <h3 class="title title--medium">Contacto</h3>
+            <p>Te invitamos a contarnos tu proyecto y estaremos encantados de contactar contigo para entender mejor tus necesidades.</p>
+            <div class="contact__field">
+                <h4 class="contact__field__title">Email :</h4>
+                <a class="contact__field__link" href="mailto:projets-sig@makina-corpus.com">projets-sig@makina-corpus.com</a>
+            </div>
+        </div>
+        <div class="grid__item grid__item--70">
+            <h3 class="title contact__content__title">Cuéntanos tu proyecto</h3>
+            <form class="contact__form" id="contact-form" method="post" action="#">
+                <p>
+                    <input type="text" name="fname" placeholder="Name*" required autocomplete="name"/>
+                    <input type="email" name="email" placeholder="Email*" required autocomplete="email"/>
+                </p>
+                <p>
+                    <input type="tel" name="phone" placeholder="Phone" autocomplete="tel"/>
+                    <input type="text" name="company" placeholder="Company"/>
+                </p>
+                <p>
+                    <textarea name="message" rows="4" cols="50" placeholder="Message"></textarea>
+                </p>
+                <div hidden class="contact__form__message contact__form__message--error">
+                    Ha ocurrido un error al enviar el mensaje, por favor, intenta de nuevo o escribe directemente a <a href="mailto:projets-sig@makina-corpus.com">projets-sig@makina-corpus.com</a>.
+                </div>
+                <div hidden class="contact__form__message contact__form__message--success">
+                    Tu mensaje ha sido enviadom Contactaremos lo antes posible.
+                </div>
+                <p>
+                    <input class="button" type="submit" value="Contacta con nosotros"/>
+                </p>
+            </form>
+        </div>
+    </div>
+</section>

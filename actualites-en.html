@@ -25,9 +25,11 @@ ref: actualites
 
   <div class="grid actualites__items">
     {% assign posts=site.posts | where:"lang", page.lang %} {% for post in posts %}
-    <div class="grid__item grid__item--actualite">
-      <h3 class="title title--medium">{{ post.title }}</h3>
-      <p class="subtitle">{{ post.date | date: "%b %-d, %Y" }}</p>
+    <div class="grid__item grid__item--50 grid__item--actualite">
+      <a href="{{ post.url | absolute_url }}" title="{{ post.title }}">
+        <h3 class="title title--medium">{{ post.title }}</h3>
+      </a>
+      <p class="subtitle">{% include date.html date=post.date %}{{ month }} {{ year }}</p>
       {% if post.excerpt %}
         {{ post.excerpt }}
       {% endif %}
@@ -35,6 +37,7 @@ ref: actualites
       {% if post.image %}
         <img src="{{ site.baseurl }}/{{ post.image }}" style="width: 100%; height: auto">
       {% endif %}
+      
     </div>
     {% endfor %}
   </div>

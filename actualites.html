@@ -24,7 +24,7 @@ ref: actualites
   </div>
 
   <div class="grid actualites__items">
-    {% assign posts=site.posts | where:"lang", "fr" %} {% for post in paginator.posts %}
+    {% assign posts=site.posts | where:"lang", page.lang %} {% for post in paginator.posts %}
     <div class="grid__item grid__item--50 grid__item--actualite">
       <a href="{{ post.url | absolute_url }}" title="{{ post.title }}">
         <h3 class="title title--medium">{{ post.title }}</h3>

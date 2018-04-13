@@ -48,10 +48,15 @@ ref: home
 <section class="actus">
     <h2 class="title title--light">Todas las noticias sobre Geotrek</h2>
 
+    {% assign posts = site.posts | where:"lang", page.lang %}
+    {% if !posts %}
     <div class="grid actus__items">
-        {% assign featured_posts = (site.posts|where:"lang","en") %}
-        {% for post in site.posts limit:3 %}
-          <div class="grid__item grid__item--33">
+        <p>Próximamente</p>
+    </div>
+    {% else %}
+    <div class="grid actus__items">
+        {% for post in posts limit:3 %}
+        <div class="grid__item grid__item--33">
             <h3 class="title title--medium">{{ post.title }}</h3>
             <p class="subtitle">{% include date.html date=post.date %}{{ month }} {{ year }}</p>
             {% if post.excerpt %} 
@@ -60,10 +65,11 @@ ref: home
             {% if post.image %}
                 <img src="{{ site.baseurl }}/{{ post.image }}" style="width: 100%; height: auto"> 
             {% endif %}
-          </div>
+        </div>
         {% endfor %}
     </div>
     <a href="actualites-es.html" class="actus__link">See all news</a>
+    {% endif %}
 </section>
 
 {% include logos-parcs.html %}

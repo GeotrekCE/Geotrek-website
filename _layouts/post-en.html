@@ -1,0 +1,100 @@
+<!doctype html>
+<html class="no-js" lang="{{page.lang}}">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>{{ site.translate_meta[page.lang].title }}</title>
+  <meta name="title" content="{{ site.translate_meta[page.lang].title }}" />
+  <meta name="description" content="{{ site.translate_meta[page.lang].description }}" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="keywords" content="{{ site.translate_meta[page.lang].keywords }}" />
+
+  <link rel="shortcut icon" href="{{ site.baseurl }}/assets/img/favicon.ico">
+
+  <meta property="og:title" content="{{ site.title }}" />
+  <meta property="og:url" content="{{ site.url }}" />
+  <meta property="og:description" content="{{ site.description }}" />
+  <meta property="og:image" content="http://geotrek.fr/assets/img/og-img.png" />
+
+  <link href='https://fonts.googleapis.com/css?family=Raleway:400,500,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/geotrek.css" media="screen">
+
+</head>
+
+<body class="actualites">
+
+  <header class="header header--actualites">
+    {% include navigation.html %}
+
+    <div class="header__content">
+      <div class="header__content">
+        <p class="page__title">Follow Geotrek's news</p>
+        <p class="page__subtitle">Stay in touch with enhancements and partnerships</p>
+      </div>
+    </div>
+  </header>
+
+  <section>
+    <div class="grid actualites__breadcrumb">
+      <h3 class="grid__item">
+        <a href="{{ site.baseurl }}/index-en.html">Home</a> > <a href="{{ site.baseurl }}/actualites-en.html">All Geotrek's news</a> > {{ page.title }}
+      </h3>
+    </div>
+
+    <div class="grid actualites__items">
+      <div class="grid__item grid__item--70">
+        <h1 class="title title--medium">{{ page.title }}</h1>
+        <p class="subtitle">{% include date.html date=page.date %}{{ month }} {{ year }}</p>
+        {{ content }}
+      </div>
+      <div class="grid__item grid__item--30">
+        <h2 class="title title--min">Share</h2>
+        <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: fr_FR</script>
+        <script type="IN/Share" data-url="{{site.base_url}}{{ page.url }}"></script>
+        <h2 class="title title--min">Latest articles</h2>
+        <aside class="articles">
+          {% assign featured_posts = (site.posts|where:"lang", page.lang) %}
+          {% for post in featured_posts limit:5 %}
+            {% if post.title != page.title %}
+              <a href="{{ post.url }}" title="{{ post.title }}" class="articles__item">
+                <h3 class="articles__item__title">{{ post.title }}</h3>
+                <span class="articles__item__date">{% include date.html date=post.date %}{{ month }} {{ year }}</span>
+              </a>
+            {% endif %}
+          {% endfor %}
+        </aside>
+
+      </div>
+    </div>
+
+  </section>
+
+  {% include logos-parcs.html %}
+
+  {% if page.lang == 'fr' %} {% include footer.html %} {% else %} {% include footer-en.html %} {% endif %}
+
+  <script type="text/javascript" src="{{ site.baseurl }}/assets/js/geotrek.js"></script>
+
+  <!-- Google Analytics -->
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', '{{ site.analytics }}', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+
+</body>
+
+</html>

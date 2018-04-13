@@ -20,11 +20,12 @@ ref: actualites
 <section>
   <div class="grid actualites__breadcrumb">
     <h3 class="grid__item">
-      <a href="{{ site.baseurl }}/index.html">Home</a> > All Geotrek's news</h3>
+    <a href="{{ site.baseurl }}/index-en.html">Home</a> > All Geotrek's news</h3>
   </div>
 
   <div class="grid actualites__items">
-    {% assign posts=site.posts | where:"lang", page.lang %} {% for post in posts %}
+    {% assign posts=site.posts | where:"lang", page.lang %} 
+    {% for post in posts %}
     <div class="grid__item grid__item--50 grid__item--actualite">
       <a href="{{ post.url | absolute_url }}" title="{{ post.title }}">
         <h3 class="title title--medium">{{ post.title }}</h3>

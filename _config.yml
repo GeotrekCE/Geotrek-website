@@ -17,13 +17,7 @@ email: projets-sig@makina-corpus.com
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://geotrek.fr" # the base hostname & protocol for your site
 analytics: UA-40919875-1
-
-paginate_multiple:
-  - paginate: 6
-    paginate_path: "/actualites/:num/"
-  - paginate: 6
-    paginate_path: "/actualites-en/:num/"
-    
+ 
 excerpt_separator: <!--more-->
 
 translate_meta:
@@ -54,6 +48,12 @@ defaults:
       type: "posts" # previously `post` in Jekyll 2.2.
     values:
       layout: "post"
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts-en" # previously `post` in Jekyll 2.2.
+    values:
+      layout: "post-en"
 
 translate_menu:
   es:
@@ -100,6 +100,3 @@ translate_menu:
     contact:
       name: "Contact"
       url: "contact.html"
-
-gems:
-  - jekyll-paginate

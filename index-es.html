@@ -49,7 +49,7 @@ ref: home
     <h2 class="title title--light">Todas las noticias sobre Geotrek</h2>
 
     {% assign posts = site.posts | where:"lang", page.lang %}
-    {% if !posts %}
+    {% if posts.length == 0 %}
     <div class="grid actus__items">
         <p>Próximamente</p>
     </div>
@@ -69,7 +69,7 @@ ref: home
         {% endfor %}
     </div>
     <a href="actualites-es.html" class="actus__link">See all news</a>
-    {% endif %}
+    {% endif %} 
 </section>
 
 {% include logos-parcs.html %}

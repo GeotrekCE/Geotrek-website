@@ -1,0 +1,9 @@
+---
+title :  Geotrek des PNR de PACA
+date: 2018-04-06
+lang: es
+ref: post-20180406
+layout: post-es
+---
+
+Test article ES

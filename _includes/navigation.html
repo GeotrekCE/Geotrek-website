@@ -5,7 +5,13 @@
         <span class="menu__bar"></span>
     </a>
     <ul class="menu__liste">
-      <li><a href="{{ site.baseurl }}/index.html" title="Accueil Geotrek" class="menu__liste__item--logo"><img src="{{ site.baseurl }}/assets/img/logo.svg" alt="Geotrek"></a></li>
+      {% if page.lang == 'en' %}
+        <li><a href="{{ site.baseurl }}/index-en.html" title="Home" class="menu__liste__item--logo"><img src="{{ site.baseurl }}/assets/img/logo.svg" alt="Geotrek"></a></li>
+      {% elsif page.lang == 'es' %}
+        <li><a href="{{ site.baseurl }}/index-es.html" title="Inicio" class="menu__liste__item--logo"><img src="{{ site.baseurl }}/assets/img/logo.svg" alt="Geotrek"></a></li>
+      {% else %}
+        <li><a href="{{ site.baseurl }}/index.html" title="Accueil Geotrek" class="menu__liste__item--logo"><img src="{{ site.baseurl }}/assets/img/logo.svg" alt="Geotrek"></a></li>
+      {% endif %}
       {% for menu in site.translate_menu[page.lang] %}
       <li><a class="menu__liste__item {% if page.url == menu[1].url %}menu__liste__item--active{% endif %}" href="{{ site.baseurl }}/{{ menu[1].url }}" title="{{ menu[1].name }}">{{ menu[1].name }}</a></li>
       {% endfor %}

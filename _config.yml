@@ -55,6 +55,13 @@ defaults:
     values:
       layout: "post-en"
 
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts-es" # previously `post` in Jekyll 2.2.
+    values:
+      layout: "post-es"
+
 translate_menu:
   es:
     home:

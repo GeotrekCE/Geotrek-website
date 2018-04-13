@@ -10,7 +10,7 @@
       <li><a class="menu__liste__item {% if page.url == menu[1].url %}menu__liste__item--active{% endif %}" href="{{ site.baseurl }}/{{ menu[1].url }}" title="{{ menu[1].name }}">{{ menu[1].name }}</a></li>
       {% endfor %}
 
-      <!-- {% assign currentpagelang=page.lang %}
+      {% assign currentpagelang=page.lang %}
       {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
       {% for page in pages %}
       <li class="menu__lang">
@@ -20,6 +20,6 @@
         <a href="{{ page.url }}" class="menu__lang__item {{ page.lang }}">{{ page.lang }}</a>
         {% endif %}
       </li>
-      {% endfor %} -->
+      {% endfor %} 
     </ul>
 </nav>

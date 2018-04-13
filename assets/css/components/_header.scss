@@ -117,7 +117,7 @@
     &__lang {
       &::after {
         content: '/';
-        color: $beige;
+        color: $grey-light;
       }
 
       &:last-child::after {
@@ -125,8 +125,8 @@
       }
 
       &__item {
-        padding: 0.76rem 1rem;
-        color: $beige;
+        padding: 0.76rem .5rem;
+        color: $grey-light;
       }
     }
 

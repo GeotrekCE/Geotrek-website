@@ -49,8 +49,8 @@ ref: home
     <h2 class="title title--light">All news around Geotrek</h2>
 
     <div class="grid actus__items">
-        {% assign featured_posts = (site.posts|where:"lang","en") %}
-        {% for post in site.posts limit:3 %}
+        {% assign posts = (site.posts|where:"lang", page.lang) %}
+        {% for post in posts limit:3 %}
           <div class="grid__item grid__item--33">
             <h3 class="title title--medium">{{ post.title }}</h3>
             <p class="subtitle">{% include date.html date=post.date %}{{ month }} {{ year }}</p>

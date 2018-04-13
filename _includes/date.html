@@ -4,7 +4,7 @@
 
       {% assign day = include.date | date: "%-d" %}
 
-  {% if page.lang != 'fr' %}
+  {% if page.lang == 'fr' %}
 
     {% case day %}
       {% when '1' or '21' or '31' %}
@@ -29,11 +29,7 @@
 
 {% endif %}
 
-{% if page.lang != 'fr' %}
-
-  {% capture month %}{{ include.date | date: "%B" }}{% endcapture %}
-
-  {% else %}
+{% if page.lang == 'fr' %}
 
   {% assign m = include.date | date: "%-m" %}
   {% case m %}
@@ -62,6 +58,40 @@
     {% when '12' %}
       {% capture month %}décembre{% endcapture %}
   {% endcase %}
+
+{% elsif page.lang == 'es' %}
+
+  {% assign m = include.date | date: "%-m" %}
+  {% case m %}
+    {% when '1' %}
+      {% capture month %}enero{% endcapture %}
+    {% when '2' %}
+      {% capture month %}febrero{% endcapture %}
+    {% when '3' %}
+      {% capture month %}marzo{% endcapture %}
+    {% when '4' %}
+      {% capture month %}abril{% endcapture %}
+    {% when '5' %}
+      {% capture month %}mayo{% endcapture %}
+    {% when '6' %}
+      {% capture month %}junio{% endcapture %}
+    {% when '7' %}
+      {% capture month %}julio{% endcapture %}
+    {% when '8' %}
+      {% capture month %}agosto{% endcapture %}
+    {% when '9' %}
+      {% capture month %}septiembre{% endcapture %}
+    {% when '10' %}
+      {% capture month %}octubre{% endcapture %}
+    {% when '11' %}
+      {% capture month %}noviembre{% endcapture %}
+    {% when '12' %}
+      {% capture month %}diciembre{% endcapture %}
+  {% endcase %}
+
+{% else %}
+  
+  {% capture month %}{{ include.date | date: "%B" }}{% endcapture %}
 
 {% endif %}
 

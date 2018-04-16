@@ -67,23 +67,23 @@ translate_menu:
     home:
       name: "Inicio"
       url: "index-es.html"
-    product:
+    produit:
       name: "Producto"
-      url: "producto-es.html"
+      url: "produit-es.html"
     references:
       name: "Referencias"
       url: "references-es.html"
     contact:
       name: "Contacto"
-      url: "contacto-es.html"
+      url: "contact-es.html"
 
   en:
     home:
       name: "Home"
       url: "index-en.html"
-    product:
+    produit:
       name: "Product"
-      url: "product-en.html"
+      url: "produit-en.html"
     references:
       name: "References"
       url: "references-en.html"
@@ -95,7 +95,7 @@ translate_menu:
     home:
       name: "Accueil"
       url: "index.html"
-    product:
+    produit:
       name: "Produit"
       url: "produit.html"
     references:

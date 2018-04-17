@@ -1,9 +1,13 @@
 ---
-title :  Geotrek des PNR de PACA
+title :  Geotrek de los PNR de PACA
 date: 2018-04-06
 lang: es
 ref: post-20180406
-layout: post-es
 ---
 
-Test article ES
+El portal de los caminos de los parques propone 1900 km de caminatas completadas con 1400 puntos de interés a lo largo de 198 itinerarios diferentes.
+La mutualización propuesta a partir de la aplicación open source Geotrek a seducido por su puesta en valor de la oferta global de itinerarios de este gran territorio. Cada parque tiene acceso a la aplicación y enriquece la base de datos común, lo que facilita la colaboración entre los parques.
+
+El artículo de puede leer en : <a href="http://www.voyageons-autrement.com/chemin-des-parcs-les-beaux-fruits-de-la-collaboration" target="_blank">http://www.voyageons-autrement.com/chemin-des-parcs-les-beaux-fruits-de-la-collaboration</a>.
+
+<img alt="Geotrek des PNR de PACA" src="{{site.base_url}}/assets/img/vue-pas-des-ondes_Cd6tA9x.jpg.800x800_q85.jpg" style="max-width: 80%"/>

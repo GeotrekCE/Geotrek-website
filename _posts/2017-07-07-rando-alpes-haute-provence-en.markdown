@@ -13,6 +13,6 @@ The site currently offers the first fifty hiking routes. The offer will be evolv
 
 For more information, read the article on <a href="http://www.mondepartement04.fr/toute-lactualite/decouvrez-rando-alpes-provencefr.html" target="_blank">Conseil départemental website </a> or <a href="http://geotrek.ecrins-parcnational.fr/ressources/presentations/2017-07-CP-lancement-rando-alpes-haute-provence-fr.pdf" target="_blank">read the press release</a>.
 
-See also the launch video of the portal: 
+See also the portal launch video: 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/iUNy6yj01w0" frameborder="0" allowfullscreen></iframe>

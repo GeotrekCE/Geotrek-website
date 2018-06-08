@@ -1,5 +1,5 @@
 ---
-title : Geotrek Horizon 2018
+title : Geotrek 2018 Horizon
 date: 2018-01-31
 lang: en
 ref: post-20180131

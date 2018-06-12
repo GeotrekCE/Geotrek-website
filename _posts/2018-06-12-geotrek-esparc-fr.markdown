@@ -12,8 +12,6 @@ Plusieurs ateliers ont permis de mettre en valeur les atouts de l’application 
 
 L'audience a regroupé des gestionnaires de parcs, des agents techniques et des spécialistes dans le conseil environnemental. Les échanges ont été enrichissants et ont permis de constater un fort intérêt des parcs espagnols pour Geotrek.
 
-La Fédération <a href="http://www.europarc.org/about-us/">EUROPARC</a> est le réseau du patrimoine naturel et culturel de l'Europe. La Fédération travaille, pour améliorer la gestion des aires protégées en Europe grâce à la coopération internationale, l'échange d'idées et d'expériences, et en influençant les politiques.
-
 Lire l'article complet <a href="https://makina-corpus.com/blog/societe/compte-rendu-european-day-of-parks-2018-espagne">sur le blog de Makina Corpus</a> 
 
 <img style="max-width: 100%;" src="{{ site.baseurl }}/assets/img/european-day-parks.png">

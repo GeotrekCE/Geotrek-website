@@ -16,4 +16,4 @@ La Fédération <a href="http://www.europarc.org/about-us/">EUROPARC</a> est le 
 
 Lire l'article complet <a href="https://makina-corpus.com/blog/societe/compte-rendu-european-day-of-parks-2018-espagne">sur le blog de Makina Corpus</a> 
 
-<img style="max-width: 100%;" src="{{ site.baseurl }}/assets/img/EDoP-Logo-Web.jpg">
+<img style="max-width: 100%;" src="{{ site.baseurl }}/assets/img/european-day-parks.png">

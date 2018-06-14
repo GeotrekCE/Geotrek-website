@@ -1,4 +1,5 @@
 ---
+layout: post-en
 title : Geotrek Haut-Jura in the IGN Magazine n°86
 date: 2017-04-25
 lang: en

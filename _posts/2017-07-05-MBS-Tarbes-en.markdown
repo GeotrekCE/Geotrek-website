@@ -1,4 +1,5 @@
 ---
+layout: post-en
 title:  Geotrek at the Mountain Business Summit of Tarbes
 date:   2017-07-05
 lang: en

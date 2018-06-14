@@ -1,4 +1,5 @@
 ---
+layout: post-en
 title : Discover Rando-alpes-haute-provence.fr
 date: 2017-07-07
 lang: en

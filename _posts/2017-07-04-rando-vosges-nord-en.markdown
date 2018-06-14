@@ -1,4 +1,5 @@
 ---
+layout: post-en
 title : Discover Rando Vosges du Nord
 date: 2017-07-04
 lang: en

@@ -1,4 +1,5 @@
 ---
+layout: post-en
 title : Rando Guadeloupe celebrates its two-year anniversary!
 date: 2017-01-03
 lang: en

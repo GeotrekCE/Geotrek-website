@@ -3,6 +3,7 @@ title : Geotrek 2018 Horizon
 date: 2018-01-31
 lang: en
 ref: post-20180131
+layout: post-en
 ---
 <img style="max-width: 100%;" src="{{ site.baseurl }}/assets/img/2018-02-12-Geotrek-voeux-2018-Eng.jpg">
 

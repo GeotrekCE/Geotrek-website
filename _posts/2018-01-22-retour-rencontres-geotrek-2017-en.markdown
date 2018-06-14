@@ -3,7 +3,8 @@ title : First  feedback on Geotrek 2017 meetings
 date: 2018-01-22
 lang: en
 ref: post-20180122
-image: assets/img/rencontres-geotrek-bandeau.jpg
+layout: post-en
+
 ---
 
 On 19 October 2017, for the second year in a row, the Geotrek Meetings brought together users of this open source application dedicated to the management of the hiking offer. 

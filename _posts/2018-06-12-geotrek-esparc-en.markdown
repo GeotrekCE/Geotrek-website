@@ -1,4 +1,5 @@
 ---
+layout: default-en
 title:  Geotrek at ESPARC
 date:   2018-06-12
 lang: en

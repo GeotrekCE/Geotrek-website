@@ -1,4 +1,5 @@
 ---
+layout: post-en
 title:  Discover Pilat Rando
 date:   2017-07-06
 lang: en

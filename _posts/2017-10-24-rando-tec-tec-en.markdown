@@ -1,4 +1,5 @@
 ---
+layout: post-en
 title:  Discover Rando tec-tec
 date:   2017-10-24
 lang: en

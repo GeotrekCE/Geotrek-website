@@ -1,4 +1,5 @@
 ---
+layout: post-en
 title : Discover Normandie-Maine destination
 date: 2017-04-10
 lang: en

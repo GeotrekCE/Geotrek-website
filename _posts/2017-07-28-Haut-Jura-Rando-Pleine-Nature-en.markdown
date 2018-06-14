@@ -1,4 +1,5 @@
 ---
+layout: post-en
 title : Discover the plateform HAUT-JURA, RANDO & PLEINE NATURE
 date: 2017-07-21
 lang: en

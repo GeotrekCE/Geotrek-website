@@ -13,4 +13,4 @@ App Store : <a href="https://itunes.apple.com/us/app/haut-jurarando/id1373636894
 
 
 
-<img style="max-width: 100%;" src="{{site.base_url}}/assets/img/pnr-haut-jura.png"></a>
+<img style="max-width: 100%;" src="{{site.base_url}}/assets/img/pnr-haut-jura.png">

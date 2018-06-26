@@ -8,7 +8,7 @@ ref: post-20180625
 Depuis le début du mois de mai 2018, l’application mobile « Haut Jura Rando » du site randonature est disponible et téléchargeable gratuitement sur les plateformes de téléchargement :
 
 Google Play : https://play.google.com/store/apps/details?id=com.jura.rando
-App Store : https://itunes.apple.com/us/app/haut-jurarando/id1373636894?l=fr&ls=1&mt=8
+<br>App Store : https://itunes.apple.com/us/app/haut-jurarando/id1373636894?l=fr&ls=1&mt=8
 
 
 <img style="max-width: 100%;" src="{{site.base_url}}/assets/img/pnr-haut-jura.png"></a>

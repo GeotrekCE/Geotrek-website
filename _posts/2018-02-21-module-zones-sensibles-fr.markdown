@@ -6,7 +6,7 @@ ref: post-20180221
 ---
 
 Ce module n'est pas activé par défaut, pour l'activer, voir la documentation :  
-<a href="https://geotrek.readthedocs.io/en/master/advanced-configuration.html#sensitive-areas" target="_blank"></a>
+<a href="https://geotrek.readthedocs.io/en/master/advanced-configuration.html#sensitive-areas" target="_blank">Configuration</a>
 
 Une fois le module installé, il est possible de saisir des zones sensibles d'espèces ou réglementaires : 
 
@@ -18,4 +18,4 @@ La saisie peut se faire sous forme de polygone ou bien de cercle pour les zones 
 
 <img style="max-width: 100%;" src="{{site.base_url}}/assets/img/geotrek-mod-zones-sensibles-2.png">
 
-Il est aussi possible d'importer directement les zonages depuis un SHP. Voir la documentation : <a href="http://geotrek.ecrins-parcnational.fr/ressources/gt/01-zones-sensibilite/doc-import.pdf" target="_blank"></a>
+Il est aussi possible d'importer directement les zonages depuis un SHP. Voir la documentation : <a href="http://geotrek.ecrins-parcnational.fr/ressources/gt/01-zones-sensibilite/doc-import.pdf" target="_blank">Import zonages</a>

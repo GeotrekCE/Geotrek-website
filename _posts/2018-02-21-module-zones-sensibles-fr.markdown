@@ -5,7 +5,7 @@ lang: fr
 ref: post-20180221
 ---
 
-Ce module n'est pas activé par défaut, pour l'activer, voir la <a href="https://geotrek.readthedocs.io/en/master/advanced-configuration.html#sensitive-areas" target="_blank">la documentation de configuration</a>
+Ce module n'est pas activé par défaut, pour l'activer, voir la <a href="https://geotrek.readthedocs.io/en/master/advanced-configuration.html#sensitive-areas" target="_blank">documentation de configuration</a>
 
 Une fois le module installé, il est possible de saisir des zones sensibles d'espèces ou réglementaires : 
 

@@ -13,4 +13,4 @@ L’objectif de cette conférence était d’exposer les différentes fonctionna
 L’intervention d’une durée de deux heures a été animée par Anne Monteils, responsable pôle application cartographique et mobile, et Gaël Utard, responsable technique Geotrek.
 
 
-<img style="max-width: 100%;" src="{{ site.baseurl }}/assets/img/getrek.png">
+<img style="max-width: 100%;" src="{{ site.baseurl }}/assets/img/geotrek.png">

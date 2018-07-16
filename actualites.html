@@ -37,7 +37,11 @@ ref: actualites
       {% if post.image %}
         <img src="{{ site.baseurl }}/{{ post.image }}" style="width: 100%; height: auto">
       {% endif %}
-      
+
+      {% if post.excerpt %}
+        <p><a href="{{ post.url | absolute_url }}" title="Lire la suite">Lire la suite</a></p>
+      {% endif %}
+
     </div>
     {% endfor %}
   </div>

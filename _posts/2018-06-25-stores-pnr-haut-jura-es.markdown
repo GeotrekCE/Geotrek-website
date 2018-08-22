@@ -1,7 +1,7 @@
 ---
 title : El PNR Haut-Jura en los stores
 date: 2018-06-25
-lang: en
+lang: es
 ref: post-20180625
 ---
 

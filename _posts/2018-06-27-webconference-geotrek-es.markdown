@@ -1,7 +1,7 @@
 ---
 title:  Conferencia web Geotrek 
 date:   2018-06-27
-lang: fr
+lang: es
 ref: post-20180627
 ---
 

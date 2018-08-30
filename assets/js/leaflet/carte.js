@@ -3,7 +3,7 @@ $(document).ready(function() {
 
   /* Création de carte avec coordonnées géographique EPSG4326 latitude, longitude et niveau de zoom centré sur la france métropolitaine */
   map = L.map("map").setView([47.0, 2.83832], 5);
-
+  map.addControl(new L.Control.Fullscreen());
   /* Ajout d'un controle des couches*/
   // lControl = L.control.layers().addTo(map);
 

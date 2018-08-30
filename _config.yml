@@ -70,9 +70,12 @@ translate_menu:
     produit:
       name: "Producto"
       url: "produit-es.html"
-    references:
-      name: "Referencias"
-      url: "references-es.html"
+    utilisateurs:
+      name: "Usuarios"
+      url: "utilisateurs-es.html"
+    apropos:
+      name: "Sobre"
+      url: "apropos-es.html"
     contact:
       name: "Contacto"
       url: "contact-es.html"
@@ -84,9 +87,12 @@ translate_menu:
     produit:
       name: "Product"
       url: "produit-en.html"
-    references:
-      name: "References"
-      url: "references-en.html"
+    utilisateurs:
+      name: "Users"
+      url: "utilisateurs-en.html"
+    apropos:
+      name: "About"
+      url: "apropos-en.html"
     contact:
       name: "Contact"
       url: "contact-en.html"
@@ -98,9 +104,12 @@ translate_menu:
     produit:
       name: "Produit"
       url: "produit.html"
-    references:
-      name: "Références"
-      url: "references.html"
+    utilisateurs:
+      name: "Utilisateurs"
+      url: "utilisateurs.html"
+    apropos:
+      name: "À propos"
+      url: "apropos.html"
     ressources:
       name: "Ressources"
       url: "ressources.html"

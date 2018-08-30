@@ -1,0 +1,22 @@
+.utilisateurs {
+    &__banner {
+        height: 274px;
+        width: 100%;
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+        background-image: url('../img/leaflet/fondmap.jpg');
+        background-size: cover;
+        background-position-y: bottom;
+        text-align: center;
+        margin: 0;
+        overflow: visible;
+        &__text {
+            color: #383933;
+            font-weight: normal;
+            font-size: 2.5rem;
+            line-height: 1.5em;
+            margin: 0;
+        }
+    }
+}

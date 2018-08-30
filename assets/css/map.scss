@@ -1,0 +1,226 @@
+#map {
+  /* Carte*/
+  width: 100vw; /* Largeur max */
+  height: calc(100vh - 237px - 76px); /* Hauteur max */
+  background: #ddd; /* fond gris */
+  z-index: 0;
+}
+
+/********************************* Légende****************************************/
+.info h4 {
+  margin: 0 0 5px;
+  color: #777;
+}
+
+/**************************** Version 1 gestionnaire des clients**********************/
+/* Filtre */
+.menu-ui {
+  position: absolute;
+  top: 170px;
+}
+.menu-ui a {
+  font-size: 13px;
+  color: #404040;
+  display: block;
+  margin: 0;
+  padding: 0;
+  padding: 10px;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+  text-align: center;
+}
+.menu-ui a:hover {
+  background: #f8f8f8;
+  color: #404040;
+}
+.menu-ui a.active,
+.menu-ui a.active:hover {
+  background: #3887be;
+  color: #fff;
+}
+
+/***************************géosignet ********************************/
+
+#group-fly {
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+  width: 100vw;
+  top: 90px;
+  z-index: 100;
+  pointer-events: none;
+}
+
+#group-flyto {
+  position: fixed;
+  z-index: 2;
+}
+
+#fly1,
+#fly2,
+#fly3,
+#fly4 {
+  text-align: center;
+  pointer-events: all;
+  margin: 0 20px 0 0;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 5px;
+  border-radius: 10px;
+}
+
+figcaption {
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
+  color: #034500;
+  font-weight: bold;
+}
+
+#fly1:hover {
+  -webkit-transform: scale(1.15);
+  transform: scale(1.15);
+  cursor: pointer;
+}
+#fly2:hover {
+  -webkit-transform: scale(1.15);
+  transform: scale(1.15);
+  cursor: pointer;
+}
+#fly3:hover {
+  -webkit-transform: scale(1.15);
+  transform: scale(1.15);
+  cursor: pointer;
+}
+#fly4:hover {
+  -webkit-transform: scale(1.15);
+  transform: scale(1.15);
+  cursor: pointer;
+}
+
+#fly1, #fly2, #fly3, #fly4 {
+	margin: 0 20px 0 0;
+}
+
+/* Version 2 gestionnaire des clients personnalisé*/
+#list ul {
+  list-style: none;
+  margin-left: 0px;
+  position: relative;
+  padding-left: 0%;
+  padding-top: 200px;
+}
+
+#list ul li {
+  font-family: Georgia, serif, Times;
+  font-size: 18px;
+}
+
+#list ul li a {
+  display: block;
+  width: 300px;
+  height: 28px;
+  background-color: #175824;
+  border-left: 5px solid #888;
+  border-right: 5px solid #333;
+  padding-left: 10px;
+  text-decoration: none;
+  color: #bfe1f1;
+}
+#list ul li a:hover {
+  border-right: 5px solid #888;
+  -moz-transform: rotate(-5deg);
+  -moz-box-shadow: 10px 10px 20px #000000;
+  -webkit-transform: rotate(-5deg);
+  -webkit-box-shadow: 10px 10px 20px #000000;
+  transform: rotate(-5deg);
+  box-shadow: 10px 10px 20px #000000;
+}
+
+/* Logo geotrek, redirection vers la page Geotrek.fr*/
+#logo {
+  z-index: 10000;
+  position: fixed;
+  margin-left: 93%;
+  margin-bottom: 830px;
+}
+
+/* Filtre des clients */
+#filter1,
+#filter2,
+#filter3,
+#filter4,
+#filterall {
+  /* Boutton permettant l'isolement d'un type de structure*/
+  position: relative;
+  display: block;
+  margin-bottom: 10px;
+  width: 140px;
+  height: 50px;
+  border: none;
+  font-size: 16px;
+  text-align: center;
+  background: black;
+  color: #fff;
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
+  /* font-weight: bold; */
+  cursor: pointer;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+#filter2 {
+  background: #e8491e;
+  opacity: 0.7;
+}
+#filter1 {
+  background: #9c2d2d;
+  opacity: 0.7;
+}
+#filter3 {
+  background: #9d6bc9;
+  opacity: 0.7;
+}
+
+#filter4 {
+  background: #3bb6b3;
+  opacity: 0.7;
+}
+
+#filterall {
+  background: #888;
+  opacity: 0.7;
+}
+#filterall:hover {
+  width: 200px;
+  text-decoration-line: underline;
+  transition: all 0.2s linear 0s;
+}
+#filter1:hover {
+  width: 200px;
+  text-decoration-line: underline;
+  transition: all 0.2s linear 0s;
+}
+#filter2:hover {
+  width: 200px;
+  text-decoration-line: underline;
+  transition: all 0.2s linear 0s;
+}
+#filter3:hover {
+  width: 200px;
+  text-decoration-line: underline;
+  transition: all 0.2s linear 0s;
+}
+#filter4:hover {
+  width: 200px;
+  text-decoration-line: underline;
+  transition: all 0.2s linear 0s;
+}
+
+.active {
+  width: 200px !important;
+}
+
+@media only screen and (max-width: 768px) {
+	#group-fly {
+		display: none;
+	}
+} 
+

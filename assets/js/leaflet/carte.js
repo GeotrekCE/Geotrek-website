@@ -71,8 +71,9 @@ $(document).ready(function() {
             click: function(e) {
               /* Evenement au clic pour l'affichage des popup*/
               cont_user =
-                "<center>" +
-                "<strong>" +
+                "<div class='popup-text'>" +
+                "<center>" + 
+                "<strong>" + 
                 f.properties.name +
                 "</strong>" +
                 "</center>" +
@@ -89,6 +90,7 @@ $(document).ready(function() {
                   "> " +
                   f.properties.website +
                   "</a>"; // Type de site web
+                  "</div>"; 
               }
               popup = L.popup({ closeOnClick: false })
                 .setLatLng(e.latlng)

@@ -172,8 +172,14 @@
             display: none;
         }
     }
-
+    &__lang {
+        display: none;
+    }
     &--toggled {
+        z-index: 110;
+        .menu__lang {
+            display: block;
+        }
         .menu__bar {
             &:nth-child(1) {
                 top: .5rem;
@@ -191,8 +197,7 @@
         }
 
         .menu__liste {
-            height: 224px;
-
+            height: auto;
             @include mq($sm) {
                 height: auto;
             }

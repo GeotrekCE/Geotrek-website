@@ -68,10 +68,9 @@ $(document).ready(function() {
           layer.on({
             mouseover: function(e) {displayPopup(e, f)},
             click:  function(e) {displayPopup(e, f)},
-            mouseout: function() {
-              map.closePopup(popup);
-            },
-            
+            // mouseout: function() {
+            //   map.closePopup(popup);
+            // },
           }),
             layer.on({
               /* Evenement spécifiques sur la couche user*/
@@ -134,7 +133,7 @@ $(document).ready(function() {
       cont_user +=
         "<b>Site web: </b>  <a href=" +
         feature.properties.website +
-        "> " +
+        "  target='_blank'> " +
         feature.properties.website +
         "</a>"; // Type de site web
         "</div>"; 

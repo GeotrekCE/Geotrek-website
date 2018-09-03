@@ -17,6 +17,8 @@
 .menu-ui {
   position: absolute;
   top: 205px;
+  pointer-events: none;
+  z-index: 100;
 }
 .menu-ui a {
   font-size: 13px;
@@ -148,6 +150,7 @@ figcaption {
 #filter3,
 #filter4,
 #filterall {
+  pointer-events: all;
   /* Boutton permettant l'isolement d'un type de structure*/
   position: relative;
   display: block;
@@ -156,6 +159,8 @@ figcaption {
   height: 50px;
   border: none;
   font-size: 16px;
+  height: 3rem;
+  line-height: 1rem;
   text-align: center;
   background: black;
   color: #fff;
@@ -221,7 +226,10 @@ figcaption {
 @media only screen and (max-width: 768px) {
 	#group-fly {
 		display: none;
-	}
+  }
+  #map {
+    height: calc(100vh - 76px - 30px); 
+  }
 } 
 
 .popup-text {

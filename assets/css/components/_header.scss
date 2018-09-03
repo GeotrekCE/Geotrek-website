@@ -70,7 +70,12 @@
             padding-right: 1.5rem;
             justify-content: flex-end;
         }
-
+        .menu__lang {
+            display: none;
+            @include mq($sm) {
+                display: block;
+            }
+        }
         &__item {
             padding: 0.76rem 2rem;
             display: block;
@@ -172,9 +177,7 @@
             display: none;
         }
     }
-    &__lang {
-        display: none;
-    }
+
     &--toggled {
         z-index: 110;
         .menu__lang {

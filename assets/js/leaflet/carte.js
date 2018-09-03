@@ -1,6 +1,6 @@
 $(document).ready(function() {
   var user; /* Variable globales des user*/
-
+  var popup;
   /* Création de carte avec coordonnées géographique EPSG4326 latitude, longitude et niveau de zoom centré sur la france métropolitaine */
   map = L.map("map").setView([47.0, 2.83832], 5);
   map.addControl(new L.Control.Fullscreen());
@@ -8,14 +8,6 @@ $(document).ready(function() {
   // lControl = L.control.layers().addTo(map);
 
   var basemaps = [
-    L.tileLayer(
-      "https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}",
-      {
-        attribution:
-          "Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ, TomTom, Intermap, iPC, USGS, FAO, NPS, NRCAN, GeoBase, Kadaster NL, Ordnance Survey, Esri Japan, METI, Esri China (Hong Kong), and the GIS User Community"
-      }
-    ),
-
     L.tileLayer(
       "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain-background/{z}/{x}/{y}.{ext}",
       {
@@ -26,7 +18,13 @@ $(document).ready(function() {
         maxZoom: 18,
         ext: "png"
       }
-    )
+    ),
+    L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png', {
+      attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="http://cartodb.com/attributions">CartoDB</a>',
+      subdomains: 'abcd',
+      maxZoom: 19,
+          opacity: 1
+      }),
   ];
 
   map.addControl(
@@ -68,35 +66,12 @@ $(document).ready(function() {
         onEachFeature: function(f, layer) {
           /* sur chaque fonctionnalité on réalise les actions suivantes: */
           layer.on({
-            click: function(e) {
-              /* Evenement au clic pour l'affichage des popup*/
-              cont_user =
-                "<div class='popup-text'>" +
-                "<center>" + 
-                "<strong>" + 
-                f.properties.name +
-                "</strong>" +
-                "</center>" +
-                "<br>";
-              cont_user += "<b>Organisme: </b>";
-              cont_user +=
-                f.properties.type === "AOP"
-                  ? "Autres" + "<br>"
-                  : f.properties.type + "<br>";
-              if (f.properties.website.startsWith("http")) {
-                cont_user +=
-                  "<b>Site web: </b>  <a href=" +
-                  f.properties.website +
-                  "> " +
-                  f.properties.website +
-                  "</a>"; // Type de site web
-                  "</div>"; 
-              }
-              popup = L.popup({ closeOnClick: false })
-                .setLatLng(e.latlng)
-                .setContent(cont_user)
-                .openOn(map);
-            }
+            mouseover: function(e) {displayPopup(e, f)},
+            click:  function(e) {displayPopup(e, f)},
+            mouseout: function() {
+              map.closePopup(popup);
+            },
+            
           }),
             layer.on({
               /* Evenement spécifiques sur la couche user*/
@@ -139,6 +114,36 @@ $(document).ready(function() {
       });
     }
   );
+
+  function displayPopup(e, feature) {
+    /* Evenement au clic pour l'affichage des popup*/
+    cont_user =
+      "<div class='popup-text'>" +
+      "<center>" + 
+      "<strong>" + 
+      feature.properties.name +
+      "</strong>" +
+      "</center>" +
+      "<br>";
+    cont_user += "<b>Organisme: </b>";
+    cont_user +=
+    feature.properties.type === "AOP"
+        ? "Autres" + "<br>"
+        : feature.properties.type + "<br>";
+    if (feature.properties.website.startsWith("http")) {
+      cont_user +=
+        "<b>Site web: </b>  <a href=" +
+        feature.properties.website +
+        "> " +
+        feature.properties.website +
+        "</a>"; // Type de site web
+        "</div>"; 
+    }
+    popup = L.popup({ closeOnClick: false })
+    popup.setLatLng(e.latlng)
+    .setContent(cont_user)
+    .openOn(map);
+  }
 
   /* Fonction de style des polygone user de base*/
   function style(feature) {

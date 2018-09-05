@@ -1,7 +1,7 @@
 ---
 title: À la découverte du Massif des Bauges et du Parc naturel Livradois-Forez
 date:   2018-09-05
-lang: ffr
+lang: fr
 ref: post-20180905
 ---
 

@@ -8,3 +8,7 @@ ref: post-20190427
 L’éco-conception permet aux entreprises d'intégrer les critères environnementaux dès la phase de conception d'un produit (bien ou service), afin d'en diminuer les impacts tout au long de son cycle de vie : de l'extraction des matières premières jusqu'à la fin de vie.
 
 Makina Corpus est accompagnée pour intégrer les principes de l’éco-conception dans le développement de l’application Geotrek grâce à la démarche collective [Green Concept](http://www.greenconcept-innovation.fr/). Notre société bénéficie jusqu’à 8 journées d’accompagnement individuel par un groupement d’experts nationaux du Green IT. Unique en France, cette opération a reçu le soutien de l’ADEME et de la Région Occitanie/Pyrénées-Méditerranée.
+
+<img style="max-width: 100%;"
+    alt="Green Concept 'Maîtrisez l'écoconception numérique'"
+    src="{{ site.baseurl }}/assets/img/2019-04-greenconcept_aac_session3_high.png">

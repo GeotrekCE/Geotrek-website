@@ -26,5 +26,5 @@ De nombreuses évolutions sont en cours et viendront enrichir ce portail tourist
  supplémentaires sur les modes de randonnées.
 
 <img style="max-width: 100%;"
-    alt="Green Concept 'Maîtrisez l'écoconception numérique'"
+    alt="Site Geotrek-rando pour le PNR Millevaches en Limousin"
     src="{{ site.baseurl }}/assets/img/2019-06-27-Rando-Millevaches.jpg">

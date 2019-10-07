@@ -10,7 +10,8 @@ ref: post-20191007
 Le Parisien a publié un article le 18 septembre 2019 sur la nouvelle application mobile Rando du Parc Oise-Pays-de-France.
 
 Cet article met en lumière les fonctionnalités de Geotrek-Mobile et son utilisation par un randonneur.
-Il y est détaillé les avantages des notifications pour la mise en valeur des points d'intérêt et le rôle que peut jouer l'application pour sensibiliser les usagers aux zones humides du parc et les comportements à adopter.
+Il y est détaillé les avantages des notifications pour la mise en valeur des points d'intérêt. L'article 
+revient également sur le rôle que peut jouer l'application pour sensibiliser les usagers aux zones humides du parc, et les comportements à adopter.
 
 L'auteur souligne que l'application est un succès puisque celle-ci comptabilise plus de 624 téléchargemenrs et 2 207 utilisateurs.
 

@@ -5,7 +5,7 @@ lang: fr
 ref: post-20191007
 ---
 
-**Les rencontres des utilisateurs Geotrek les 7 et 8 novembre 2019 à Nîmes**  
+**Rejoignez-nous aux rencontres des utilisateurs Geotrek les 7 et 8 novembre 2019 à Nîmes**  
 
 Rendez-vous les jeudi 7 et vendredi 8 novembre 2019 à Nîmes (30) - Hôtel Edouard Mouret - Rue Raymond Marc
 

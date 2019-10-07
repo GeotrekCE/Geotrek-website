@@ -17,7 +17,7 @@ L'auteur souligne que l'application est un succès puisque celle-ci comptabilise
 
 Retrouvez l'article sur [Le Parisien](http://www.leparisien.fr/val-d-oise-95/oise-pays-de-france-l-application-dediee-a-la-randonnee-dans-le-pnr-seduit-18-09-2019-8154996.php)
 
-Les 4 parcs naturels d'Ile-de-France dispose [du site Geotrek-Rando](https://rando.pnr-idf.fr) pour valoriser leurs randonnées.
+Les 4 parcs naturels d'Ile-de-France disposent [du site Geotrek-Rando](https://rando.pnr-idf.fr) pour valoriser leurs randonnées.
 
 <img style="max-width: 100%;"
     alt="PNR Oise Pays-de-France"

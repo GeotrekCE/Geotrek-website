@@ -20,10 +20,10 @@ Il présente des itinéraires de randonnée balisés, entretenus et validés par
 
 ## À propos du Parc Naturel Régional du Perche
 
-![](./assets/img/../../../assets/img/logo-pnr-perche.png)
+![](../assets/img/logo-pnr-perche.png)
 
 Le Syndicat Mixte de gestion du Parc est composé des Conseils régionaux de Normandie et du Centre-Val de Loire, des Conseils départementaux de l'Orne et de l'Eure-et-Loir et des 88 communes du Parc. L'Etat et la Communauté européenne soutiennent également l'action du Parc.
 
 [En savoir plus sur le Parc Naturel Régional du Perche](http://www.parc-naturel-perche.fr/)
 
-![](./../assets/img/2019-11-19-Geotrek-rando-Perche.png)
+![](../assets/img/2019-11-19-Geotrek-rando-Perche.png)

@@ -7,74 +7,82 @@ ref: home
 ---
 
 <header class="header">
-    {% include navigation.html %}
+  {% include navigation.html %}
 
-    <div class="header__content home__header">
-        <div class="home__header__content">
-            <h1 class="sr-only">Geotrek</h1>
-            <img src="assets/img/logo-home.svg" alt="Geotrek logo">
-            <h2 class="home__baseline">Gestiona y promueve tus rutas y actividades turísticas</h2>
-            <a href="produit-es.html" class="button button--white">Saber más</a>
-        </div>
+  <div class="header__content home__header">
+    <div class="home__header__content">
+      <h1 class="sr-only">Geotrek</h1>
+      <img src="assets/img/logo-home.svg" alt="Geotrek logo">
+      <h2 class="home__baseline">Gestiona y promueve tus rutas y actividades turísticas</h2>
+      <a href="produit-es.html" class="button button--white">Saber más</a>
     </div>
+  </div>
 </header>
 
 <section class="home__intro">
-    <h2 class="title home__intro__headline">Solución Web mapping <small>Una aplicación SIG de gestión, un sitio web y una aplicación móvil</small></h2>
-    <div class="grid grid--center">
-        <div class="grid__item grid__item--33">
-            <img class="home__image" src="assets/img/home-ui.svg" alt="">
-            <h3 class="home__intro__title title">Gestiona y promueve</h3>
-            <p>Ergonómica y completa, Geotrek permite la gestión y promoción del territorio a través de funcionalidades innovadoras</p>
-        </div>
-        <div class="grid__item grid__item--33">
-            <img class="home__image" src="assets/img/home-apps.svg" alt="">
-            <h3 class="home__intro__title title">Solución 3 en 1</h3>
-            <p>Geotrek-Admin para la gestión de datos, Geotrek-Rando para la promoción de actividades y Geotrek-Mobile en el terreno componen una oferta única y completa</p>
-        </div>
-        <div class="grid__item grid__item--33">
-            <img class="home__image" src="assets/img/home-github.svg" alt="">
-            <h3 class="home__intro__title title">Open source</h3>
-            <p>Publicado bajo licencia libre BSD, Geotrek evoluciona gracias a su comunidad de usuarios que se beneficia de las inversiones previas y contribuye en beneficio de todos</p>
-        </div>
+  <h2 class="title home__intro__headline">Solución Web mapping <small>Una aplicación SIG de gestión, un sitio web y
+      una aplicación móvil</small></h2>
+  <div class="grid grid--center">
+    <div class="grid__item grid__item--33">
+      <img class="home__image" src="assets/img/home-ui.svg" alt="">
+      <h3 class="home__intro__title title">Gestiona y promueve</h3>
+      <p>Ergonómica y completa, Geotrek permite la gestión y promoción del territorio a través de funcionalidades
+        innovadoras</p>
     </div>
+    <div class="grid__item grid__item--33">
+      <img class="home__image" src="assets/img/home-apps.svg" alt="">
+      <h3 class="home__intro__title title">Solución 3 en 1</h3>
+      <p>Geotrek-Admin para la gestión de datos, Geotrek-Rando para la promoción de actividades y Geotrek-Mobile
+        en el terreno componen una oferta única y completa</p>
+    </div>
+    <div class="grid__item grid__item--33">
+      <img class="home__image" src="assets/img/home-github.svg" alt="">
+      <h3 class="home__intro__title title">Open source</h3>
+      <p>Publicado bajo licencia libre BSD, Geotrek evoluciona gracias a su comunidad de usuarios que se beneficia
+        de las inversiones previas y contribuye en beneficio de todos</p>
+    </div>
+  </div>
 </section>
 
 <section class="grid utilisateurs__banner">
-    <h3 class="utilisateurs__banner__text">Descubre los usuarios&nbsp;!</h3>
-    <a href="utilisateurs.html" class="button button--turquoise">Acceso al mapa</a>
+  <h3 class="utilisateurs__banner__text">Descubre los usuarios&nbsp;!</h3>
+  <a href="utilisateurs.html" class="button button--turquoise">Acceso al mapa</a>
 </section>
 
 <section class="grid contact__banner">
-    <h3 class="contact__banner__text">Quieres adoptar Geotrek&nbsp;?</h3>
-    <a href="contact-es.html" class="button">Contacta con nosotros</a>
+  <h3 class="contact__banner__text">Quieres adoptar Geotrek&nbsp;?</h3>
+  <a href="contact-es.html" class="button">Contacta con nosotros</a>
 </section>
 
 <section class="actus">
-    <h2 class="title title--light">Todas las noticias sobre Geotrek</h2>
+  <h2 class="title title--light">Todas las noticias sobre Geotrek</h2>
 
-    {% assign posts = site.posts | where:"lang", page.lang %}
-    {% if posts.length == 0 %}
-    <div class="grid actus__items">
-        <p>Próximamente</p>
+  {% assign posts = site.posts | where:"lang", page.lang %}
+  {% if posts.length == 0 %}
+  <div class="grid actus__items">
+    <p>Próximamente</p>
+  </div>
+  {% else %}
+  <div class="grid actus__items">
+    {% for post in posts limit:3 %}
+    <div class="grid__item grid__item--33">
+      <h3 class="title title--medium">
+        <a href="{{ post.url }}" title="{{ post.title }}">
+          {{ post.title }}
+        </a>
+      </h3>
+      <p class="subtitle">{% include date.html date=post.date %}{{ month }} {{ year }}</p>
+      {% if post.excerpt %}
+      {{ post.excerpt }}
+      {% endif %}
+      {% if post.image %}
+      <img src="{{ site.baseurl }}/{{ post.image }}" style="width: 100%; height: auto">
+      {% endif %}
     </div>
-    {% else %}
-    <div class="grid actus__items">
-        {% for post in posts limit:3 %}
-        <div class="grid__item grid__item--33">
-            <h3 class="title title--medium">{{ post.title }}</h3>
-            <p class="subtitle">{% include date.html date=post.date %}{{ month }} {{ year }}</p>
-            {% if post.excerpt %} 
-                {{ post.excerpt }} 
-            {% endif %} 
-            {% if post.image %}
-                <img src="{{ site.baseurl }}/{{ post.image }}" style="width: 100%; height: auto"> 
-            {% endif %}
-        </div>
-        {% endfor %}
-    </div>
-    <a href="actualites-es.html" class="actus__link">Ver todas las noticias</a>
-    {% endif %} 
+    {% endfor %}
+  </div>
+  <a href="actualites-es.html" class="actus__link">Ver todas las noticias</a>
+  {% endif %}
 </section>
 
 {% include logos-parcs.html %}

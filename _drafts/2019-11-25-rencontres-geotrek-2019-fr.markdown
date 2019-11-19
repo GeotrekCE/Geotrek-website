@@ -5,3 +5,8 @@ lang: fr
 ref: post-20191125
 ---
 
+Les 6 et 7 novembre dernier ont eu lieu les 3èmes rencontres
+utilisateurs Geotrek. Le département du Gard, hébergeant cette
+rencontre, a accueilli près de 80 personnes, provenant de ??
+structures.
+

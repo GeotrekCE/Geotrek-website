@@ -13,4 +13,4 @@ une cinquantaine de circuits de randonnées pédestres, équestres ou VTT.
 
 Venez le découvrir sur [www.cheminsdesparcs.fr](http://www.cheminsdesparcs.fr/)
 
-![Site Chemins des Parcs en PACA](../assets/img/2019-11-19-Geotrek-rando-2019-11-19-Geotrek-rando-chemins-parcs.png)
+![Site Chemins des Parcs en PACA]({{ site.baseurl }}/assets/img/2019-11-19-Geotrek-rando-2019-11-19-Geotrek-rando-chemins-parcs.png)

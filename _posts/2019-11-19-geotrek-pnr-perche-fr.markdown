@@ -8,7 +8,11 @@ ref: post-20191119
 Le [portail web de la randonnée dans le Perche](https://rando-perche.fr/) est officiellement en ligne depuis le 4 mai dernier, et propose plus de 80 itinéraires !  
 Grâce à une carte interactive les amateurs de randonnée pédestre, VTT, cyclo… peuvent choisir et préparer leur itinéraire. Le site propose, pour chaque circuit, pédestre, VTT, cyclo, en itinérance ou non, un descriptif détaillé, les points d'intérêts patrimoniaux ainsi que l'offre d'hébergement, de restauration et de services à proximité.
 
+![]({{ site.baseurl }}/assets/img/2019-11-19-Geotrek-rando-Perche.png)
+
 Depuis début octobre, une **nouvelle application mobile**  est disponible sur [Play store](https://play.google.com/store/apps/details?id=io.geotrek.perche) et Apple store. Cette application renvoie également vers les plus beaux et fiables itinéraires de randonnée du Perche. De la même manière que le portail web, l'application mobile propose toutes les informations préparer sa randonnée, et permet surtout de **consulter les itinéraires en mode déconnexion** (sans réseau), et se positionner en direct sur le tracé de l'itinéraire choisi !
+
+<!--more-->
 
 ## Conception du site
 
@@ -20,10 +24,8 @@ Il présente des itinéraires de randonnée balisés, entretenus et validés par
 
 ## À propos du Parc Naturel Régional du Perche
 
-![](../assets/img/logo-pnr-perche.png)
+![]({{ site.baseurl }}/assets/img/logo-pnr-perche.png)
 
 Le Syndicat Mixte de gestion du Parc est composé des Conseils régionaux de Normandie et du Centre-Val de Loire, des Conseils départementaux de l'Orne et de l'Eure-et-Loir et des 88 communes du Parc. L'Etat et la Communauté européenne soutiennent également l'action du Parc.
 
 [En savoir plus sur le Parc Naturel Régional du Perche](http://www.parc-naturel-perche.fr/)
-
-![](../assets/img/2019-11-19-Geotrek-rando-Perche.png)

@@ -1,5 +1,5 @@
 ---
-title: Le Parc Oise-Pays-de-France et Geotrek valorisés par le Parisien
+title: Le portail rando du Parc naturel régional du Perche et son application mobile sont en ligne
 date: 2019-11-19
 lang: fr
 ref: post-20191119

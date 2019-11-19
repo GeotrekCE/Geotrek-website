@@ -14,6 +14,12 @@
     }
   }
 
+  &__items {
+    img {
+      max-width: 100%;
+    }
+  }
+
   .grid__item--actualite {
     margin: 2em 0;
     overflow: hidden;

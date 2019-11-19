@@ -1,6 +1,6 @@
 ---
 title: Le Parc Oise-Pays-de-France et Geotrek valorisés par le Parisien
-date:   2019-11-19
+date: 2019-11-19
 lang: fr
 ref: post-20191119
 ---

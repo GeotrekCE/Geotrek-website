@@ -17,4 +17,4 @@ La saisie peut se faire sous forme de polygone ou bien de cercle pour les zones 
 
 <img style="max-width: 100%;" src="{{site.base_url}}/assets/img/geotrek-mod-zones-sensibles-2.png">
 
-Il est aussi possible d'importer directement les zonages depuis un SHP. Voir la <a href="http://geotrek.ecrins-parcnational.fr/ressources/gt/01-zones-sensibilite/doc-import.pdf" target="_blank">documentation import zonages</a>
+Il est aussi possible d'importer directement les zonages depuis un SHP. Voir la <a href="http://geotrek.ecrins-parcnational.fr/ressources/gt/01-zones-sensibilite/doc-import.pdf" target="_blank">documentation import zonages</a>. Ou depuis l'API de <a href="https://biodiv-sports.fr" target="_blank">Biodiv'Sports</a>, documentée <a href="http://geotrek.ecrins-parcnational.fr/ressources/gt/01-zones-sensibilite/doc-api.pdf" target="_blank"> ici</a>.

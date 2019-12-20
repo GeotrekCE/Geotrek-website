@@ -21,4 +21,4 @@ La communauté Geotrek atteint désormais une certaine maturité et de plus en p
 
 Pour en savoir plus, lire l'[article complet sur les rencontres 2019](http://www.ecrins-parcnational.fr/actualite/geotrek-coulisses-portails-randonnee).
 
-Les présentations et supports des ateliers sont aussi disponibles en ligne : https://geotrek.ecrins-parcnational.fr/rencontres/2019/.
+Les présentations et supports des ateliers sont aussi [disponibles en ligne](https://geotrek.ecrins-parcnational.fr/rencontres/2019/).

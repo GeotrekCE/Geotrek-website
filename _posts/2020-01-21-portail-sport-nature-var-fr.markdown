@@ -3,7 +3,6 @@ title: Mise en ligne du portail Sport Nature Var
 date: 2020-01-21
 lang: fr
 ref: post-20200121
-status: draft
 ---
 
 Le [département du Var](https://www.var.fr/) présente une grande richesse naturelle et patrimoniale qui  en fait un espace de pratique par excellence des sports de nature.

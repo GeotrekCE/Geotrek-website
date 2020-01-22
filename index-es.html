@@ -73,7 +73,10 @@ ref: home
       </h3>
       <p class="subtitle">{% include date.html date=post.date %}{{ month }} {{ year }}</p>
       {% if post.excerpt %}
-      {{ post.excerpt }}
+        {{ post.excerpt }}
+        <p class="more">
+          <a href="{{ post.url }}">En lire plus</a>
+        </p>
       {% endif %}
       {% if post.image %}
       <img src="{{ site.baseurl }}/{{ post.image }}" style="width: 100%; height: auto">

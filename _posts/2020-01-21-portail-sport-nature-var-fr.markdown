@@ -33,7 +33,6 @@ Dans un deuxième temps nous nous pencherons sur les potentialités de la partie
 ## Mise en oeuvre informatique
 
 Pour la mise en oeuvre du portail Sport Nature Var, le Département du Var a décidé de se faire assister et a pour cela retenu la société [Makina Corpus](https://makina-corpus.com/). Son rôle était centré autour d'un accompagnement technique et fonctionnel auprès des équipes informatiques du Département, afin de les aider à prendre en main l'installation et le paramétrage de Geotrek.
+Makina Corpus a rempli cette mission de façon sérieuse et réactive. Le travail conjoint des équipes de Makina Corpus et du Département du Var ont permis de respecter le calendrier initial du projet.
 
 L'installation et le paramétrage de Geotrek n'ont pas posé de problème particulier, l'architecture technique est cohérente et le paramétrage centré sur quelques fichiers bien identifiés. De plus, le portail Geotrek rando est personnalisable pour répondre aux attentes des utilisateurs.
-
-Makina Corpus a rempli cette mission de façon sérieuse et réactive, que cela soit dans le suivi du projet effectué par Mme Monteils ou lors des interventions menées par Mme Helly, Mr Utard et Mr de Montety. Le travail conjoint des équipes de Makina Corpus et du Département du Var ont permis de respecter le calendrier initial du projet.  

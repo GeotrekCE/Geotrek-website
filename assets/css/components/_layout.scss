@@ -134,6 +134,13 @@ a {
     margin: 0;
 }
 
+.more {
+    text-align: right;
+    &:before {
+        content: '> ';
+    }
+}
+
 
 // 3. Grid
 // ---------

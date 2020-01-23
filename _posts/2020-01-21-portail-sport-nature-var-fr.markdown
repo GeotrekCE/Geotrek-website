@@ -10,7 +10,7 @@ Près de 36 disciplines y sont recensées via les comités ou les clubs mais plu
 
 Le Département du Var compte environ 300 000 pratiquants de sports de nature, soit près d'un varois sur 4.
 Avec plus de :
-- 440 000 ha d'espaces naturels (dont 13 500 Ha d'Espaces Naturels Sensibles),
+- 440 000 ha d'espaces naturels (dont 13 500 ha d'Espaces Naturels Sensibles),
 - 2 200 km de sentiers dont 53 boucles de randonnées pédestres locales,
 - 245 km de boucles équestres (Réseau Equi- découverte)
 - 178 km de boucles de randonnées VTT

@@ -23,7 +23,7 @@ Pour ces différentes raisons et afin de valoriser ce potentiel le Département 
 
 <!--more-->
 
-Dans un premier temps, l’utilisation se concentre essentiellement sur le volet « Site Internet tout public » qui permet de faire connaître les randonnées pédestres, équestres, VTT et 42 plongées inscrites au PDESI et au PDIPR : ["Sport Nature Var"](https://sportnature.var.fr/)
+Dans un premier temps, l’utilisation se concentre essentiellement sur le volet « Site Internet tout public » qui permet de faire connaître les randonnées pédestres, équestres, VTT et 42 plongées inscrites au PDESI et au PDIPR : ["Sport Nature Var"](https://sportnature.var.fr/).
 
 Geotrek offre dans un seul outil toutes les informations nécessaires à la préparation des randonnées. La mise en place de ce premier volet a nécessité la re-vérification terrain de l’ensemble des itinéraires (volet balisage, signalétique et assiette), ainsi que la mise à jour du SIG. Par ailleurs, un travail de création des descriptifs et des points d’intérêts concernant l’ensemble des traçés a été mené. 
 Concernant la partie valorisation, l’outil remplit pleinement les attentes du département.

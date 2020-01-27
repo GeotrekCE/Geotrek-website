@@ -23,16 +23,16 @@ Pour ces différentes raisons et afin de valoriser ce potentiel le Département 
 
 <!--more-->
 
-Dans un premier temps l’utilisation se concentre essentiellement sur le volet « Site internet tout public », nous permettant de faire connaître nos randonnées pédestres, équestres, VTT et plongée (42) inscrites au PDESI et au PDIPR.
+Dans un premier temps l’utilisation se concentre essentiellement sur le volet « Site internet tout public », pour permettre de faire connaître les randonnées pédestres, équestres, VTT et plongée (42) inscrites au PDESI et au PDIPR.
 
-Cette fonctionnalité offrant dans un seul outils toutes les informations nécessaires à la préparation des randonnées. La mise en place de ce premier volet a nécessité la  re-vérification terrain de l’ensemble des itinéraires (volet balisage, signalétique et assiette), ainsi que la mise à jour du SIG. Par ailleurs, un travail de création des descriptifs et des points d’intérêts concernant l’ensemble des traçés a été mené. 
-Concernant la partie valorisation, l’outil remplit pleinement nos attentes.
+Geotrek offrant dans un seul outil toutes les informations nécessaires à la préparation des randonnées. La mise en place de ce premier volet a nécessité la re-vérification terrain de l’ensemble des itinéraires (volet balisage, signalétique et assiette), ainsi que la mise à jour du SIG. Par ailleurs, un travail de création des descriptifs et des points d’intérêts concernant l’ensemble des traçés a été mené. 
+Concernant la partie valorisation, l’outil remplit pleinement les attentes du département.
 
-Dans un deuxième temps nous nous pencherons sur les potentialités de la partie « gestionnaire » et envisagerons le déploiement de l’application mobile.
+Dans un deuxième temps le département se penchera sur les potentialités de la partie « gestionnaire » et envisagera le déploiement de l’application mobile.
 
 ## Mise en oeuvre informatique
 
-Pour la mise en oeuvre du portail Sport Nature Var, le Département du Var a décidé de se faire assister et a pour cela retenu la société [Makina Corpus](https://makina-corpus.com/). Son rôle était centré autour d'un accompagnement technique et fonctionnel auprès des équipes informatiques du Département, afin de les aider à prendre en main l'installation et le paramétrage de Geotrek.
-Makina Corpus a rempli cette mission de façon sérieuse et réactive. Le travail conjoint des équipes de Makina Corpus et du Département du Var ont permis de respecter le calendrier initial du projet.
+Le responsable du projet au Département du Var précise que _"Pour la mise en oeuvre du portail Sport Nature Var, le Département du Var a décidé de se faire assister et a pour cela retenu la société [Makina Corpus](https://makina-corpus.com/). Son rôle était centré autour d'un accompagnement technique et fonctionnel auprès des équipes informatiques du Département, afin de les aider à prendre en main l'installation et le paramétrage de Geotrek.
+Makina Corpus a rempli cette mission de façon sérieuse et réactive. Le travail conjoint des équipes de Makina Corpus et du Département du Var ont permis de respecter le calendrier initial du projet._
 
-L'installation et le paramétrage de Geotrek n'ont pas posé de problème particulier, l'architecture technique est cohérente et le paramétrage centré sur quelques fichiers bien identifiés. De plus, le portail Geotrek rando est personnalisable pour répondre aux attentes des utilisateurs.
+_L'installation et le paramétrage de Geotrek n'ont pas posé de problème particulier, l'architecture technique est cohérente et le paramétrage centré sur quelques fichiers bien identifiés. De plus, le portail Geotrek-rando est personnalisable pour répondre aux attentes des utilisateurs."_

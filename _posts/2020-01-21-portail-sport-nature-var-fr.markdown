@@ -32,8 +32,8 @@ Dans un deuxième temps le Département du Var a étudié le potentiel de la par
 
 ## Mise en oeuvre informatique
 
-Pour la mise en oeuvre du portail Sport Nature Var, le Département du Var a décidé de se faire assister et a pour cela retenu la société [Makina Corpus](https://makina-corpus.com/). Son rôle était centré autour d'un accompagnement technique et fonctionnel auprès des équipes informatiques du Département, afin de les aider à prendre en main l'installation et le paramétrage de Geotrek.
+Le Département du Var précise que _"Pour la mise en oeuvre du portail Sport Nature Var, le Département du Var a décidé de se faire assister et a pour cela retenu la société [Makina Corpus](https://makina-corpus.com/). Son rôle était centré autour d'un accompagnement technique et fonctionnel auprès des équipes informatiques du Département, afin de les aider à prendre en main l'installation et le paramétrage de Geotrek._
 
-L'installation et le paramétrage de Geotrek n'ont pas posé de problème particulier, l'architecture technique est cohérente et le paramétrage centré sur quelques fichiers bien identifiés. De plus, le portail Geotrek-Rando est personnalisable pour répondre aux attentes des utilisateurs.
+_L'installation et le paramétrage de Geotrek n'ont pas posé de problème particulier, l'architecture technique est cohérente et le paramétrage centré sur quelques fichiers bien identifiés. De plus, le portail Geotrek-Rando est personnalisable pour répondre aux attentes des utilisateurs._
 
-Makina Corpus a rempli cette mission de façon sérieuse et réactive, que cela soit dans le suivi du projet effectué par Madame Monteils ou lors des interventions menées par Madame Helly, Monsieur Utard et Monsieur De Montety. Le travail conjoint des équipes de Makina Corpus et du Département du Var ont permis de respecter le calendrier initial du projet.
+_Makina Corpus a rempli cette mission de façon sérieuse et réactive, que cela soit dans le suivi du projet effectué par Madame Monteils ou lors des interventions menées par Madame Helly, Monsieur Utard et Monsieur De Montety. Le travail conjoint des équipes de Makina Corpus et du Département du Var ont permis de respecter le calendrier initial du projet."_

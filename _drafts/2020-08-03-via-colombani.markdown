@@ -1,6 +1,6 @@
 ---
-title: Via Colombanie
-date: 2020-08-
+title: Numérisation de l'itinéraire la Via Colombani avec Geotrek
+date: 2020-08-03
 lang: fr
 ref: post-20200803
 ---
@@ -13,7 +13,7 @@ inconnu du VI<sup>ème</sup> siècle, *Colomban*.
 Cet homme fut à l'origine de la construction européenne, et de la diversité de l'Europe actuelle :
 la **Via Columbani** traverse **neuf pays** européens sur plus de **7500km d'itinéraires**.
 
-[![Via Columbani](/assets/img/2020-via-columbani.png)](https://viacolumbani.com/)
+[![Via Columbani](/assets/img/2020/2020-via-columbani.png)](https://viacolumbani.com/)
 
 <!--more-->
 

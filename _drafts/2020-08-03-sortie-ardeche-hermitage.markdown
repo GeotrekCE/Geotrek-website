@@ -13,7 +13,7 @@ Ardèche Hermitage est un territoire à cheval entre l'Ardèche et la Drôme, à
 
 Le territoire est emblématique pour la pratique du vélo depuis toujours, avec la plus grande cyclosportive d'Europe, l'Ardéchoise. Naturellement, vous y trouverez le vélo sous toutes ses formes, avec des parcours cyclo, VTT, en VAE (vélo à assistance électrique), à profil descendant par la route ou en Enduro VTT, et enfin des itinérances comme la Viarhona, la Grande Traversée VTT de l'Ardèche ou encore le tour de la Drôme des Collines. Évidemment, la randonnée pédestre n'est pas en reste avec un réseau dense sur tout le territoire.
 
-![assets/img/2020/ardeche-hermitage-visez-juste.jpg]
+![« ah! RANDO, visez juste pour vos randos »](/assets/img/2020/ardeche-hermitage-visez-juste.jpg)
 
 Fort de ce nouveau territoire, [Rando Ardèche Hermitage](https://rando-ardeche-hermitage.fr/) a permis d'harmoniser les moyens de promotion et les outils techniques de suivi d'itinéraires. Le site est sorti en 2018, l'application associée a été publiée pour ce printemps 2020, permettant un suivi avec géolocalisation directe sur les smartphones. Avec cela, une identité visuelle a été créée pour donner toute son importance aux sports de nature, sous la dénomination "ah! RANDO, visez juste pour vos randos".
 

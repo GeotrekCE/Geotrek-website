@@ -19,7 +19,7 @@ la **Via Columbani** traverse **neuf pays** européens sur plus de **7500km d
 
 Ce projet a été financé par la [mairie de Luxeuil les Bains](http://www.ville-luxeuil-les-bains.fr/),
  la [Fondation Gilles et Monique Clugnier](https://www.amisaintcolomban.org/fondation_g.m.cugnier.html),
- l'[association Européenne du chemin de saint Colomban](https://www.thecolumbanway.eu/fr/le-projet/lassociation-europeenne/)
+ l'[association Européenne du chemin de Saint Colomban](https://www.thecolumbanway.eu/fr/le-projet/lassociation-europeenne/)
  et [l'association des amis de Saint Colomban](https://www.amisaintcolomban.org/).
 
 Deux passionnés sont à l'origine du projet&nbsp;: *Jacques Prudhon* et *Simon Derache*,
@@ -29,10 +29,10 @@ de l'outil **Geotrek** pour numériser cet itinéraire méconnu du public.
  Le rédactionnel a été effectué par les associations partenaires des
 différents pays impliqués par ces parcours, elles-mêmes coordonnées
 par *Jacques Prudhon* et *Simon Derache*. *Jean Lenormand* a déployé 
-l'outil et de superviser la technique qu'a impliqué le projet.
+l'outil et supervisé la technique qu'a impliqué le projet.
 
 La Via Columbani a permis de tester avec succès la **capacité de Geotrek à intégrer un territoire de grande taille à l'échelle Européenne**.
- Le projet regroupe ainsi plus de **30 itinéraires**, découpés en **environs 350 étapes** (avec un cumul de plus de **12000km de tronçons saisis**), **3 pratiques** (pédestres, cycle et bateau, la moto est à venir, saint Colomban étant le patron des motards), **1400 POIs** et **1000 contenus touristiques**. Le tout disponible en 4 langues (français, anglais, allemand, italien). 
+ Le projet regroupe ainsi plus de **30 itinéraires**, découpés en **350 étapes** environ (avec un cumul de plus de **12000km de tronçons saisis**), **3 pratiques** (pédestres, cycle et bateau, La moto est à venir, Saint Colomban étant le patron des motards), **1400 POIs** (Points d'Intérêt) et **1000 contenus touristiques**. Le tout disponible en 4 langues (français, anglais, allemand, italien). 
 
 Le site est accessible à l'adresse suivante : https://viacolumbani.com/
 

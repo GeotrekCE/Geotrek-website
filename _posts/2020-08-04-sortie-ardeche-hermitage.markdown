@@ -15,7 +15,7 @@ Le territoire est emblématique pour la pratique du vélo depuis toujours, avec 
 
 [![« ah! RANDO, visez juste pour vos randos »](/assets/img/2020/ardeche-hermitage-visez-juste.jpg)](https://rando-ardeche-hermitage.fr/)
 
-Fort de ce nouveau territoire, [Rando Ardèche Hermitage](https://rando-ardeche-hermitage.fr/) a permis d'harmoniser les moyens de promotion et les outils techniques de suivi d'itinéraires. Le site est sorti en 2018, l'application associée a été publiée pour ce printemps 2020, permettant un suivi avec géolocalisation directe sur les smartphones. Avec cela, une identité visuelle a été créée pour donner toute son importance aux sports de nature, sous la dénomination "ah! RANDO, visez juste pour vos randos".
+Fort de ce nouveau territoire, [Rando Ardèche Hermitage](https://rando-ardeche-hermitage.fr/) a permis d'harmoniser les moyens de promotion et les outils techniques de suivi d'itinéraires. Le site est sorti en 2018, l'application mobile associée a été publiée pour ce printemps 2020, permettant un suivi avec géolocalisation directe sur les smartphones. Avec cela, une identité visuelle a été créée pour donner toute son importance aux sports de nature, sous la dénomination "ah! RANDO, visez juste pour vos randos".
 
 [![Rando Ardèche Hermitage sur Google play](/assets/img/app-button-google.png)](https://play.google.com/store/apps/details?id=io.geotrek.archeagglo&hl=fr)
 [![Rando Ardèche Hermitage sur Apple store](/assets/img/app-button-apple.png)](https://apps.apple.com/au/app/rando-ard%C3%A8che-hermitage/id1500717874?l=fr)

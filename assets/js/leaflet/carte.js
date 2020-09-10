@@ -12,7 +12,7 @@ $(document).ready(function() {
       "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain-background/{z}/{x}/{y}.{ext}",
       {
         attribution:
-          'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+          'Map tiles by <a href="https://stamen.com">Stamen Design</a>, <a href="https://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
         subdomains: "abcd",
         minZoom: 0,
         maxZoom: 18,
@@ -20,7 +20,7 @@ $(document).ready(function() {
       }
     ),
     L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png', {
-      attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="http://cartodb.com/attributions">CartoDB</a>',
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="http://cartodb.com/attributions">CartoDB</a>',
       subdomains: 'abcd',
       maxZoom: 19,
           opacity: 1
@@ -58,7 +58,7 @@ $(document).ready(function() {
   /* couche de polygone: Parc naturel - National*/
   $.getJSON(
     /* Appel Ajax vers le fichier geojson*/
-    "http://utilisateurs.geotrek.fr/clients_map.geojson" /* Fchier cible*/,
+    "https://utilisateurs.geotrek.fr/clients_map.geojson" /* Fchier cible*/,
     function(data) {
       /* Fonction propre à la geojson variable*/
       user = L.geoJSON(data, {

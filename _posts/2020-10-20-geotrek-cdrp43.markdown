@@ -11,7 +11,7 @@ Toutes les randonnées du Département sont mises à disposition de tous.
 Le portail numérique : www.chemin-rando-hauteloire.fr est gratuit et accessible à tous gratuitement.
 Il offre aux randonneurs une alternative numérique aux Topoguides et cartes IGN. 
 
-(/assets/img/2020/CDRP43_Geotrek.png)](https://www.chemin-rando-hauteloire.fr/)
+(/assets/img/2020/CDRP43_Geotrek.png)(https://www.chemin-rando-hauteloire.fr/)
 
 Tout aussi précis et mis à jour en temps réel, il permet de consulter l’intégralité de l’offre de randonnées sur le territoire :
 plus de **365 circuits PR** (promenades et randonnées à la journée) et 14 GR (randonnées itinérantes), tous balisés

@@ -1,5 +1,5 @@
 ---
-title: "Rando en Haute-Loire" : la solution Geotrek, du portail numérique à l’application mobile
+title: "Rando en Haute-Loire, la solution Geotrek, du portail numérique à l’application mobile
 date: 2020-10-20
 lang: fr
 ref: post-20201020

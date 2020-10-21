@@ -8,7 +8,7 @@ ref: post-20201020
 Le portail Geotrek **« Rando en Haute-Loire »** est un **portail numérique rassemblant l’ensemble des PR et GR sur le territoire altligérien**.
 Toutes les randonnées du Département sont mises à disposition de tous.
 
-Le portail numérique [![Rando en Haute-Loire](https://www.chemin-rando-hauteloire.fr/) est gratuit et accessible à tous.
+Le portail numérique [Rando en Haute-Loire](https://www.chemin-rando-hauteloire.fr/) est gratuit et accessible à tous.
 Il offre aux randonneurs une alternative numérique aux Topoguides et cartes IGN. 
 
 [![Rando en Haute-Loire](/assets/img/2020/CDRP43_Geotrek.png)](https://www.chemin-rando-hauteloire.fr/)

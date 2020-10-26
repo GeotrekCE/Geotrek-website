@@ -8,17 +8,17 @@ $(document).ready(function() {
   // lControl = L.control.layers().addTo(map);
 
   var basemaps = [
-    L.tileLayer(
-      "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain-background/{z}/{x}/{y}.{ext}",
-      {
-        attribution:
-          'Map tiles by <a href="https://stamen.com">Stamen Design</a>, <a href="https://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
-        subdomains: "abcd",
-        minZoom: 0,
-        maxZoom: 18,
-        ext: "png"
-      }
-    ),
+    // L.tileLayer(
+    //   "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain-background/{z}/{x}/{y}.{ext}",
+    //   {
+    //     attribution:
+    //       'Map tiles by <a href="https://stamen.com">Stamen Design</a>, <a href="https://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+    //     subdomains: "abcd",
+    //     minZoom: 0,
+    //     maxZoom: 18,
+    //     ext: "png"
+    //   }
+    // ),
     L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png', {
       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="http://cartodb.com/attributions">CartoDB</a>',
       subdomains: 'abcd',

@@ -148,11 +148,10 @@ $(document).ready(function() {
   function style(feature) {
     return {
       fillColor: getColor(feature.properties.type),
-      weight: 2,
+      weight: 1,
       opacity: 1,
       color: "white",
-      dashArray: "3",
-      fillOpacity: 0.7
+      fillOpacity: 0.6
     };
   }
 
@@ -177,9 +176,7 @@ $(document).ready(function() {
     var layer = e.target;
 
     layer.setStyle({
-      weight: 5,
-      color: "#666",
-      dashArray: "",
+      weight: 2,
       fillOpacity: 1
     });
     if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {

@@ -158,15 +158,15 @@ $(document).ready(function() {
   /* Fonction de catégorisation des polygone*/
   function getColor(a) {
     return a == "Parc naturel régional"
-      ? "#e8491e"
+      ? "#BEC931"
       : a == "Parc national Français"
-        ? "#9c2d2d"
+        ? "#50AF55"
         : a == "Parc national"
-          ? "#9c2d2d"
+          ? "#50AF55"
           : a == "Conseil départemental"
-            ? "#9d6bc9"
+            ? "#561FA8"
             : a == "Autre"
-              ? "#3bb6b3"
+              ? "#F85446"
               : "#ff0000";
   }
 

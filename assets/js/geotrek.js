@@ -27,7 +27,7 @@
 
         if (form) {
             var request = new XMLHttpRequest();
-            var url = 'http://getsimpleform.com/messages/ajax?form_api_token=e81d577ce1527ee5f3cd7ecc6208826f';
+            var url = 'https://getsimpleform.com/messages/ajax?form_api_token=e81d577ce1527ee5f3cd7ecc6208826f';
 
             var params = getParams(form);
             var errorMessage = form.querySelector(

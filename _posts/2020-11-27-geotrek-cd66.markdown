@@ -1,0 +1,33 @@
+---
+title: "Geotrek et les Trophées de l'ingénierie territoriale 2020"
+date: 2020-11-27
+lang: fr
+ref: post-20201127
+---
+Le **Département des Pyrénées-Orientales** a obtenu il y a quelques semaines le **trophée de l'ingénierie territoriale
+dans la catégorie « Réseaux - Systèmes d'information géographique (SIG) »** attribué par la [Gazette des Communes](https://www.lagazettedescommunes.com/)
+et [Techni.Cités](https://www.lagazettedescommunes.com/rubriques/club-technicites/),
+en reconnaissance du travail mené sur le [**projet Réseau Rando 66**](https://rando66.fr/) (Réseau Geotrek Pyrénées-Orientales).
+
+Ces trophées récompensent des projets en raison de leur caractère innovant en termes technique, de concertation,
+d'optimisation de la gestion des équipements, des moyens financiers et humains mis en œuvre, et de reproductibilité. 
+
+<div style="background: #eeeeee">
+
+**Résumé du projet présenté :**  
+*L'outil Geotrek est un outil métier open source développé en 2012 par le Parc National des Écrins via la société Makina Corpus.*  
+*Il permet la gestion et la valorisation des sentiers de randonnée depuis une base de données unique.*
+*Dans le cadre de sa compétence pour la mise en oeuvre du plan départemental des itinéraires de promenade et de randonnée (PDIPR)*
+*et de sa maîtrise d'ouvrage sur près de 1000km d'itinéraires de randonnée, le Département a lancé, en novembre 2018,*
+*le Réseau Geotrek Pyrénées-Orientales avec pour objectifs :*  
+*- de permettre à toutes les collectivités localement compétentes en matière de gestion des sentiers de randonnée*
+*l’accès à un outil métier mutualisé pour la gestion et la valorisation de leurs propres sentiers ;*  
+*- de créer une base de données « Randonnée et Activités de Pleine Nature » unique à l’échelle du territoire départemental.*  
+
+</div>  
+
+Le Réseau Geotrek Pyrénées-Orientales est à ce jour constitué du Département des Pyrénées-Orientales ainsi que des communautés de communes
+et offices de tourisme intercommunautaires de 5 territoires (Aspres, Conflent Canigó, Haut Vallespir, Pyrénées Catalanes, Pyrénées Cerdagne).  
+Le site [rando66](https://rando66.fr) est l'une des réalisations de ce projet collectif autour de Geotrek, n'hésitez pas à le parcourir !  
+
+[![Réseau Geotrek Pyrénées-Orientales](/assets/img/2020/20201127_CD66_Geotrek.png)](https://https://rando66.fr/)

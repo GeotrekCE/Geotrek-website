@@ -13,7 +13,8 @@ Ces trophées récompensent des projets en raison de leur caractère innovant en
 d'optimisation de la gestion des équipements, des moyens financiers et humains mis en œuvre, et de reproductibilité. 
 
 **Résumé du projet présenté :**  
-*L'outil Geotrek est un outil métier open source développé en 2012 par le Parc National des Écrins via la société Makina Corpus.*  
+*L'outil Geotrek est un outil métier open source développé en 2012 par le Parc National des Écrins via la société Makina Corpus.*
+
 *Il permet la gestion et la valorisation des sentiers de randonnée depuis une base de données unique.*
 *Dans le cadre de sa compétence pour la mise en oeuvre du plan départemental des itinéraires de promenade et de randonnée (PDIPR)*
 *et de sa maîtrise d'ouvrage sur près de 1000km d'itinéraires de randonnée, le Département a lancé, en novembre 2018,*

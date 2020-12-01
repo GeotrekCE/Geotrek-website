@@ -12,16 +12,16 @@ en reconnaissance du travail mené sur le [**projet Réseau Rando 66**](https://
 Ces trophées récompensent des projets en raison de leur caractère innovant en termes technique, de concertation,
 d'optimisation de la gestion des équipements, des moyens financiers et humains mis en œuvre, et de reproductibilité. 
 
-**Résumé du projet présenté :**  
-*L'outil Geotrek est un outil métier open source développé en 2012 par le Parc National des Écrins via la société Makina Corpus.*
-
-*Il permet la gestion et la valorisation des sentiers de randonnée depuis une base de données unique.*
-*Dans le cadre de sa compétence pour la mise en oeuvre du plan départemental des itinéraires de promenade et de randonnée (PDIPR)*
-*et de sa maîtrise d'ouvrage sur près de 1000km d'itinéraires de randonnée, le Département a lancé, en novembre 2018,*
-*le Réseau Geotrek Pyrénées-Orientales avec pour objectifs :*  
-*- de permettre à toutes les collectivités localement compétentes en matière de gestion des sentiers de randonnée*
-*l’accès à un outil métier mutualisé pour la gestion et la valorisation de leurs propres sentiers ;*  
-*- de créer une base de données « Randonnée et Activités de Pleine Nature » unique à l’échelle du territoire départemental.*  
+>**Résumé du projet présenté :**  
+>*L'outil Geotrek est un outil métier open source développé en 2012 par le Parc National des Écrins via la société Makina Corpus.*
+>
+>*Il permet la gestion et la valorisation des sentiers de randonnée depuis une base de données unique.*
+>*Dans le cadre de sa compétence pour la mise en oeuvre du plan départemental des itinéraires de promenade et de randonnée (PDIPR)*
+>*et de sa maîtrise d'ouvrage sur près de 1000km d'itinéraires de randonnée, le Département a lancé, en novembre 2018,*
+>*le Réseau Geotrek Pyrénées-Orientales avec pour objectifs :*  
+>*- de permettre à toutes les collectivités localement compétentes en matière de gestion des sentiers de randonnée*
+>*l’accès à un outil métier mutualisé pour la gestion et la valorisation de leurs propres sentiers ;*  
+>*- de créer une base de données « Randonnée et Activités de Pleine Nature » unique à l’échelle du territoire départemental.*  
 
 Le Réseau Geotrek Pyrénées-Orientales est à ce jour constitué du Département des Pyrénées-Orientales ainsi que des communautés de communes
 et offices de tourisme intercommunautaires de 5 territoires (Aspres, Conflent Canigó, Haut Vallespir, Pyrénées Catalanes, Pyrénées Cerdagne).  

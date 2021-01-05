@@ -224,6 +224,9 @@ figcaption {
 }
 
 #map {
+height: calc(100vh - 76px - 30px);
+}
+.iframe #map {
 height: calc(100vh);
 }
 @media only screen and (max-width: 768px) {

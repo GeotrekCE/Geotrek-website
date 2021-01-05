@@ -55,7 +55,7 @@
         <script type="IN/Share" data-url="{{site.base_url}}{{ page.url }}"></script>
         <h2 class="title title--min">Les derniers articles</h2>
         <aside class="articles">
-          {% assign featured_posts = (site.posts|where:"lang","fr") %} {% for post in featured_posts limit:5 %}
+          {% assign featured_posts = site.posts|where:"lang","fr" %} {% for post in featured_posts limit:5 %}
             {% if post.title != page.title %}
               <a href="{{ post.url }}" title="{{ post.title }}" class="articles__item">
                 <h3 class="articles__item__title">{{ post.title }}</h3>

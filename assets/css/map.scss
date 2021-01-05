@@ -223,16 +223,13 @@ figcaption {
   width: 200px !important;
 }
 
-#map {
-height: calc(100vh - 76px - 30px);
-}
-.iframe #map {
-height: calc(100vh);
-}
 @media only screen and (max-width: 768px) {
 	#group-fly {
 		display: none;
-  }
+    }
+    #map {
+    height: calc(100vh - 76px - 30px);
+    }
 } 
 
 .popup-text {

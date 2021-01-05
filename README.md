@@ -59,7 +59,7 @@ Nécéssite un environnement Ruby (cf [la doc de Jekyll](https://jekyllrb.com/do
 
 ```
 bundle install
-jekyll serve
+bundle exec jekyll serve
 ```
 
 ### Publier sur gh-pages

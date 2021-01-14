@@ -1,0 +1,23 @@
+---
+title: "Découvrez Rando66, le portail de la randonnée dans les Pyrénées-Orientales !"
+date: 2020-09-07
+lang: fr
+ref: post-20200907
+---
+Le [Département des Pyrénées-Orientales](https://www.ledepartement66.fr/) a lancé en juillet dernier son tout nouveau site
+dédié aux itinéraires de randonnée dans le département, conçu avec Geotrek : https://rando66.fr
+
+Celui-ci a été réalisé avec les **Communautés de communes et offices de tourisme intercommunautaires partenaires**.
+Il présente les itinéraires inscrits au Plan Départemental des Itinéraires de Promenade et de Randonnée (PDIPR), avec à ce jour :
+- 37 randos pédestres à la journée ou à la demi-journée (PR / PR®)
+- 18 randos VTT (FFC / FFCT)
+- 8 randos en itinérance, soit 46 étapes à la journée (GR® / GR®P)
+
+L'offre proposée, riche et diversifiée, s'adresse à toutes et à tous. En famille ou entre pratiquants expérimentés, du randonneur occasionnel
+au randonneur régulier, chacun y trouvera le parcours pédestre ou VTT approprié.
+Le projet étant évolutif, le site sera régulièrement mis à jour et alimenté avec des données supplémentaires : 
+nouveaux territoires, itinéraires, patrimoines, hébergements, pratiques...
+
+Bonne découverte sur [Rando66 !](https://rando66.fr/)
+
+(/assets/img/2021/20200907_Visuel rando66.PNG)

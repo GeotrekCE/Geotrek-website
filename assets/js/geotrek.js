@@ -24,34 +24,26 @@
     }
 
     function submitForm(form) {
+        const data = new FormData(form);
+        const value = Object.fromEntries(data.entries());
 
-        if (form) {
-            var request = new XMLHttpRequest();
-            var url = 'https://getsimpleform.com/messages/ajax?form_api_token=e81d577ce1527ee5f3cd7ecc6208826f';
+        fetch('https://hook.integromat.com/rkl1zqyuce4jrhiahpresmvrquc1nayf', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(value),
+        }).then(function (response) {
+            return response.text();
+        }).then(function (result) {
+            var errorMessage = form.querySelector('.contact__form__message--error');
+            var successMessage = form.querySelector('.contact__form__message--success');
 
-            var params = getParams(form);
-            var errorMessage = form.querySelector(
-                '.contact__form__message--error'
-            );
-            var successMessage = form.querySelector(
-                '.contact__form__message--success'
-            );
-
-            window.callback = function(json) {
-                if (json.success) {
-                    successMessage.removeAttribute('hidden');
-                    form.reset();
-                } else {
-                    errorMessage.removeAttribute('hidden');
-                }
+            if (result === 'Accepted') {
+                successMessage.removeAttribute('hidden');
+                form.reset();
+            } else {
+                errorMessage.removeAttribute('hidden');
             }
-
-            var script = document.createElement('script');
-            script.src = url + '&' + params + '&callback=callback';
-
-            document.getElementsByTagName('head')[0].appendChild(script);
-
-        }
+        });
     }
 
     function initMobileMenu() {

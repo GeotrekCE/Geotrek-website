@@ -9,7 +9,7 @@ Le numéro 103 d'IGN magazine de l'été 2021 est consacré aux données géogra
 
 Il s'intéresse notamment aux usages pour la randonnée et consacre ainsi 3 pages au projet Geotrek.
 
-[![Geotrek dans IGN magazine #103](/assets/img/2021/2021-07-29-geotrek-ignmag-103.jpg)](2021-07-29-geotrek-ignmag-103.jpg)
+[![Geotrek dans IGN magazine #103](/assets/img/2021/2021-07-29-geotrek-ignmag-103.jpg)](/assets/img/2021/2021-07-29-geotrek-ignmag-103.jpg)
 
 L'article introduit le projet en indiquant que "il y a dix ans, les géomaticiens des parcs nationaux des Écrins et du Mercantour se lançaient dans le développement de leur propre écosystème numérique pour gérer et promouvoir leurs richesses. Nommé Geotrek, il fait aujourd’hui référence dans le monde de la randonnée."
 

@@ -6,6 +6,10 @@ ref: post-20210913
 ---
 
 
+<h3>
+Avis aux utilisateurs et aux partenaires intéressés par l'outil Geotrek : le comité de pilotage du projet organise 2 journées de travail et de découverte pour échanger sur les nouveautés en matière d'outdoor, partager des expériences, rencontrer des partenaires et participer à des ateliers. Après de précédentes éditions en 2016, 2017 et 2019, les Rencontres techniques Geotrek 2021 se dérouleront à Aix-en-Provence les jeudi 14 et vendredi 15 octobre.
+</h3>
+
 <p>Créée en 2012, l'application numérique open source Geotrek évolue sans cesse au fil des ans. 
 Elle permet désormais de gérer les sentiers et les sites de pratiques et de valoriser l'offre de randonnées, l'outdoor et les patrimoines d'un territoire. 
 Geotrek permet notamment de mettre en ligne des portails web et des applications mobiles. 
@@ -30,13 +34,13 @@ C'est par exemple le cas pour <a href="https://rando.tourisme-pyrenees-mediterra
 
 <p><img src="https://geotrek.ecrins-parcnational.fr/rencontres/2021/Rencontres-Geotrek-2021-bandeau.jpg" alt="Rencontres Geotrek 2021"/> 
 
+<!--more-->
+	
 <h2>Les Rencontres techniques 2021 : un format sur 2 jours</h2>
 
 <p>Les quatrièmes <strong>Rencontres techniques des utilisateurs de Geotrek auront lieu à Aix-en-Provence les jeudi 14 </strong><strong>et vendredi 15 octobre 2021. </strong></p>
 
 <p>Au programme du premier jour figurent entre autres : un retour sur l'actualité de la communauté des utilisateurs, des présentations des nouveautés et des développements en cours, un bilan de la première mutualisation formalisée à travers un groupement de commande public, des interventions de partenaires pour échanger sur l'ouverture des données et l'interfaçage avec des solutions numériques ou encore des pistes pour enrichir l'outil. Plébiscitée pendant l'édition 2019, la<strong> seconde journée consacrée à des ateliers pratiques</strong> est de nouveau proposée pour se plonger dans des sujets techniques liés à l'installation, au développement, aux usages de Geotrek, etc.</p>
-
-<!--more-->
 
 <h3>Le programme en un coup d'œil</h3>
 

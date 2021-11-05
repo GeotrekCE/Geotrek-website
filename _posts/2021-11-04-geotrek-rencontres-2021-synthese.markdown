@@ -33,6 +33,8 @@ Les 4e Rencontres Geotrek ont eu lieu les 14 et 15 octobre derniers à Aix-en-Pr
   </ul>
 </p>
 
+<!--more-->
+
 <p>
 <img alt="4e Rencontres Geotrek - © C. Monchicourt - PNE" width="49%" style="float:left;" src="https://www.ecrins-parcnational.fr/sites/ecrins-parcnational.com/files/styles/squared/public/article/20543/body/img20211014105439web.jpg?itok=JFHvRKss" title="4e Rencontres Geotrek - © C. Monchicourt - PNE"/>
 
@@ -44,8 +46,6 @@ Les 4e Rencontres Geotrek ont eu lieu les 14 et 15 octobre derniers à Aix-en-Pr
   de l’outil, comme les <a href="https://www.cheminsdesparcs.fr">Parcs naturels régionaux de la région PACA</a> ou le 
   <a href="https://www.randoguadeloupe.gp">Parc national de la Guadeloupe</a>.
 </p>
-
-<!--more-->
 
 <h2>Un nouveau module pour valoriser les activités outdoor</h2>
 

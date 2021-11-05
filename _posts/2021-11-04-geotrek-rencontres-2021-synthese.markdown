@@ -85,9 +85,8 @@ Les 4e Rencontres Geotrek ont eu lieu les 14 et 15 octobre derniers à Aix-en-Pr
 <h3>Geotrek, un outil au service du développement territorial</h3>
 
 <p>Geotrek est un ensemble de 3 outils publiés sous licence libre pour gérer et valoriser les sentiers, l'itinérance, l'outdoor, les patrimoines et l'offre touristique d'un territoire. Il a été conçu en 2012 par les parcs nationaux des Ecrins et du Mercantour avec l'entreprise Makina Corpus. Il est aujourd'hui utilisé par une centaine de structures (parcs nationaux et régionaux, conseils départementaux, communautés de communes, comité de la randonnée et du tourisme...) et continue d'évoluer au fil des projets de la communauté qui s'est construite d'année en année.</p>
-</blockquote>
 
-<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="535" src="https://www.youtube.com/embed/vRfl0ies5GY" title="YouTube video player" width="950"></iframe></p>
+<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="535" src="https://www.youtube.com/embed/vRfl0ies5GY" title="YouTube video player" width="900"></iframe></p>
 
 
 <h3>Pour aller plus loin</h3>

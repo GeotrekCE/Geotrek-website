@@ -16,4 +16,6 @@ For more information, read the article on <a href="http://www.mondepartement04.f
 
 See also the portal launch video: 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/iUNy6yj01w0" frameborder="0" allowfullscreen></iframe>
+<div class="video-responsive">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/iUNy6yj01w0" frameborder="0" allowfullscreen></iframe>
+</div>

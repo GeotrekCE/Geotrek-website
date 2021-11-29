@@ -15,4 +15,6 @@ Pour en savoir plus, lire l'article sur le <a href="http://www.mondepartement04.
 
 Découvrez aussi la vidéo de lancement du portail : 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/iUNy6yj01w0" frameborder="0" allowfullscreen></iframe>
+<div class="video-responsive">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/iUNy6yj01w0" frameborder="0" allowfullscreen></iframe>
+</div>

@@ -11,6 +11,9 @@ le Parc national de Port-Cros décide dans l’urgence de faire appel à
 pour redéployer l’application Geotrek-admin ainsi que le portail public de Geotrek
 [destination.portcros-parcnational.fr](https://destination.portcros-parcnational.fr/).
 
+<img style="max-width: 100%;"
+    alt="Capture d'écran Destination Port-Cros Parc nationale" src="{{ site.baseurl }}/assets/img/2021/2021-port-cros.png">
+
 Anne Monteils et Célia Prat ont su être à l’écoute sur les besoins de notre établissement
 et très réactives sur le redéploiement des deux modules de l’application.
 L’équipe Makina Corpus, dédiée au projet, a travaillé de concert avec l’équipe du Parc national de Port-Cros
@@ -24,6 +27,3 @@ et annonçant l’esprit de notre portail : partage et découverte.
 
 Ainsi, à la saison estivale 2021 le portail Geotrek du Parc national de Port-Cros
 était prêt à recevoir la visite des internautes désirant découvrir notre territoire.
-
-<img style="max-width: 100%;"
-    alt="Capture d'écran Destination Port-Cros Parc nationale" src="{{ site.baseurl }}/assets/img/2021-port-cros.png">

@@ -27,28 +27,9 @@ ref: contact
         </div>
         <div class="grid__item grid__item--70">
             <h3 class="title contact__content__title">Tell us about your project</h3>
-            <form class="contact__form" id="contact-form" method="post" action="#">
-                <p>
-                    <input type="text" name="fname" placeholder="Name*" required autocomplete="name"/>
-                    <input type="email" name="email" placeholder="Email*" required autocomplete="email"/>
-                </p>
-                <p>
-                    <input type="tel" name="phone" placeholder="Phone" autocomplete="tel"/>
-                    <input type="text" name="company" placeholder="Company"/>
-                </p>
-                <p>
-                    <textarea name="message" rows="4" cols="50" placeholder="Message"></textarea>
-                </p>
-                <div hidden class="contact__form__message contact__form__message--error">
-                    An error occurred trying to send message, please try again or mail us directly at <a href="mailto:projets-sig@makina-corpus.com">projets-sig@makina-corpus.com</a>.
-                </div>
-                <div hidden class="contact__form__message contact__form__message--success">
-                    Your message has been sent, we will contact you as quickly as possible.
-                </div>
-                <p>
-                    <input class="button" type="submit" value="Contact us"/>
-                </p>
-            </form>
+            <input class="button" type="submit" value="Contact us" id="feedback-form"/>
         </div>
     </div>
 </section>
+
+{% include contact_form_support.html %}

@@ -1,0 +1,12 @@
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script id="zammad_form_script" src="https://zammad-geotrek.makina-corpus.net/assets/form/form.js"></script>
+<script>
+    $(function() {
+        $('#feedback-form').ZammadForm({
+            messageTitle: 'Formulaire de Contact',
+            messageSubmit: 'Envoyer',
+            messageThankYou: 'Merci pour votre requête  (#%s) ! Nous vous recontacterons dans les meilleurs délais.',
+            modal: true
+        });
+    });
+</script>

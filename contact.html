@@ -20,35 +20,12 @@ ref: contact
         <div class="grid__item grid__item--30">
             <h3 class="title title--medium">Contact</h3>
             <p>Nous vous invitons à nous donner les grandes lignes de votre projet, et nous nous ferons un plaisir de vous contacter afin de bien saisir vos besoins.</p>
-            <div class="contact__field">
-                <h4 class="contact__field__title">Email :</h4>
-                <a class="contact__field__link" href="mailto:projets-sig@makina-corpus.com">projets-sig@makina-corpus.com</a>
-            </div>
         </div>
         <div class="grid__item grid__item--70">
             <h3 class="title contact__content__title">Parlez-nous de votre projet</h3>
-            <form class="contact__form" id="contact-form" method="post" action="#">
-                <p>
-                    <input type="text" name="fname" placeholder="Nom*" required autocomplete="name"/>
-                    <input type="email" name="email" placeholder="Email*" required autocomplete="email"/>
-                </p>
-                <p>
-                    <input type="tel" name="phone" placeholder="Téléphone" autocomplete="tel"/>
-                    <input type="text" name="company" placeholder="Organisation"/>
-                </p>
-                <p>
-                    <textarea name="message" rows="4" cols="50" placeholder="Message"></textarea>
-                </p>
-                <div hidden class="contact__form__message contact__form__message--error">
-                    Une erreur est survenue lors de l'envoi du message, merci de réessayer ou de nous écrire directement à <a href="mailto:projets-sig@makina-corpus.com">projets-sig@makina-corpus.com</a>.
-                </div>
-                <div hidden class="contact__form__message contact__form__message--success">
-                    Votre message a bien été envoyé, nous vous recontacterons dans les plus brefs délais.
-                </div>
-                <p>
-                    <input class="button" type="submit" value="Nous contacter"/>
-                </p>
-            </form>
+            <input class="button" type="submit" value="Nous contacter" id="feedback-form"/>
         </div>
     </div>
 </section>
+
+{% include contact_form_support.html %}

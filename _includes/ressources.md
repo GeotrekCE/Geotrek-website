@@ -30,7 +30,7 @@
 
 ## Rencontres Geotrek
 
-### 2016
+### 2016 - Montpellier
 
 - [Programme des rencontres](http://geotrek.ecrins-parcnational.fr/rencontres/2016/00-Programme-rencontres-utilisateurs-Geotrek-2016.pdf)
 - [Ordre du jour et objectifs](http://geotrek.ecrins-parcnational.fr/rencontres/2016/00-ODJ-rencontres-Geotrek.pdf)
@@ -40,6 +40,27 @@
 - [Comment intégrer un outil de réservation en ligne dans Geotrek ?](http://geotrek.ecrins-parcnational.fr/rencontres/2016/04-reflexion-reservation-Geotrek.pdf)
 - [Quelle gouvernance pour faire vivre et évoluer Geotrek ?](http://geotrek.ecrins-parcnational.fr/rencontres/2016/05-communaute-gouvernance.pdf)
 - [SYNTHESE des rencontres 2016](http://geotrek.ecrins-parcnational.fr/rencontres/2016/2016-10-premieres-rencontres-geotrek-Synthese.pdf)
+
+### 2017 - Montpellier
+
+- [Programme des rencontres](https://geotrek.ecrins-parcnational.fr/rencontres/2017/Rencontres-Geotrek-2017-Programme.pdf)
+- [Geotrek, c'est quoi ?](http://geotrek.ecrins-parcnational.fr/rencontres/2017/presentations/01-geotrek-ckoi.pdf)
+- [Biodiv Sport - LPO](https://geotrek.ecrins-parcnational.fr/rencontres/2017/presentations/01-LPO-PNRHJ-MC-Zones-sensibles.pdf)
+- [Geotrek, l'Open Data et OpenStreetMap - Apitux](http://geotrek.ecrins-parcnational.fr/rencontres/2017/presentations/02-apitux-geotrek-opendata-openstreetmap-montpellier-17-10-18.pdf)
+- [Liens possibles entre Geotrek et OpenStreetMap - Amandine Sahl du PN des Cévennes](https://geotrek.ecrins-parcnational.fr/rencontres/2017/presentations/03-pnc-presentation_osm_geotrek.pdf)
+- [Synthèse des rencontres 2017](https://geotrek.ecrins-parcnational.fr/rencontres/2017/synthese/)
+
+### 2019 - Nîmes
+
+- [Programme des rencontres](https://geotrek.ecrins-parcnational.fr/rencontres/2019/Rencontres-Geotrek-2019-Programme.pdf)
+- [Toutes les présentations](https://geotrek.ecrins-parcnational.fr/rencontres/2019/presentations/)
+
+
+### 2021 - Aix-en-Provence
+
+- [Programme des rencontres](https://geotrek.ecrins-parcnational.fr/rencontres/2021/Rencontres-Geotrek-2021-Programme.pdf)
+- [Toutes les présentations](https://geotrek.ecrins-parcnational.fr/rencontres/2021/presentations/)
+
 
 ## Communauté
 

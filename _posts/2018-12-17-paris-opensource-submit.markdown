@@ -9,7 +9,7 @@ Makina Corpus a participé, les 5 et 6 décembre 2018 à Paris, au Paris Open So
 
 Anne Monteils, responsable du pôle application et SIG, a présenté l’application Geotrek, lors des conférences solutions métier. Il a été question de l'histoire du projet open source et de son modèle économique. Cet atelier a été un succès, la salle était comble.
 
-Retrouvez [les moments fort du POSS sur le blog de Makina Corpus](https://makina-corpus.com/blog/societe/les-moments-forts-de-makina-corpus-au-paris-open-source-summit).
+Retrouvez [les moments fort du POSS sur le blog de Makina Corpus](https://makina-corpus.com/societe/les-moments-forts-de-makina-corpus-au-paris-open-source-summit).
 
 <img style="max-width: 100%;"
     alt="Conférence Geotrek au POSS"

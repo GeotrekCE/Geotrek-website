@@ -11,3 +11,5 @@ par Célia Prat, Emmanuelle Helly, développeuses de l'équipe Geotrek au sein d
 Vous pouvez visualiser la vidéo de la présentation ci-dessous :
 
 <iframe width="900" height="535" src="https://www.youtube.com/embed/eH0lQm_j2fQ?si=eTzp018mB3saU9JU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+Le support de présentation est disponible avec les [ressources partagées de Geotrek](https://geotrek.ecrins-parcnational.fr/ressources/presentations/2022-11-Capitole-du-Libre-Geotrek-Georiviere-Makina-Corpus.pdf).

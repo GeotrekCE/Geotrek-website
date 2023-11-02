@@ -74,14 +74,12 @@ _Il est composé de :_
 - Geotrek-admin pour gérer, créer, importer et exporter du contenu
 - Geotrek-mobile pour publier des randonnées et des offres touristiques dans une application mobile
 - Geotrek-rando pour publier des randonnées, des activités de plein air et des offres touristiques dans une application web.
-</i>
 
 _Voici quelques exemples de portails web Geotrek-rando de certaines organismes :_
 <i>
 - [https://rando.ecrins-parcnational.fr](https://rando.ecrins-parcnational.fr)
 - [https://www.randoguadeloupe.gp](https://www.randoguadeloupe.gp)
 - [https://randonnee-normandie.com](https://randonnee-normandie.com)
-</i>
 
 _Au-delà du partage de logiciels et de ressources financières, nous avons également construit une vision et une approche globales, des idées et des expériences. 
 Plusieurs des organisations qui utilisent aujourd'hui Geotrek n'avaient pas l'habitude ni confiance dans l'open source, et sont maintenant des ambassadeurs de Geotrek, de sa communauté, et de son approche open source._

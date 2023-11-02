@@ -28,13 +28,13 @@ ref: post-20231102
 <!--more-->
 
 <p>
-  Le projet Geotrek figure également dans les 22 nominés pour le prix du public, dont les votes se sont terminés le 30 octobre sur le [site de l'OSOR](https://joinup.ec.europa.eu/collection/open-source-observatory-osor/osor-community-award-2023-voting).
-  Ce prix a été remporté par [BlueHats](https://code.gouv.fr/fr/bluehats/), la communauté d'agents publics contribuant aux logiciels libres, dont fait partie le Parc national des Écrins et le projet Geotrek. 
+  Le projet Geotrek figure également dans les 22 nominés pour le prix du public, dont les votes se sont terminés le 30 octobre sur le <a href="https://joinup.ec.europa.eu/collection/open-source-observatory-osor/osor-community-award-2023-voting" target="_blank">site de l'OSOR</a>.
+  Ce prix a été remporté par <a href="https://code.gouv.fr/fr/bluehats/" target="_blank">BlueHats</a>, la communauté d'agents publics contribuant aux logiciels libres, dont fait partie le Parc national des Écrins et le projet Geotrek. 
   Le projet Geotrek ayant remporté la seconde place de ce prix du public.
 </p>
 <hr>
 <p>
-La candidature du projet Geotrek est disponible sur le [site de l'OSOR](https://joinup.ec.europa.eu/collection/open-source-observatory-osor/geotrek) et traduite ci-dessous : 
+La candidature du projet Geotrek est disponible sur le <a href="https://joinup.ec.europa.eu/collection/open-source-observatory-osor/geotrek" target="_blank">site de l'OSOR</a> et traduite ci-dessous : 
 </p>
 <i>
 <p>
@@ -61,10 +61,10 @@ Nous avons construit le projet avec le Parc national du Mercantour pour regroupe
 Nous avons appris par la suite que lorsque ça marche pour 2, ça marche pour 10, ça marche pour 100...
 </p>
 <p>
-Nous avons fait un appel d'offre imposant l'utilisation de solutions open source et avons sélectionné la société française [Makina Corpus](https://makina-corpus.com), spécialisée dans le développement géographique open source.
+Nous avons fait un appel d'offre imposant l'utilisation de solutions open source et avons sélectionné la société française <a href="https://makina-corpus.com" target="_blank">Makina Corpus</a>, spécialisée dans le développement géographique open source.
 </p>
 <p>
-En 2013, nous avons publié la [première version de Geotrek](https://github.com/GeotrekCE/Geotrek-admin) sous licence BSD.
+En 2013, nous avons publié la <a href="https://github.com/GeotrekCE/Geotrek-admin" target="_blank">première version de Geotrek</a> sous licence BSD.
 </p>
 <p>
 Nous avons commencé à la présenter à différents réseaux, conférences et réunions afin de promouvoir le logiciel ainsi que l'approche open source.
@@ -96,9 +96,9 @@ Il est composé de :
 <p>
 Voici quelques exemples de portails web Geotrek-rando de certaines organismes :
 <ul>
-<li>https://rando.ecrins-parcnational.fr</li>
-<li>https://www.randoguadeloupe.gp</li>
-<li>https://randonnee-normandie.com</li>
+<li><a href="https://rando.ecrins-parcnational.fr" target="_blank">https://rando.ecrins-parcnational.fr</a></li>
+<li><a href="https://www.randoguadeloupe.gp" target="_blank">https://www.randoguadeloupe.gp</a></li>
+<li><a href="https://randonnee-normandie.com" target="_blank">https://randonnee-normandie.com</a></li>
 </ul>
 </p>
 <p>
@@ -110,7 +110,7 @@ Notre expérience, notre projet et notre approche ont également été partagés
 et administrations publiques à construire des projets et des communautés open source pour mettre en commun leurs ressources.
 </p>
 <p>
-Un exemple peut être trouvé [ici](https://joinup.ec.europa.eu/collection/open-source-observatory-osor/news/open-source-management-and-exploring-national-parks).
+Un exemple peut être trouvé <a href="https://joinup.ec.europa.eu/collection/open-source-observatory-osor/news/open-source-management-and-exploring-national-parks" target="_blank">ici</a>.
 </p>
 <p>
 Construire ensemble une solution commune, plus forte et plus grande nous a également permis de construire des standards nationaux et des partenariats avec des plateformes publiques ou privées (françaises et européennes) 

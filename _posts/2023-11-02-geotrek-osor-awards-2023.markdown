@@ -20,7 +20,7 @@ ref: post-20231102
   Un vrai succès quand on sait qu’aujourd’hui plus de 150 parcs naturels régionaux, communautés de communes, départements, offices de tourisme, parcs nationaux… ont déployé Geotrek sur leur propre territoire !
 </p>
 <p>
-  Fort de cette réussite, l’équipe informatique du Parc national a soumis la candidature du projet Geotrek aux OSOR Awards 2023 en septembre dernier. 
+  Fort de cette réussite, l’équipe informatique du Parc national des Écrins a soumis la candidature du projet Geotrek aux OSOR Awards 2023 en septembre dernier. 
   Ces prix décernés par l’Observatoire de l’open source (OSOR), rattaché à la Commission européenne, viennent récompenser et valoriser les meilleures solutions et initiatives open source créées par ou pour les administrations publiques en Europe. Sur les 101 candidatures déposées à travers l’Europe, six ont été nominées comme finalistes du prix du jury… dont Geotrek ! 
   Le gagnant sera désigné à l’occasion des 15 ans de l'OSOR le 21 novembre prochain à Bruxelles.
 </p>

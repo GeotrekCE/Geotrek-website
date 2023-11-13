@@ -20,6 +20,10 @@ Il peut ainsi permettre de partager les données sur les sites web de partenaire
 
 Pour cela, ce widget se connecte à l'API d'un Geotrek-admin pour en récupérer dynamiquement le contenu. Il est alors possible d'en configurer la couleur, le fond de carte, mais aussi de limiter les contenus renvoyés par structure, portail, pratique, communes...
 
+<!--more-->
+
+![image](https://github.com/GeotrekCE/Geotrek-website/assets/4418840/f27556d1-5146-4d17-8833-f22e9e614563)
+
 Le code source du projet et la documentation associée sont disponibles sur [Github](https://github.com/GeotrekCE/geotrek-rando-widget).
 
 Le widget peut être testé et configuré sur [cette page](https://geotrekce.github.io/Geotrek-rando-widget/?path=/story/geotrek-rando-widget--app).

@@ -20,6 +20,10 @@ It can also be used to share data on the websites of regional partners (communit
 
 To do this, this widget connects to the API of a Geotrek-admin to dynamically retrieve the content. It is then possible to configure the colour and background map, as well as limiting the content returned by structure, portal, practice, municipality, etc.
 
+<!--more-->
+
+![image](https://github.com/GeotrekCE/Geotrek-website/assets/4418840/f27556d1-5146-4d17-8833-f22e9e614563)
+
 The project source code and associated documentation are available on [Github](https://github.com/GeotrekCE/geotrek-rando-widget).
 
 The widget can be tested and configured on [this page](https://geotrekce.github.io/Geotrek-rando-widget/?path=/story/geotrek-rando-widget--app).

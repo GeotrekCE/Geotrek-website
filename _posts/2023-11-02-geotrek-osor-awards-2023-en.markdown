@@ -31,7 +31,7 @@ ref: post-20231102
 
 <p>
   The Geotrek project was also one of the 22 nominees for the People's Choice Award, voting for which closed on October 30 on the <a href="https://joinup.ec.europa.eu/collection/open-source-observatory-osor/osor-community-award-2023-voting" target="_blank">OSOR website</a>.
-  This prize was won by <a href="https://code.gouv.fr/fr/bluehats/" target="_blank">BlueHats</a>a>, the community of public-sector contributors to open source software, which includes the Ecrins national park and the Geotrek project. 
+  This prize was won by <a href="https://code.gouv.fr/fr/bluehats/" target="_blank">BlueHats</a>, the community of public-sector contributors to open source software, which includes the Ecrins national park and the Geotrek project. 
   The Geotrek project took second place in these People's Choice Awards.
 </p>
 <hr>

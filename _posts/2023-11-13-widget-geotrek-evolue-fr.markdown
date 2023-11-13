@@ -27,9 +27,9 @@ Chaque structure souhaitant intégrer des randonnées d'un Geotrek-admin dans so
 
 Quelques exemples d'intégration de ce widget : 
 
-- https://www.haut-jura-grandvaux.com/fr/bouger/randos-balades.html
-- https://www.jurabsolu.fr/decouvrez-territoire-jura/randonnees-forets-vignes-jura/
-- https://www.saint-claude-haut-jura.com/itineraire-randonnee-1-1.html 
-- https://geotrek.ecrins-parcnational.fr/ressources/technique/2022-test-widget.html
+- [https://www.haut-jura-grandvaux.com/fr/bouger/randos-balades.html](https://www.haut-jura-grandvaux.com/fr/bouger/randos-balades.html)
+- [https://www.jurabsolu.fr/decouvrez-territoire-jura/randonnees-forets-vignes-jura/](https://www.jurabsolu.fr/decouvrez-territoire-jura/randonnees-forets-vignes-jura/)
+- [https://www.saint-claude-haut-jura.com/itineraire-randonnee-1-1.html](https://www.saint-claude-haut-jura.com/itineraire-randonnee-1-1.html)
+- [https://geotrek.ecrins-parcnational.fr/ressources/technique/2022-test-widget.html](https://geotrek.ecrins-parcnational.fr/ressources/technique/2022-test-widget.html)
 
 Pour en savoir plus, vous pouvez aussi lire l'[article de Makina Corpus concernant ce nouveau widget](https://makina-corpus.com/logiciel-libre/developpement-geotrek-widget-finance-parc-naturel-regional-haut-jura).

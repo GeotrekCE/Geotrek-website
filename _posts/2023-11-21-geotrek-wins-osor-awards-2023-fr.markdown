@@ -11,7 +11,7 @@ ref: post-20231121
   Geotrek, l'application Open Source de gestion et de valorisation de l'offre de randonnée mise au point par un consortium de partenaires publics français a reçu le prix du jury à Bruxelles.
 </h3>
 <p>
-  <img alt="Geotrek gagne un OSOR Awards 2023" src="https://geotrek.ecrins-parcnational.fr/images/OSOR-Awards-Geotrek-2023.jpg" title="OSOR gagne un Awards 2023"/>
+  <img alt="Geotrek gagne un OSOR Awards 2023" src="https://geotrek.ecrins-parcnational.fr/images/OSOR-Awards-Geotrek-2023.jpg" title="OSOR Awards 2023"/>
 </p>
 <h2>Geotrek, élu meilleure initiative par le jury des OSOR Awards 2023</h2>
 <p>
@@ -33,7 +33,7 @@ ref: post-20231121
   </i>
 </p>
 <p>
-  <img alt="Geotrek gagne un OSOR Awards 2023" src="https://www.ecrins-parcnational.fr/sites/ecrins-parcnational.com/files/styles/colorbox/public/article/23186/body/fenakswaaycspt.jpeg" title="OSOR gagne un Awards 2023"/>
+  <img alt="Geotrek gagne un OSOR Awards 2023" src="https://www.ecrins-parcnational.fr/sites/ecrins-parcnational.com/files/styles/colorbox/public/article/23186/body/fenakswaaycspt.jpeg" title="OSOR Awards 2023"/>
 </p>
 
 <h2>Une réussite française et avant tout collective</h2>
@@ -52,7 +52,7 @@ ref: post-20231121
 <h2>Un outil au service de la valorisation des territoires et de la nature</h2>
 <p>
   Au-delà des fonctionnalités de gestion des sentiers, Geotrek permet de structurer l'offre de randonnée et d'activités de pleine nature des territoires. 
-  Ces utilisateurs en font un atout de promotion des territoires. 
+  Ses utilisateurs en font un atout de promotion des territoires. 
   L'outil permet également de faire passer des informations pour découvrir en profondeur les patrimoines des espaces naturels et ruraux, comme sur le portail <a href="https://rando.ecrins-parcnational.fr" target="_blank">Rando Ecrins</a>.
 </p>
 <p>
@@ -73,7 +73,7 @@ ref: post-20231121
   Geotrek ayant remporté la seconde place de ce prix du public.
 </p>
 <p>
-  <img alt="Geotrek gagne un OSOR Awards 2023" src="https://www.ecrins-parcnational.fr/sites/ecrins-parcnational.com/files/styles/colorbox/public/article/23186/body/fermlaxuaalhzn.jpeg" title="OSOR gagne un Awards 2023"/>
+  <img alt="Geotrek gagne un OSOR Awards 2023" src="https://www.ecrins-parcnational.fr/sites/ecrins-parcnational.com/files/styles/colorbox/public/article/23186/body/fermlaxuaalhzn.jpeg" title="OSOR Awards 2023"/>
 </p>
 <p>
   Bravo aux développeurs, à la communauté ainsi qu'aux acteurs publics qui lui ont fait confiance et qui ont soutenu financièrement le projet depuis 2013.

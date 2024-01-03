@@ -60,8 +60,7 @@
 
 #fly1,
 #fly2,
-#fly3,
-#fly4 {
+#fly3 {
   text-align: center;
   pointer-events: all;
   margin: 0 20px 0 0;
@@ -91,13 +90,8 @@ figcaption {
   transform: scale(1.15);
   cursor: pointer;
 }
-#fly4:hover {
-  -webkit-transform: scale(1.15);
-  transform: scale(1.15);
-  cursor: pointer;
-}
 
-#fly1, #fly2, #fly3, #fly4 {
+#fly1, #fly2, #fly3 {
 	margin: 0 20px 0 0;
 }
 

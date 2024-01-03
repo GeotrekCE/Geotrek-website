@@ -290,12 +290,8 @@ $(document).ready(function() {
   document.getElementById("fly2").addEventListener("click", function() {
     map.flyTo([-21.1956612, 55.4892434], 9);
   });
-  // Géosignet Guyane
-  document.getElementById("fly3").addEventListener("click", function() {
-    map.flyTo([2.8543054, -53.1914432], 7);
-  });
   // Géosignet Métropole
-  document.getElementById("fly4").addEventListener("click", function() {
+  document.getElementById("fly3").addEventListener("click", function() {
     map.flyTo([47.0, 2.83832], 6);
   });
 }); /* Fin carte */

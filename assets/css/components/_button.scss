@@ -92,4 +92,16 @@
             color: $violet;
         }
     }
+
+    &--jaune {
+        background: $jaune;
+        border-color: $jaune;
+        color: white;
+        &:hover, &:focus {
+            background-color: transparent;
+            border-color: $jaune;
+            outline-color: $jaune;
+            color: $jaune;
+        }
+    }
 }

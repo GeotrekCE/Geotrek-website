@@ -1,5 +1,5 @@
 ---
-title:  Rando Écrins alias Geotrek-Rando, au salon Destination nature, samedi 29 mars, à Paris
+title:  Rando Écrins alias Geotrek-rando, au salon Destination nature, samedi 29 mars, à Paris
 date:   2014-03-01
 lang: fr
 ref: post-20140301

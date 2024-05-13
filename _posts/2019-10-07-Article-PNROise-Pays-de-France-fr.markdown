@@ -9,7 +9,7 @@ ref: post-20191007
 
 Le Parisien a publié un article le 18 septembre 2019 sur la nouvelle application mobile Rando du Parc Oise-Pays-de-France.
 
-Cet article met en lumière les fonctionnalités de Geotrek-Mobile et son utilisation par un randonneur.
+Cet article met en lumière les fonctionnalités de Geotrek-mobile et son utilisation par un randonneur.
 Il y est détaillé les avantages des notifications pour la mise en valeur des points d'intérêt. L'article 
 revient également sur le rôle que peut jouer l'application pour sensibiliser les usagers aux zones humides du parc, et les comportements à adopter.
 
@@ -17,7 +17,7 @@ L'auteur souligne que l'application est un succès puisque celle-ci comptabilise
 
 Retrouvez l'article sur [Le Parisien](http://www.leparisien.fr/val-d-oise-95/oise-pays-de-france-l-application-dediee-a-la-randonnee-dans-le-pnr-seduit-18-09-2019-8154996.php)
 
-Les 4 parcs naturels d'Ile-de-France disposent [du site Geotrek-Rando](https://rando.pnr-idf.fr) pour valoriser leurs randonnées.
+Les 4 parcs naturels d'Ile-de-France disposent [du site Geotrek-rando](https://rando.pnr-idf.fr) pour valoriser leurs randonnées.
 
 Découvrez l'application mobile sur les stores [Google](https://play.google.com/store/apps/details?id=com.oise.rando) et [Apple](https://itunes.apple.com/us/app/rando-parc-oise-pays-de-france/id1452503010?l=fr&ls=1&mt=8).
 

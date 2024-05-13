@@ -9,8 +9,8 @@
 
         &__item {
             background: white;
-            margin: 0 2rem;
-            padding: 2rem 4rem;
+            margin: 0 1rem;
+            padding: 1rem 2rem;
             border-radius: 4px;
             margin-bottom: 2rem;
 
@@ -19,7 +19,7 @@
             }
 
             @include mq($md) {
-                flex-basis: 33%;
+                flex-basis: 21%;
             }
         }
     }
@@ -152,6 +152,12 @@
     &--violet {
         .features__image {
             border-color: $violet;
+        }
+    }
+
+    &--jaune {
+        .features__image {
+            border-color: $jaune;
         }
     }
 }

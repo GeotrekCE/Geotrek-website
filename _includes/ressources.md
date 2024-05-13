@@ -2,6 +2,7 @@
 
 - [Guide d'installation et configuration de Geotrek-admin](http://geotrek.readthedocs.io/) 🇬🇧
 - [Guide d'installation et configuration de Geotrek-rando](https://github.com/GeotrekCE/Geotrek-rando/blob/master/docs/README.md) 🇬🇧
+- [Guide d'installation et configuration de Geotrek-widget](https://geotrek-rando-widget.readthedocs.io/latest/documentation/introduction/overview.html)
 - [Guide de configuration d'environnement pour Geotrek-mobile](https://github.com/GeotrekCE/Geotrek-mobile/blob/master/README.md) 🇬🇧
 - [Documentation utilisateur de Geotrek-admin](http://geotrek.readthedocs.io/en/master/user-manual.html)
 - [Guide de configuration Geotrek-Suricate](https://demo-admin.geotrek.fr/media/geotrek_suricate_configuration.pdf)

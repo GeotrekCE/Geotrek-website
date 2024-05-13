@@ -1,5 +1,5 @@
 ---
-title: "Widget Geotrek"
+title: "Geotrek-widget"
 date: 2024-02-23
 lang: fr
 ref: post-20240223

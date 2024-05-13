@@ -30,6 +30,5 @@ ref: post-20240326
 
 <p><strong>Et peut-être demain un territoire qui combinera Outdoor et Point de vue HD pour une expérience toujours plus immersive ?</strong> Avec le module Outdoor les possibilités sont infinies !&nbsp;<br><br>Fidèle à notre philosophie, toutes les ressources concernant l’Outdoor dans Geotrek sont accessibles librement :</p>
 <ul>
-    <li><a target="_blank" rel="noopener noreferrer" href="https://geotrek.readthedocs.io/en/2.104.2/usage/touristic-modules.html#activites-outdoor"><b>Documentation du module</b></a>&nbsp;</li>
-    <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/GeotrekCE/Geotrek-admin/tree/master/geotrek/outdoor"><b>Code source</b></a>&nbsp;</li>
+    <li><a target="_blank" rel="noopener noreferrer" href="https://geotrek.readthedocs.io/en/latest/usage/touristic-modules.html#activites-outdoor"><b>Documentation du module</b></a>&nbsp;</li>
 </ul>

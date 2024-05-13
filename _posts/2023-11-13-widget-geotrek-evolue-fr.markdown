@@ -16,7 +16,7 @@ Le Parc naturel régional Loire-Anjou-Touraine vient de financer une série d'é
 - La simplification du déploiement et de la customisation du widget
 
 <img style="max-width: 100%;"
-    alt="Écosystème Geotrek"
+    alt="Widget Geotrek"
     src="{{ site.baseurl }}/assets/img/2023/widget.jpg">
 
 <!--more-->

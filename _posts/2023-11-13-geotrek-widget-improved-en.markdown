@@ -16,7 +16,7 @@ The Loire-Anjou-Touraine regional natural park has just financed a series of cha
 - The simplification of deployment and customisation of the widget
 
 <img style="max-width: 100%;"
-    alt="Écosystème Geotrek"
+    alt="Widget Geotrek"
     src="{{ site.baseurl }}/assets/img/2023/widget.jpg">
 
 <!--more-->

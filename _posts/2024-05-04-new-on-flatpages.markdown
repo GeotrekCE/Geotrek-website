@@ -21,7 +21,7 @@ ref: post-20240405
 <a href="https://www.grand-tour-ecrins.fr/information/1-Le-Grand-Tour-des-Ecrins" target="_blank"><img style="max-width: 100%;" src="{{ site.baseurl }}/assets/img/2024/flatpages_rando_1.png"></a>
 
 <!--more-->
-<div>Le CCTP du projet a été partagé sur <a target="_blank" rel="noopener noreferrer" href="https://geotrek.ecrins-parcnational.fr/ressources/cctp/2023-10-CCTP-PNE-Destination-PNE-Pages-statiques.pdf">https://geotrek.ecrins-parcnational.fr/ressources/cctp/2023-10-CCTP-PNE-Destination-PNE-Pages-statiques.pdf</a> et la consultation a été remportée par Makina Corpus.</div>
+<div>Le cahier des charges du projet a été partagé sur <a target="_blank" rel="noopener noreferrer" href="https://geotrek.ecrins-parcnational.fr/ressources/cctp/2023-10-CCTP-PNE-Destination-PNE-Pages-statiques.pdf">https://geotrek.ecrins-parcnational.fr/ressources/cctp/2023-10-CCTP-PNE-Destination-PNE-Pages-statiques.pdf</a> et la consultation a été remportée par Makina Corpus.</div>
 <div>&nbsp;</div>
 <div>🔍 Voici un résumé des évolutions pour vous permettre de les comprendre et de les prendre en main.</div>
 <div>&nbsp;</div>

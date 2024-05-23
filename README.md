@@ -67,3 +67,6 @@ bundle exec jekyll serve
 ```
 git push origin gh-pages
 ```
+
+<a href="https://territoires.makina-corpus.com/"><img src="https://geotrek.fr/assets/img/logo_makina.svg" alt="Logo MCT" width="125"></a>
+[<img src="https://geonature.fr/img/logo-pne.jpg">](https://www.ecrins-parcnational.fr)

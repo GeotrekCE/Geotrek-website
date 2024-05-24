@@ -4,7 +4,7 @@ Please gives us a visit at [http://geotrek.fr/](http://geotrek.fr/)
 
 ## Publication
 
-Pour toute nouvelle publication, il est important de [respécter une certaine nomenclature](#nommage-des-fichiers).
+Pour toute nouvelle publication, il est important de [respecter une certaine nomenclature](#nommage-des-fichiers).
 
 Les articles se trouvent dans le dossier `_post`:  
 https://github.com/makinacorpus/Geotrek-website/tree/gh-pages/_posts
@@ -20,7 +20,7 @@ https://github.com/makinacorpus/Geotrek-website/tree/gh-pages/_posts
 
 
 #### Enregistrement (commit)
-Pour sauvegarder les modifications, le nouvel article ou la suppression d'un article, il faut ensuite faire un **Commit**. Il suffit d'indiquer un titre et une description pour (ou laisser le texte par défaut) et cliquer sur "Commit changes".
+Pour sauvegarder les modifications, un nouvel article ou la suppression d'un article, il faut ensuite faire un **Commit**. Il suffit d'indiquer un titre et une description pour (ou laisser le texte par défaut) et cliquer sur "Commit changes".
 
  ![](assets/img/tuto/step-3.png)
 

@@ -111,8 +111,11 @@ translate_menu:
       name: "À propos"
       url: "apropos.html"
     ressources:
-      name: "Ressources"
+      name: "Rencontres Geotrek"
       url: "ressources.html"
+    ressources_new:
+      name: "Ressources new"
+      url: "ressources_new.html"
     contact:
       name: "Contact"
       url: "contact.html"

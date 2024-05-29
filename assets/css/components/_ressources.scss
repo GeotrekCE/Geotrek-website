@@ -1,6 +1,203 @@
 body.ressources {
-    .header__content {
-        min-height: 240px;
-        justify-content: center;
+  .header__content {
+    min-height: 240px;
+    justify-content: center;
+  }
+}
+
+section.doc {
+
+  &__content {
+    width: 100%;
+    background: url('../img/basemap.png') center center no-repeat;
+    background-size: cover;
+    color: white;
+    overflow: visible;
+  }
+}
+
+.blocfooter {
+  height: 274px;
+  width: 100%;
+  display: flex;
+  font-weight: bold;
+  font-size: .8rem;
+  background-color: #EEEEEE;
+  margin: 0;
+  overflow: visible;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.other {
+  background-color: #ffffff;
+}
+
+.banner {
+
+  &__bloc {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  &__blocard {
+    display: flex;
+    flex-direction: row;
+
+
+    &__title {
+      font-size: 1.8rem;
+      margin-bottom: 0;
     }
+
+  }
+
+  &__text {
+    text-align: center;
+    color: #383933;
+    font-weight: normal;
+    font-size: 2.5rem;
+    line-height: 1.5em;
+    margin: 15px;
+  }
+
+  &__title {
+    text-align: center;
+    color: #383933;
+    font-weight: normal;
+    font-size: 2.5rem;
+    line-height: 1.5em;
+    margin: 0px;
+    padding: 2rem;
+  }
+
+  &__image {
+    width: 70px;
+    margin: 15px;
+  }
+
+  &__desc {
+    margin-bottom: -5rem;
+    text-align: left;
+    color: #383933;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 1.5em;
+  }
+}
+
+.ressources {
+
+  &__cards {
+    color: $text-color;
+
+    @include mq($md) {
+      flex-wrap: nowrap;
+    }
+
+    &__item {
+      background: white;
+      margin: 0 1rem;
+      padding: 1rem 2rem;
+      border-radius: 4px;
+      margin-bottom: 2rem;
+
+      @include mq($sm) {
+        flex-basis: 40%;
+      }
+
+      @include mq($md) {
+        flex-basis: 21%;
+      }
+    }
+  }
+
+  &__header {
+    padding: 2rem 0 0 0;
+
+
+    &__image {
+      width: 70px;
+      margin-top: 0rem;
+    }
+
+    &__imagetop {
+      width: 110px;
+      margin-top: 0rem;
+    }
+
+    &__title {
+      letter-spacing: 1px;
+      font-size: 1.5rem;
+      margin-bottom: 0;
+      text-transform: uppercase;
+    }
+
+    &__subtitle {
+      margin: 0 auto;
+      padding: 0 0 1.2rem 0;
+      letter-spacing: 1px;
+      max-width: 200px;
+      border-bottom: solid 1px $beige-light;
+    }
+
+    &__desc {
+      margin-bottom: 1.8rem;
+    }
+  }
+
+  &__section {
+    &__header {
+      text-align: center;
+      padding: 2rem 1.2rem;
+    }
+
+    &__title {
+      padding-bottom: 0;
+      margin-bottom: 0;
+      letter-spacing: 1px;
+      font-size: 27px;
+      line-height: 1.5em;
+      text-transform: uppercase;
+
+      @include mq($sm) {
+        font-size: 2.85rem;
+      }
+    }
+
+    &__subtitle {
+      margin: 0;
+      letter-spacing: 1px;
+    }
+
+
+    &__image {
+      width: 100%;
+      height: auto;
+      margin-top: -1.5rem;
+    }
+
+    &:nth-child(odd) {
+      background: $beige-light;
+      margin-bottom: 0;
+      overflow: hidden;
+
+      @include mq($sm) {
+        .grid__item--70 {
+          order: 2
+        }
+      }
+    }
+  }
+
+  &__content {
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+
+    .button {
+      margin-left: 0;
+    }
+  }
 }

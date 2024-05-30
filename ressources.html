@@ -1,28 +1,119 @@
 ---
 layout: default
-title: Rencontres Geotrek
+title: Ressources
 class: ressources
 lang: fr
 ref: ressources
 ---
-
 <header class="header header--ressources">
-    {% include navigation.html %}
-
-    <div class="header__content ressources__header">
-        <h1 class="page__title">Rencontres Geotrek</h1>
-        <h2 class="page__subtitle">pour partager des retours d’expérience</h2>
-    </div>
+  {% include navigation.html %}
+  <div class="header__content ressources__header">
+    <h1 class="page__title">Ressources</h1>
+    <h2 class="page__subtitle">pour tout savoir sur Geotrek</h2>
+  </div>
 </header>
-
-<section class="ressources__content">
-    <div class="grid">
-        <div class="grid__item grid__item--30">
-            <img src="assets/img/home-ui.svg" alt="" style="display: block; max-width: 100%; width: 30em;">
-        </div>
-        <div class="grid__item grid__item--70">
-            {% capture ressources_include %}{% include ressources.md %}{% endcapture %}
-            {{ ressources_include | markdownify }}
-        </div>
+<section class="doc__content">
+  <h3 class="banner__title">Documentation</h3>
+  <div class="ressources__cards griddoc griddoc--center">
+    <div class="ressources__cards__item grid__item">
+      <a href="https://geotrek.readthedocs.io/en/latest/usage/overview.html">
+        <img class="ressources__header__imagetop" src="assets/img/geotrek-admin-user.svg" alt="" />
+        <h2 class="title ressources__header__title">Geotrek-admin utilisation</h2>
+        <p class="ressources__header__desc">Manuel d'utilisation de Geotrek-admin</p>
+      </a>
     </div>
+    <div class="ressources__cards__item grid__item">
+      <a href="https://geotrek.readthedocs.io/en/latest/install/installation.html">
+        <img class="ressources__header__imagetop" src="assets/img/geotrek-admin-install.svg" alt="" />
+        <h2 class="title ressources__header__title">Geotrek-admin installation</h2>
+        <p class="ressources__header__desc">Installation de Geotrek-admin sur votre serveur</p>
+      </a>
+    </div>
+    <div class="ressources__cards__item grid__item">
+      <a href="https://geotrek.readthedocs.io/en/latest/install/configuration.html">
+        <img class="ressources__header__imagetop" src="assets/img/geotrek-admin.svg" alt="" />
+        <h2 class="title ressources__header__title">Geotrek-admin configuration</h2>
+        <p class="ressources__header__desc">Configuration de Geotrek-admin sur votre serveur</p>
+      </a>
+    </div>
+  </div>
+  <div class="ressources__cards griddoc griddoc--center">
+    <div class="ressources__cards__item grid__item">
+      <a href="https://github.com/GeotrekCE/Geotrek-rando-v3/blob/main/docs/installation.md">
+        <img class="ressources__header__imagetop" src="assets/img/geotrek-rando.svg" alt="">
+        <h2 class="title ressources__header__title">Geotrek-rando installation</h2>
+        <p class="ressources__header__desc">Installation de Geotrek-rando sur votre serveur</p>
+      </a>
+    </div>
+    <div class="ressources__cards__item grid__item">
+      <a href="https://github.com/GeotrekCE/Geotrek-rando-v3/blob/main/docs/customization.md">
+        <img class="ressources__header__imagetop" src="assets/img/rando-config.svg" alt="">
+        <h2 class="title ressources__header__title">Geotrek-rando configuration</h2>
+        <p class="ressources__header__desc">Configuration de Geotrek-rando</p>
+      </a>
+    </div>
+    <div class="ressources__cards__item grid__item">
+      <a href="https://geotrek-rando-widget.readthedocs.io/latest/documentation/contribution/development.html">
+        <img class="ressources__header__imagetop" src="assets/img/geotrek-widget.svg" alt="">
+        <h2 class="title ressources__header__title">Geotrek-widget</h2>
+        <p class="ressources__header__desc">Installation et configuration de Geotrek-widget</p>
+      </a>
+    </div>
+  </div>
+  <div class="ressources__cards griddoc griddoc--center">
+    <div class="ressources__cards__item grid__item">
+      <div class="banner__blocard">
+        <img class="ressources__header__image" src="assets/img/link.svg" alt="">
+        <h2 class="banner__blocard__title">Liens rapides</h2>
+      </div>
+      <p class="ressources__header__desc">Installation de Geotrek-admin sur votre serveur</p>
+    </div>
+    <div class="ressources__cards__item grid__item">
+      <div class="banner__blocard">
+        <img class="ressources__header__image" src="assets/img/guide.svg" alt="">
+        <h2 class="title ressources__header__title">Guides</h2>
+      </div>
+      <p class="ressources__header__desc">Installation de Geotrek-admin sur votre serveur</p>
+    </div>
+    <div class="ressources__cards__item grid__item">
+      <div class="banner__blocard">
+        <img class="ressources__header__image" src="assets/img/tutorial.svg" alt="">
+        <h2 class="title ressources__header__title">Tutoriels</h2>
+      </div>
+      <p class="ressources__header__desc">Configuration de Geotrek-admin sur votre serveur</p>
+    </div>
+  </div>
+</section>
+<section class="grid blocfooter banner">
+  <div class="banner__bloc">
+    <h3 class="banner__text">Trouver de l'aide</h3>
+    <img class="banner__image" src="assets/img/help.svg" alt="">
+  </div>
+  <ul class="banner__desc">
+    <li><a href="https://github.com/GeotrekCE" target="_blank">Poser une question technique, remonter un problème</a>
+  </li>
+  <li><a href="https://weblate.makina-corpus.net" target="_blank">Questions fréquentes</a></li>
+</ul>
+</section>
+<section class="grid blocfooter other banner">
+<div class="other banner__bloc">
+  <h3 class="other banner__text">Autres ressources</h3>
+  <img class="other banner__image" src="assets/img/autres.svg" alt="">
+</div>
+<ul class="other banner__desc">
+  <div class="other banner__desc__row">
+    <div class="other banner__desc__columnLeft">
+      <li><a href="https://geotrek.ecrins-parcnational.fr/ressources/outils/" target="_blank">Outils partagés</a>
+    </li>
+    <li><a href="(https://geotrek.ecrins-parcnational.fr/ressources/technique/" target="_blank">Ressources techniques</a></li>
+    <li><a href="https://geotrek.ecrins-parcnational.fr/ressources/stages/" target="_blank">Rapports de stages</a></li>
+    <li><a href="https://geotrek.ecrins-parcnational.fr/ressources/presentations/" target="_blank">Supports de présentations partagés</a></li>
+  </div>
+  <div class="other banner__desc__columnRight">
+    <li><a href="https://geotrek.ecrins-parcnational.fr/ressources/cctp/" target="_blank">Cahiers des charges partagés</a></li>
+    <li><a href="https://pro.auvergnerhonealpes-tourisme.com/passerelle-apidae-geotrek-pour-diffuser-des-itineraires/" target="_blank">Passerelle APIDAE > Geotrek</a></li>
+    <li><a href="https://pro.cirkwi.com/importez-vos-donnees-geotrek-dans-cirkwi/" target="_blank">Importer des données Geotrek dans Cirkwi</a></li>
+  </div>
+</div>
+</ul>
 </section>

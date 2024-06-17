@@ -103,9 +103,3 @@
 - [Geotrek, histoire d'un projet libre](https://makina-corpus.com/python/geotrek-histoire-dun-projet-libre)
 - [Utiliser les topologies PostGIS pour nettoyer un filaire de voirie](https://makina-corpus.com/sig-webmapping/utiliser-les-topologies-postgis-pour-nettoyer-un-filaire-de-voirie)
 
-<!--
-## Présentations
-
-
-
--->

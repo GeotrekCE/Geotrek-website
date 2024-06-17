@@ -9,7 +9,7 @@
    viewBox="0 0 317.4 143.8"
    enable-background="new 0 0 317.4 143.8"
    xml:space="preserve"
-   sodipodi:docname="rando-config.svg"
+   sodipodi:docname="widget-config2.svg"
    inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -24,15 +24,15 @@
    inkscape:pageopacity="0.0"
    inkscape:pagecheckerboard="0"
    showgrid="false"
-   inkscape:zoom="0.74965795"
-   inkscape:cx="24.677921"
-   inkscape:cy="-226.77009"
+   inkscape:zoom="1.4993159"
+   inkscape:cx="44.353562"
+   inkscape:cy="-7.3366793"
    inkscape:window-width="1920"
    inkscape:window-height="1043"
    inkscape:window-x="0"
    inkscape:window-y="0"
    inkscape:window-maximized="1"
-   inkscape:current-layer="g30" />
+   inkscape:current-layer="Calque_1" />
 <g
    id="g30">
 	<g
@@ -44,12 +44,7 @@
    d="M170.7,52.2c-15.9,0-28.9,13-28.9,28.9s13,28.9,28.9,28.9s28.9-13,28.9-28.9S186.7,52.2,170.7,52.2z"
    id="path2" />
 		</g>
-	</g><g
-   id="g6-3"><g
-     id="g4-6"><path
-       fill="#3bb6b3"
-       d="m 170.7,52.2 c -15.9,0 -28.9,13 -28.9,28.9 0,15.9 13,28.9 28.9,28.9 15.9,0 28.9,-13 28.9,-28.9 0,-15.9 -12.9,-28.9 -28.9,-28.9 z"
-       id="path2-7" /></g></g>
+	</g>
 	
 	<g
    id="g22"

@@ -110,10 +110,13 @@ translate_menu:
     apropos:
       name: "À propos"
       url: "apropos.html"
-    ressources:
+    rencontres_old:
+      name: "Rencontres Geotrek old"
+      url: "rencontres_old.html"
+    rencontres:
       name: "Rencontres Geotrek"
       url: "rencontres.html"
-    ressources_new:
+    ressources:
       name: "Ressources"
       url: "ressources.html"
     contact:

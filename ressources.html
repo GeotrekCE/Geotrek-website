@@ -1,10 +1,11 @@
 ---
 layout: default
 title: Ressources
-class: ressources
+class: rencontres
 lang: fr
 ref: ressources
 ---
+
 <header class="header header--ressources">
   {% include navigation.html %}
 
@@ -13,6 +14,7 @@ ref: ressources
     <h2 class="page__subtitle">pour pour tout savoir sur Geotrek</h2>
   </div>
 </header>
+
 
 <section class="doc__content">
   <h3 class="banner__title">Documentation</h3>
@@ -94,11 +96,15 @@ ref: ressources
     <div class="ressources__cards__item grid__item">
       <div class="banner__blocard">
         <img class="ressources__header__image" src="assets/img/link.svg" alt="">
-          <h2 class="title ressources__header__title">Liens rapides</h2>
+        <h2 class="title ressources__header__title">Liens rapides</h2>
       </div>
       <ul class="banner__help">
-        <li><a href="http://geotrekdemo.ecrins-parcnational.fr/" target="_blank">Démonstration de Geotrek-admin (demo / demo)</a></li>
-        </ul>
+        <li><a href="http://geotrekdemo.ecrins-parcnational.fr/" target="_blank">Démo de Geotrek-admin (demo /
+            demo)</a></li>
+        <li><a href="https://demo-rando.geotrek.fr/" target="_blank">Démo de Geotrek-rando</a></li>
+        <li><a href="https://github.com/GeotrekCE/Geotrek-website/wiki/Liste-des-Geotrek-connus" target="_blank">Liste
+            des utilisateurs de Geotrek connus</a></li>
+      </ul>
     </div>
     <div class="ressources__cards__item grid__item">
       <div class="banner__blocard">
@@ -108,7 +114,7 @@ ref: ressources
       <ul class="banner__help">
         <li><a href="https://pro.cirkwi.com/importez-vos-donnees-geotrek-dans-cirkwi/" target="_blank">Importer des
             données Geotrek dans Cirkwi</a></li>
-        </ul>
+      </ul>
     </div>
     <div class="ressources__cards__item grid__item">
       <div class="banner__blocard">
@@ -116,9 +122,12 @@ ref: ressources
         <h2 class="title ressources__header__title">Tutoriels</h2>
       </div>
       <ul class="banner__help">
-        <li><a href="https://makina-corpus.com/devops/draper-des-lignes-sur-un-mnt-avec-postgis" target="_blank">Draper des lignes sur un MNT avec PostGIS</a></li>
-        <li><a href="https://makina-corpus.com/sig-cartographie/utiliser-les-topologies-postgis-pour-nettoyer-un-filaire-de-voirie" target="_blank">Utiliser les topologies PostGIS pour nettoyer un filaire de voirie</a></li>
-        </ul>
+        <li><a href="https://makina-corpus.com/devops/draper-des-lignes-sur-un-mnt-avec-postgis" target="_blank">Draper
+            des lignes sur un MNT avec PostGIS</a></li>
+        <li><a
+            href="https://makina-corpus.com/sig-cartographie/utiliser-les-topologies-postgis-pour-nettoyer-un-filaire-de-voirie"
+            target="_blank">Utiliser les topologies PostGIS pour nettoyer un filaire de voirie</a></li>
+      </ul>
     </div>
   </div>
 </section>
@@ -127,41 +136,54 @@ ref: ressources
     <h3 class="banner__text">Trouver de l'aide</h3>
     <img class="banner__image" src="assets/img/help.svg" alt="">
   </div>
-  <div <h3 class="blochelp">Geotrek-admin</h3>
-    <ul class="banner__help">
-      <li><a href="https://github.com/GeotrekCE" target="_blank">Signaler un bug</a>
-      </li>
-      <li><a href="https://weblate.makina-corpus.net" target="_blank">Poser une question technique ou fonctionnelle</a>
-      </li>
-      <li><a href="https://weblate.makina-corpus.net" target="_blank">Proposer une fonctionnalité</a></li>
-    </ul>
-  </div>
-  <div <h3 class="blochelp">Geotrek-rando</h3>
-    <ul class="banner__help">
-      <li><a href="https://github.com/GeotrekCE" target="_blank">Signaler un bug</a>
-      </li>
-      <li><a href="https://weblate.makina-corpus.net" target="_blank">Poser une question technique ou fonctionnelle</a>
-      </li>
-      <li><a href="https://weblate.makina-corpus.net" target="_blank">Proposer une fonctionnalité</a></li>
-    </ul>
-  </div>
-  <div <h3 class="blochelp">Geotrek-widget</h3>
-    <ul class="banner__help">
-      <li><a href="https://github.com/GeotrekCE" target="_blank">Signaler un bug</a>
-      </li>
-      <li><a href="https://weblate.makina-corpus.net" target="_blank">Poser une question technique ou fonctionnelle</a>
-      </li>
-      <li><a href="https://weblate.makina-corpus.net" target="_blank">Proposer une fonctionnalité</a></li>
-    </ul>
-  </div>
-  <div <h3 class="blochelp">Échanger avec la communauté</h3>
-    <ul class="banner__help">
-      <li><a href="https://github.com/GeotrekCE" target="_blank">Forum</a>
-      </li>
-      <li><a href="https://weblate.makina-corpus.net" target="_blank">Discussion instantanée</a></li>
-    </ul>
+  <div class="container">
+    <div <h3 class="blochelp">Geotrek-admin</h3>
+      <ul class="banner__help">
+        <li><a href="https://github.com/GeotrekCE" target="_blank">Signaler un bug</a>
+        </li>
+        <li><a href="https://weblate.makina-corpus.net" target="_blank">Poser une question technique ou
+            fonctionnelle</a>
+        </li>
+        <li><a href="https://weblate.makina-corpus.net" target="_blank">Proposer une fonctionnalité</a></li>
+      </ul>
+    </div>
+    <div <h3 class="blochelp">Geotrek-rando</h3>
+      <ul class="banner__help">
+        <li><a href="https://github.com/GeotrekCE" target="_blank">Signaler un bug</a>
+        </li>
+        <li><a href="https://weblate.makina-corpus.net" target="_blank">Poser une question technique ou
+            fonctionnelle</a>
+        </li>
+        <li><a href="https://weblate.makina-corpus.net" target="_blank">Proposer une fonctionnalité</a></li>
+      </ul>
+    </div>
+    <div <h3 class="blochelp">Geotrek-widget</h3>
+      <ul class="banner__help">
+        <li><a href="https://github.com/GeotrekCE" target="_blank">Signaler un bug</a>
+        </li>
+        <li><a href="https://weblate.makina-corpus.net" target="_blank">Poser une question technique ou
+            fonctionnelle</a>
+        </li>
+        <li><a href="https://weblate.makina-corpus.net" target="_blank">Proposer une fonctionnalité</a></li>
+      </ul>
+    </div>
+    <div <h3 class="blochelp">Échanger avec la communauté</h3>
+      <ul class="banner__help">
+        <li><a href="https://github.com/GeotrekCE" target="_blank">Forum</a>
+        </li>
+        <li><a href="https://weblate.makina-corpus.net" target="_blank">Discussion instantanée</a></li>
+      </ul>
+    </div>
   </div>
 </section>
+
+
+
+
+
+
+
+
 <section class="grid blocfooter other banner">
   <div class="other banner__bloc">
     <h3 class="other banner__text">Autres ressources</h3>
@@ -173,15 +195,18 @@ ref: ressources
     <li><a href="https://geotrek.ecrins-parcnational.fr/ressources/technique/" target="_blank">Ressources
         techniques</a></li>
 
-    <li><a href="https://geotrek.ecrins-parcnational.fr/ressources/presentations/" target="_blank">Présentations partagées</a></li>
-            <li><a href="https://geotrek.ecrins-parcnational.fr/ressources/cctp/" target="_blank">Cahiers des charges partagés</a></li>
-              <li><a href="https://geotrek.ecrins-parcnational.fr/ressources/articles/" target="_blank">Articles partagés</a></li>
- <li><a href="http://geotrek.ecrins-parcnational.fr/ressources/copil/" target="_blank">Comités de pilotages</a></li>
-  <li><a href="http://geotrek.ecrins-parcnational.fr/ressources/gt/" target="_blank">Groupes de travail</a></li>
+    <li><a href="https://geotrek.ecrins-parcnational.fr/ressources/presentations/" target="_blank">Présentations
+        partagées</a></li>
+    <li><a href="https://geotrek.ecrins-parcnational.fr/ressources/cctp/" target="_blank">Cahiers des charges
+        partagés</a></li>
+    <li><a href="https://geotrek.ecrins-parcnational.fr/ressources/articles/" target="_blank">Articles partagés</a></li>
+    <li><a href="http://geotrek.ecrins-parcnational.fr/ressources/copil/" target="_blank">Comités de pilotages</a></li>
+    <li><a href="http://geotrek.ecrins-parcnational.fr/ressources/gt/" target="_blank">Groupes de travail</a></li>
     <li><a href="https://geotrek.ecrins-parcnational.fr/ressources/stages/" target="_blank">Rapports de stages</a>
     </li>
-   <li><a href="https://geotrek.ecrins-parcnational.fr/ressources/" target="_blank">Toutes les ressources disponibles</a>
-</li>
+    <li><a href="https://geotrek.ecrins-parcnational.fr/ressources/" target="_blank">Toutes les ressources
+        disponibles</a>
+    </li>
 
 
 

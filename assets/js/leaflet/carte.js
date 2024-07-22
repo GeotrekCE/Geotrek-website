@@ -226,6 +226,7 @@ $(document).ready(function() {
     filter2.className = "";
     filter3.className = "";
     filter4.className = "";
+    filter5.className = "";
     user.setFilter(function(f) {
       return true;
     });
@@ -237,6 +238,7 @@ $(document).ready(function() {
     filter2.className = "";
     filter3.className = "";
     filter4.className = "";
+    filter5.className = "";
     user.setFilter(function(f) {
       return (
         f.properties.type === "Parc national" ||
@@ -251,6 +253,7 @@ $(document).ready(function() {
     filter2.className = "active";
     filter3.className = "";
     filter4.className = "";
+    filter5.className = "";
     user.setFilter(function(f) {
       return f.properties.type === "Parc naturel régional";
     });
@@ -262,6 +265,7 @@ $(document).ready(function() {
     filter2.className = "";
     filter3.className = "active";
     filter4.className = "";
+    filter5.className = "";
     user.setFilter(function(f) {
       return f.properties.type === "Conseil départemental";
     });
@@ -273,6 +277,24 @@ $(document).ready(function() {
     filter2.className = "";
     filter3.className = "";
     filter4.className = "active";
+    filter5.className = "";
+    user.setFilter(function(f) {
+      return (
+        f.properties.type === "Autre" ||
+        f.properties.type === "LPO" ||
+        f.properties.type === "CDRP"
+      );
+    });
+  };
+
+  filter5.onclick = function(i) {
+    /* Rend actif les autres organismes publics */
+    filterall.className = "";
+    filter1.className = "";
+    filter2.className = "";
+    filter3.className = "";
+    filter4.className = "";
+    filter5.className = "active";
     user.setFilter(function(f) {
       return (
         f.properties.type === "Autre" ||

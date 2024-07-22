@@ -297,9 +297,7 @@ $(document).ready(function() {
     filter5.className = "active";
     user.setFilter(function(f) {
       return (
-        f.properties.type === "Autre" ||
-        f.properties.type === "LPO" ||
-        f.properties.type === "CDRP"
+        f.properties.type === "Région"
       );
     });
   };

@@ -165,9 +165,11 @@ $(document).ready(function() {
           ? "#50AF55"
           : a == "Conseil départemental"
             ? "#561FA8"
-            : a == "Autre"
-              ? "#F85446"
-              : "#ff0000";
+            : a == "Région"
+              ? "#008cff"
+              : a == "Autre"
+                  ? "#F85446"
+                  : "#ff0000";
   }
 
   /* Fonction d'intéraction liées à la souris'*/

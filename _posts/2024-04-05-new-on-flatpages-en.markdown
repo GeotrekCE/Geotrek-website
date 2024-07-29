@@ -1,5 +1,5 @@
 ---
-title: "Geotrek expands its editorial section"
+title: "Geotrek expands its editorial section !"
 date: 2024-04-05
 lang: en
 ref: post-20240405

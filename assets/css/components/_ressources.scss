@@ -1,6 +1,318 @@
 body.ressources {
-    .header__content {
-        min-height: 240px;
-        justify-content: center;
+  .header__content {
+    min-height: 240px;
+    justify-content: center;
+  }
+}
+
+section.doc {
+
+  &__content {
+    width: 100%;
+    background: url('../img/basemap.png') center center no-repeat;
+    background-size: cover;
+    color: white;
+    overflow: visible;
+  }
+}
+
+.blocfooter {
+  width: 100%;
+  display: flex;
+  font-weight: bold;
+  font-size: .8rem;
+  background-color: #EEEEEE;
+  margin: 0;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.container {
+  column-count: 1;
+
+  @include mq($sm) {
+    column-count: 2;
+  }
+
+  @include mq($md) {
+    column-count: 4;
+  }
+}
+
+.blochelp {
+  width: 100%;
+  display: flex;
+  font-weight: bold;
+  font-size: 1.3rem;
+  background-color: #EEEEEE;
+  padding-top: 20px;
+  margin: 0;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+
+.other {
+  background-color: #ffffff;
+}
+
+.banner {
+
+  &__bloc {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  &__blocard {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    @include mq($sm) {
+      justify-content: center;
     }
+
+
+    &__title {
+      font-size: 1.8rem;
+      margin-bottom: 0;
+    }
+
+  }
+
+  &__text {
+    text-align: center;
+    color: #383933;
+    font-weight: normal;
+    font-size: 2.5rem;
+    line-height: 1.5em;
+    margin: 15px;
+  }
+
+  &__title {
+    text-align: center;
+    color: #383933;
+    font-weight: normal;
+    font-size: 2.5rem;
+    line-height: 1.5em;
+    margin: 0px;
+    padding: 2rem;
+  }
+
+  &__textrencontres {
+    color: #383933;
+    text-align: justify;
+    max-width: 1345px;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin: auto;
+    padding: 1rem;
+  }
+
+  &__subtitle {
+    text-align: center;
+    color: #383933;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 1.5em;
+    text-decoration-line: underline;
+
+    @include mq($md) {
+      text-align: left;
+      margin-left: 12.7em;
+    }
+
+
+  }
+
+  &__headline {
+    text-align: center;
+    color: #383933;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1.5em;
+  }
+
+  &__image {
+    width: 40px;
+    height: 40px;
+    margin: 15px;
+  }
+
+
+  &__help {
+    text-align: left;
+    color: #383933;
+    font-weight: normal;
+    font-size: 1.1rem;
+    line-height: 1.5;
+
+  }
+
+  &__desc {
+    text-align: left;
+    text-decoration: none;
+    color: #383933;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1.5;
+
+    &__a {
+      text-decoration: none;
+      font-size: medium;
+      font-family: "Raleway", Helvetica, Arial, sans-serif;
+      font-size: 13px;
+      color: #383933;
+      line-height: 1.8em;
+
+      &:hover,
+      &:focus {
+        color: $green-dark;
+      }
+    }
+
+    @include mq($md) {
+      columns: 3;
+    }
+
+  }
+
+}
+
+.ressources {
+
+  &__cards {
+    color: $text-color;
+    text-align: center;
+
+    @include mq($sm) {
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: center;
+      text-align: left;
+    }
+
+    &__item {
+      margin: 0 1rem 2rem;
+      background: white;
+      padding: 2rem;
+      border-radius: 4px;
+
+      @include mq($sm) {
+        padding: 1rem;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      @include mq($sm) {
+        flex-basis: 21%;
+      }
+    }
+  }
+
+  &__header {
+    padding: 2rem 0 0 0;
+
+
+    &__image {
+      width: 70px;
+      margin-top: 0rem;
+    }
+
+    &__imageyear {
+      width: 50px;
+      margin-top: 0rem;
+    }
+
+    &__imagetop {
+      width: 110px;
+      margin-top: 0rem;
+    }
+
+    &__title {
+      letter-spacing: 1px;
+      font-size: 1.4rem;
+      margin-bottom: 0;
+      text-transform: uppercase;
+
+    }
+
+    &__titleyear {
+      letter-spacing: 1px;
+      font-size: 1.4rem;
+      margin-bottom: 0;
+      margin-left: 10px;
+    }
+
+    &__subtitle {
+      margin: 0 auto;
+      padding: 0 0 1.2rem 0;
+      letter-spacing: 1px;
+      max-width: 200px;
+      border-bottom: solid 1px $beige-light;
+    }
+
+    &__desc {
+      text-decoration: underline;
+    }
+  }
+
+  &__section {
+    &__header {
+      text-align: center;
+      padding: 2rem 1.2rem;
+    }
+
+    &__title {
+      padding-bottom: 0;
+      margin-bottom: 0;
+      letter-spacing: 1px;
+      font-size: 27px;
+      line-height: 1.5em;
+      text-transform: uppercase;
+
+      @include mq($sm) {
+        font-size: 2.85rem;
+      }
+    }
+
+    &__subtitle {
+      margin: 0;
+      letter-spacing: 1px;
+    }
+
+
+    &__image {
+      width: 100%;
+      height: auto;
+      margin-top: -1.5rem;
+    }
+
+    &:nth-child(odd) {
+      background: $beige-light;
+      margin-bottom: 0;
+      overflow: hidden;
+
+      @include mq($sm) {
+        .grid__item--70 {
+          order: 2
+        }
+      }
+    }
+  }
+
+  &__content {
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+
+    .button {
+      margin-left: 0;
+    }
+  }
 }

@@ -24,6 +24,11 @@ Tous les modules de valorisation de Geotrek-admin disposent désormais d'une API
 
 Un module spécifique de signalements permet aux visiteurs du site de valorisation de faire remonter des problèmes rencontrés sur leur trajet (dépôt de pollution, conflit d'usage...).
 
+<img style="max-width: 100%;"
+    alt="Barre d'activité d'Escapade62"
+    src="{{ site.baseurl }}/assets/img/newfeatures-outdoor-cd62.png">
+
+
 <!--more-->
 
 ### Nouvelles fonctionnalités métier

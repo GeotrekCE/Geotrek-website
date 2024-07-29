@@ -4,31 +4,15 @@
 - [Guide d'installation et configuration de Geotrek-rando](https://github.com/GeotrekCE/Geotrek-rando/blob/master/docs/README.md) 🇬🇧
 - [Guide d'installation et configuration de Geotrek-widget](https://geotrek-rando-widget.readthedocs.io/latest/documentation/introduction/overview.html)
 - [Guide de configuration d'environnement pour Geotrek-mobile](https://github.com/GeotrekCE/Geotrek-mobile/blob/master/README.md) 🇬🇧
-- [Documentation utilisateur de Geotrek-admin](http://geotrek.readthedocs.io/en/master/user-manual.html)
+- [Documentation utilisateur de Geotrek-admin](https://geotrek.readthedocs.io/en/latest/usage/overview.html)
 - [Guide de configuration Geotrek-Suricate](https://demo-admin.geotrek.fr/media/geotrek_suricate_configuration.pdf)
 
-## Tutoriels
-
-- [Installation de Geotrek-admin et Geotrek-rando pas à pas](http://geotrek.ecrins-parcnational.fr/articles/en/2018-02-geotrek-jamaica.html) 🇬🇧
-- [Importer une couche de tronçons dans Geotrek](https://makina-corpus.com/blog/metier/2014/importer-une-couche-de-troncons-dans-geotrek)
-- [Tutoriel de saisie des randos au PNR Grands Causses](http://geotrek.ecrins-parcnational.fr/ressources/outils/2016-06-tutoriel-saisie-PNRGC-V8.pdf)
-- [Présentation des fonctionnalités, de la saisie, des droits, du multistructure...](http://geotrek.ecrins-parcnational.fr/ressources/outils/2014-04-Geotrek-Fonctionnalites.pdf)
-
-## Vidéos
-
-- [Geotrek - Présentation du projet et de sa communauté](https://www.youtube.com/watch?v=vRfl0ies5GY)
-- [Tutoriels vidéo sur l'utilisation de Geotrek-admin](https://www.youtube.com/playlist?list=PLHLOpkozXefCg3gPfCKdmfNqTxG6TAcVH)
-- [Présentation de Rando Ecrins](https://www.youtube.com/watch?v=Jm3anSjly0Y)
-- [Présentation de Rando Guadeloupe](https://www.youtube.com/watch?v=Jq7PJ7C3_84)
-- [Présentation de Rando Mercantour Marittime](https://www.youtube.com/watch?v=D8jDpvP6U80)
-- [Présentation de Chemins des Parcs (PACA)](https://www.youtube.com/watch?v=tNBcXxZTAjA)
 
 ## Revue de presse
 
 - 2021-02 [Geotrek : du logiciel libre à la création d’un écosystème numérique de la randonnée (La Banque des Territoires)](https://www.banquedesterritoires.fr/geotrek-du-logiciel-libre-la-creation-dun-ecosysteme-numerique-de-la-randonnee)
 - 2021-01 [Le projet Geotrek valorise la collaboration autour de logiciels libres](https://geotrek.fr/2021/01/05/geotrek-opensource.html)
 - 2014-09 [Geotrek : Tout sur les sentiers... en ligne (Espaces Naturels)](http://www.espaces-naturels.info/geotrek-tout-sur-sentiers-en-ligne)
-- 2013-11 [Geotrek : le portail rando pour tous les mordus de randonnées (i-trekkings.net)](http://www.i-trekkings.net/news/index.php?val=2369_geotrek+portail+rando+pour+tous+mordus+randonnees)
 - 2013-10 [Geotrek : l’application de Makina Corpus pour répertorier, gérer et valoriser les sentiers (Decryptageo)](http://decryptageo.fr/geotrek-lapplication-de-makina-corpus-pour-repertorier-gerer-et-valoriser-les-sentiers/)
 - 2013-10 [Geotrek : gérer et valoriser ses sentiers (Geomatique Expert)](http://geotrek.ecrins-parcnational.fr/ressources/articles/2013-06-GE92-geotrek.pdf)
 
@@ -119,9 +103,3 @@
 - [Geotrek, histoire d'un projet libre](https://makina-corpus.com/python/geotrek-histoire-dun-projet-libre)
 - [Utiliser les topologies PostGIS pour nettoyer un filaire de voirie](https://makina-corpus.com/sig-webmapping/utiliser-les-topologies-postgis-pour-nettoyer-un-filaire-de-voirie)
 
-<!--
-## Présentations
-
-
-
--->

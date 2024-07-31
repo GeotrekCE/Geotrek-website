@@ -55,6 +55,8 @@ $(document).ready(function() {
   // 	errorTileUrl: "assets/images/empty.png",
   // 	}).addTo(map);
 
+  let id_setTimeout = null;
+
   /* couche de polygone: Parc naturel - National*/
   $.getJSON(
     /* Appel Ajax vers le fichier geojson*/
@@ -66,8 +68,27 @@ $(document).ready(function() {
         onEachFeature: function(f, layer) {
           /* sur chaque fonctionnalité on réalise les actions suivantes: */
           layer.on({
-            mouseover: function(e) {displayPopup(e, f)},
-            click:  function(e) {displayPopup(e, f)},
+            mouseover: function(e) {
+              map.closePopup();
+              displayPopup(e, f)
+            },
+            mousemove: function(e) {
+              if (id_setTimeout !== null) {
+                clearTimeout(id_setTimeout);
+              } else {
+                displayPopup(e, f)
+              }
+              id_setTimeout = setTimeout(function() {
+                map.closePopup();
+                id_setTimeout = null;
+              }, 3000)
+            },
+            click:  function(e) {
+              if (id_setTimeout !== null) {
+                clearTimeout(id_setTimeout);
+              }
+              displayPopup(e, f);
+            },
             // mouseout: function() {
             //   map.closePopup(popup);
             // },

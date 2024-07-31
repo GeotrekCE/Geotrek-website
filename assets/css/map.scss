@@ -241,3 +241,10 @@ figcaption {
 .popup-text {
   font-size: 14px;
 }
+
+#map {
+  .leaflet-popup-content-wrapper,
+  .leaflet-popup-tip-container .leaflet-popup-tip {
+    background: #FFFFFFDD;
+  }
+}

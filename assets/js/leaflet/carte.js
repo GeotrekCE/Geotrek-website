@@ -179,20 +179,20 @@ $(document).ready(function() {
   /* Fonction de catégorisation des polygone*/
   function getColor(a) {
     return a == "Parc naturel régional"
-      ? "#BEC931"
+      ? "#A9BF04"
       : a == "Parc national Français"
-        ? "#50AF55"
+        ? "#50af55"
         : a == "Parc national"
-          ? "#50AF55"
+          ? "#50af55"
           : a == "Conseil départemental"
             ? "#561FA8"
             : a == "Région"
-              ? "#008cff"
+              ? "#0b56c2"
               : a == "Communauté de communes"
-                ? "#E27325"
+                ? "#FA2C2C"
                 : a == "Autre"
-                    ? "#F85446"
-                    : "#ff0000";
+                    ? "#FF7505"
+                    : "#FF7505";
   }
 
   /* Fonction d'intéraction liées à la souris'*/
@@ -344,7 +344,7 @@ $(document).ready(function() {
     filter6.className = "active";
     user.setFilter(function(f) {
       return (
-        f.properties.type === "Communauté de commune"
+        f.properties.type === "Communauté de communes"
       );
     });
   };

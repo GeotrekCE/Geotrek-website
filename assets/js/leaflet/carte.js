@@ -188,9 +188,11 @@ $(document).ready(function() {
             ? "#561FA8"
             : a == "Région"
               ? "#008cff"
-              : a == "Autre"
-                  ? "#F85446"
-                  : "#ff0000";
+              : a == "Communauté de communes"
+                ? "#E27325"
+                : a == "Autre"
+                    ? "#F85446"
+                    : "#ff0000";
   }
 
   /* Fonction d'intéraction liées à la souris'*/
@@ -250,6 +252,7 @@ $(document).ready(function() {
     filter3.className = "";
     filter4.className = "";
     filter5.className = "";
+    filter6.className = "";
     user.setFilter(function(f) {
       return true;
     });
@@ -262,6 +265,7 @@ $(document).ready(function() {
     filter3.className = "";
     filter4.className = "";
     filter5.className = "";
+    filter6.className = "";
     user.setFilter(function(f) {
       return (
         f.properties.type === "Parc national" ||
@@ -277,6 +281,7 @@ $(document).ready(function() {
     filter3.className = "";
     filter4.className = "";
     filter5.className = "";
+    filter6.className = "";
     user.setFilter(function(f) {
       return f.properties.type === "Parc naturel régional";
     });
@@ -289,6 +294,7 @@ $(document).ready(function() {
     filter3.className = "active";
     filter4.className = "";
     filter5.className = "";
+    filter6.className = "";
     user.setFilter(function(f) {
       return f.properties.type === "Conseil départemental";
     });
@@ -301,6 +307,7 @@ $(document).ready(function() {
     filter3.className = "";
     filter4.className = "active";
     filter5.className = "";
+    filter6.className = "";
     user.setFilter(function(f) {
       return (
         f.properties.type === "Autre" ||
@@ -318,9 +325,26 @@ $(document).ready(function() {
     filter3.className = "";
     filter4.className = "";
     filter5.className = "active";
+    filter6.className = "";
     user.setFilter(function(f) {
       return (
         f.properties.type === "Région"
+      );
+    });
+  };
+
+  filter6.onclick = function(i) {
+    /* Rend actif les autres organismes publics */
+    filterall.className = "";
+    filter1.className = "";
+    filter2.className = "";
+    filter3.className = "";
+    filter4.className = "";
+    filter5.className = "";
+    filter6.className = "active";
+    user.setFilter(function(f) {
+      return (
+        f.properties.type === "Communauté de commune"
       );
     });
   };

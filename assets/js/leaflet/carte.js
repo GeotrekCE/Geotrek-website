@@ -189,10 +189,10 @@ $(document).ready(function() {
             : a == "Région"
               ? "#0b56c2"
               : a == "Communauté de communes"
-                ? "#FA2C2C"
+                ? "#FF7505"
                 : a == "Autre"
-                    ? "#FF7505"
-                    : "#FF7505";
+                    ? "#FA2C2C"
+                    : "#FA2C2C";
   }
 
   /* Fonction d'intéraction liées à la souris'*/

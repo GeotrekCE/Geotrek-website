@@ -68,7 +68,7 @@ translate_menu:
       name: "Inicio"
       url: "index-es.html"
     produit:
-      name: "Producto"
+      name: "Productos"
       url: "produit-es.html"
     utilisateurs:
       name: "Usuarios"
@@ -85,7 +85,7 @@ translate_menu:
       name: "Home"
       url: "index-en.html"
     produit:
-      name: "Product"
+      name: "Products"
       url: "produit-en.html"
     utilisateurs:
       name: "Users"
@@ -102,7 +102,7 @@ translate_menu:
       name: "Accueil"
       url: "index.html"
     produit:
-      name: "Produit"
+      name: "Produits"
       url: "produit.html"
     utilisateurs:
       name: "Utilisateurs"

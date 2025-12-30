@@ -359,7 +359,7 @@ $(document).ready(function() {
   };
 
   filter7.onclick = function(i) {
-    /* Rend actif les fédérationsq sportives */
+    /* Rend actif les fédérations sportives */
     filterall.className = "";
     filter1.className = "";
     filter2.className = "";

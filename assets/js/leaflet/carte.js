@@ -190,9 +190,11 @@ $(document).ready(function() {
               ? "#0b56c2"
               : a == "Communauté de communes"
                 ? "#FF7505"
-                : a == "Autre"
-                    ? "#FA2C2C"
-                    : "#FA2C2C";
+                 : a == "Fédérations sportives"
+                   ? "#070359ff"
+                   : a == "Autre"
+                     ? "#FA2C2C"
+                     : "#FA2C2C";
   }
 
   /* Fonction d'intéraction liées à la souris'*/
@@ -253,6 +255,7 @@ $(document).ready(function() {
     filter4.className = "";
     filter5.className = "";
     filter6.className = "";
+    filter7.className = "";
     user.setFilter(function(f) {
       return true;
     });
@@ -266,6 +269,7 @@ $(document).ready(function() {
     filter4.className = "";
     filter5.className = "";
     filter6.className = "";
+    filter7.className = "";
     user.setFilter(function(f) {
       return (
         f.properties.type === "Parc national" ||
@@ -282,12 +286,13 @@ $(document).ready(function() {
     filter4.className = "";
     filter5.className = "";
     filter6.className = "";
+    filter7.className = "";
     user.setFilter(function(f) {
       return f.properties.type === "Parc naturel régional";
     });
   };
   filter3.onclick = function(i) {
-    /* Rend actif que le/les conseil departemetal*/
+    /* Rend actif que les conseils départemetaux*/
     filterall.className = "";
     filter1.className = "";
     filter2.className = "";
@@ -295,6 +300,7 @@ $(document).ready(function() {
     filter4.className = "";
     filter5.className = "";
     filter6.className = "";
+    filter7.className = "";
     user.setFilter(function(f) {
       return f.properties.type === "Conseil départemental";
     });
@@ -308,6 +314,7 @@ $(document).ready(function() {
     filter4.className = "active";
     filter5.className = "";
     filter6.className = "";
+    filter7.className = "";
     user.setFilter(function(f) {
       return (
         f.properties.type === "Autre" ||
@@ -318,7 +325,7 @@ $(document).ready(function() {
   };
 
   filter5.onclick = function(i) {
-    /* Rend actif les autres organismes publics */
+    /* Rend actif les régions */
     filterall.className = "";
     filter1.className = "";
     filter2.className = "";
@@ -326,6 +333,7 @@ $(document).ready(function() {
     filter4.className = "";
     filter5.className = "active";
     filter6.className = "";
+    filter7.className = "";
     user.setFilter(function(f) {
       return (
         f.properties.type === "Région"
@@ -334,7 +342,7 @@ $(document).ready(function() {
   };
 
   filter6.onclick = function(i) {
-    /* Rend actif les autres organismes publics */
+    /* Rend actif les communautés de communes */
     filterall.className = "";
     filter1.className = "";
     filter2.className = "";
@@ -342,9 +350,27 @@ $(document).ready(function() {
     filter4.className = "";
     filter5.className = "";
     filter6.className = "active";
+    filter7.className = "";
     user.setFilter(function(f) {
       return (
         f.properties.type === "Communauté de communes"
+      );
+    });
+  };
+
+  filter7.onclick = function(i) {
+    /* Rend actif les fédérationsq sportives */
+    filterall.className = "";
+    filter1.className = "";
+    filter2.className = "";
+    filter3.className = "";
+    filter4.className = "";
+    filter5.className = "";
+    filter6.className = "";
+    filter7.className = "active";
+    user.setFilter(function(f) {
+      return (
+        f.properties.type === "Fédérations sportives"
       );
     });
   };

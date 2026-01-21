@@ -145,6 +145,7 @@ figcaption {
 #filter4,
 #filter5,
 #filter6,
+#filter7,
 #filterall {
   pointer-events: all;
   /* Boutton permettant l'isolement d'un type de structure*/
@@ -195,6 +196,11 @@ figcaption {
   opacity: 0.7;
 }
 
+#filter6 {
+  background: #522200;
+  opacity: 0.7;
+}
+
 #filterall {
   background: #221157;
   opacity: 0.7;
@@ -232,6 +238,12 @@ figcaption {
 }
 
 #filter6:hover {
+  width: 200px;
+  text-decoration-line: underline;
+  transition: all 0.2s linear 0s;
+}
+
+#filter7:hover {
   width: 200px;
   text-decoration-line: underline;
   transition: all 0.2s linear 0s;

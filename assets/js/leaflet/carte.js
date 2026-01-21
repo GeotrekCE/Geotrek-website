@@ -255,7 +255,7 @@ $(document).ready(function() {
     filter4.className = "";
     filter5.className = "";
     filter6.className = "";
-    filter7.className = "";
+    // filter7.className = "";
     user.setFilter(function(f) {
       return true;
     });
@@ -269,7 +269,7 @@ $(document).ready(function() {
     filter4.className = "";
     filter5.className = "";
     filter6.className = "";
-    filter7.className = "";
+    // filter7.className = "";
     user.setFilter(function(f) {
       return (
         f.properties.type === "Parc national" ||
@@ -286,7 +286,7 @@ $(document).ready(function() {
     filter4.className = "";
     filter5.className = "";
     filter6.className = "";
-    filter7.className = "";
+    // filter7.className = "";
     user.setFilter(function(f) {
       return f.properties.type === "Parc naturel régional";
     });
@@ -300,7 +300,7 @@ $(document).ready(function() {
     filter4.className = "";
     filter5.className = "";
     filter6.className = "";
-    filter7.className = "";
+    // filter7.className = "";
     user.setFilter(function(f) {
       return f.properties.type === "Conseil départemental";
     });
@@ -314,7 +314,7 @@ $(document).ready(function() {
     filter4.className = "active";
     filter5.className = "";
     filter6.className = "";
-    filter7.className = "";
+    // filter7.className = "";
     user.setFilter(function(f) {
       return (
         f.properties.type === "Autre" ||
@@ -333,7 +333,7 @@ $(document).ready(function() {
     filter4.className = "";
     filter5.className = "active";
     filter6.className = "";
-    filter7.className = "";
+    // filter7.className = "";
     user.setFilter(function(f) {
       return (
         f.properties.type === "Région"
@@ -350,7 +350,7 @@ $(document).ready(function() {
     filter4.className = "";
     filter5.className = "";
     filter6.className = "active";
-    filter7.className = "";
+    // filter7.className = "";
     user.setFilter(function(f) {
       return (
         f.properties.type === "Communauté de communes"
@@ -358,22 +358,22 @@ $(document).ready(function() {
     });
   };
 
-  filter7.onclick = function(i) {
-    /* Rend actif les fédérations sportives */
-    filterall.className = "";
-    filter1.className = "";
-    filter2.className = "";
-    filter3.className = "";
-    filter4.className = "";
-    filter5.className = "";
-    filter6.className = "";
-    filter7.className = "active";
-    user.setFilter(function(f) {
-      return (
-        f.properties.type === "Fédérations sportives"
-      );
-    });
-  };
+  // filter7.onclick = function(i) {
+  //   /* Rend actif les fédérations sportives */
+  //   filterall.className = "";
+  //   filter1.className = "";
+  //   filter2.className = "";
+  //   filter3.className = "";
+  //   filter4.className = "";
+  //   filter5.className = "";
+  //   filter6.className = "";
+  //   filter7.className = "active";
+  //   user.setFilter(function(f) {
+  //     return (
+  //       f.properties.type === "Fédérations sportives"
+  //     );
+  //   });
+  // };
 
   // Géosignet Guadeloupe
   document.getElementById("fly1").addEventListener("click", function() {

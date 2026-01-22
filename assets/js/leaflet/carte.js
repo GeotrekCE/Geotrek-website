@@ -135,6 +135,16 @@ $(document).ready(function() {
     }
   );
 
+// Parc naturel régional
+// Parc national Français
+// Parc national
+
+// Conseil départemental
+// Région
+// Communauté de communes
+// Fédérations sportives
+// Autre
+
   function displayPopup(e, feature) {
     /* Evenement au clic pour l'affichage des popup*/
     cont_user =
@@ -257,7 +267,17 @@ $(document).ready(function() {
     filter6.className = "";
     filter7.className = "";
     user.setFilter(function(f) {
-      return true;
+      return (
+        // All layers without region and fédérations sportives
+        f.properties.type === "Parc national" ||
+        f.properties.type === "Parc national Français" ||
+        f.properties.type === "Parc naturel régional" ||
+        f.properties.type === "Conseil départemental" ||
+        f.properties.type === "Autre" ||
+        f.properties.type === "LPO" ||
+        f.properties.type === "CDRP"||
+        f.properties.type === "Communauté de communes"
+      );
     });
   };
   filter1.onclick = function(i) {

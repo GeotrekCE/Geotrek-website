@@ -131,19 +131,12 @@ $(document).ready(function() {
         ) {
           layer.bringToFront();
         }
+        if (layer.feature.properties.type === "Région" || layer.feature.properties.type === "Fédérations sportives") {
+          map.removeLayer(layer)
+        }
       });
     }
   );
-
-// Parc naturel régional
-// Parc national Français
-// Parc national
-
-// Conseil départemental
-// Région
-// Communauté de communes
-// Fédérations sportives
-// Autre
 
   function displayPopup(e, feature) {
     /* Evenement au clic pour l'affichage des popup*/

@@ -1,19 +1,15 @@
 ---
-
 title: "Geotrek National Days 2026"
 date: 2026-05-29
 lang: en
 ref: post-20260529
-------------------
-
+---
 <p>From <strong>June 3 to 5, 2026</strong>, the Geotrek community will gather in <strong>Millau, France</strong> for the 2026 Geotrek National Meetings, three days dedicated to sharing experiences, discussing Geotrek use cases and discovering the latest developments of the solution.</p>
 
 <a href="#" target="_blank">
     <img style="max-width: 100%;" src="{{ site.baseurl }}/assets/img/2026/rencontres2026.jpeg">
 </a>
-
 <!--more-->
-
 <p>The event will bring together users, contributors, developers and partners from across the Geotrek community.</p>
 
 <p>The programme includes:</p>

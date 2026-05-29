@@ -1,19 +1,15 @@
 ---
-
 title: "Rencontres Nationales Geotrek 2026"
 date: 2026-05-29
 lang: fr
 ref: post-20260529
-------------------
-
+---
 <p>Du <strong>3 au 5 juin 2026</strong>, utilisateurs, contributeurs, développeurs et partenaires se retrouveront à <strong>Millau</strong> pour trois journées consacrées aux retours d'expérience, aux échanges autour des usages de Geotrek et à la découverte des évolutions de la solution.</p>
 
 <a href="#" target="_blank">
     <img style="max-width: 100%;" src="{{ site.baseurl }}/assets/img/2026/rencontres2026.jpeg">
 </a>
-
 <!--more-->
-
 <p>Le programme prévoit notamment :</p>
 
 <ul>

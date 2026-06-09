@@ -13,6 +13,9 @@ Du 3 au 5 juin 2026, 95 participants se sont réunis à Millau à l’occasion d
 <p>
   <img style="max-width: 100%;" src="{{ site.baseurl }}/assets/img/2026/rencontres-2026-groupe.jpg" title="Rencontres Geotrek 2026 - Groupe">
 </p>
+
+<!--more-->
+
 <p>
 Proposée par le COPIL Geotrek et le Parc national des Écrins, la 5ème édition des Rencontres nationales des utilisateurs de Geotrek, s’est déroulée à Millau, en Occitanie, du 3 au 5 juin 2026. Ces rencontres, 
 co-organisées par le Parc naturel régional des Grands Causses avec l’appui de la Maison de la Région Occitanie, de l’Office de Tourisme de Millau et d’OPenIG, marquent une étape importante dans la vie de la communauté des utilisateurs de Geotrek, 
@@ -21,8 +24,6 @@ outil désormais incontournable pour les acteurs des territoires, des sports de 
 <p>
 📄 Le programme et l’ensemble des présentations diffusées lors des rencontres sont <a href="https://geotrek.ecrins-parcnational.fr/rencontres/2026/synthese.html" target="_blank">disponibles en ligne</a>.
 </p>
-
-<!--more-->
 
 <h2>Une sortie terrain à Roquefort-sur-Soulzon</h2>
 

@@ -9,30 +9,38 @@ ref: privacypolicy
 <style>
 
     .privacy__topbar {
-        background: #fff;
-        min-height: 0;
+        background: #fff !important;
+        min-height: 0 !important;
+        height: auto !important;
+        background-image: none !important;
     }
 
-    .privacy__header__content {
+    .privacy__topbar .privacy__header__content {
         max-width: 1100px;
+        min-height: 0 !important;
+        height: auto !important;
         margin: 0 auto;
-        padding: 28px 30px 30px;
+        padding: 24px 30px 28px !important;
         text-align: left;
+        position: static !important;
+        transform: none !important;
     }
 
-    .privacy__header__content .page__title {
+    .privacy__topbar .privacy__header__content .page__title {
         margin: 0 0 8px;
         color: #9d6bc9;
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         font-weight: 600;
+        line-height: 1.2;
         text-transform: uppercase;
         letter-spacing: 0.04em;
     }
 
-    .privacy__header__content .page__subtitle {
+    .privacy__topbar .privacy__header__content .page__subtitle {
         margin: 0;
+        max-width: 950px;
         color: #222;
-        font-size: 2.35rem;
+        font-size: 2.15rem;
         line-height: 1.15;
         font-weight: 700;
     }
@@ -140,18 +148,32 @@ ref: privacypolicy
         margin: 0;
     }
 
+
+    /* Surcharge les hauteurs/positionnements génériques du header du site */
+    .privacy__topbar .header__content {
+        min-height: 0 !important;
+        height: auto !important;
+        top: auto !important;
+        bottom: auto !important;
+    }
+
+    .privacy__topbar::before,
+    .privacy__topbar::after {
+        min-height: 0 !important;
+    }
+
     @media (max-width: 768px) {
 
-        .privacy__header__content {
-            padding: 22px 20px 24px;
+        .privacy__topbar .privacy__header__content {
+            padding: 20px 20px 22px !important;
         }
 
-        .privacy__header__content .page__title {
+        .privacy__topbar .privacy__header__content .page__title {
             font-size: 1rem;
         }
 
-        .privacy__header__content .page__subtitle {
-            font-size: 1.8rem;
+        .privacy__topbar .privacy__header__content .page__subtitle {
+            font-size: 1.7rem;
         }
         .privacy__content {
             padding: 40px 20px 60px;

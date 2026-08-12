@@ -7,37 +7,6 @@ ref: privacypolicy
 ---
 
 <style>
-    .privacy__header {
-        padding: 70px 20px 60px;
-        text-align: center;
-        background: #f7f5fa;
-    }
-
-    .privacy__header__content {
-        max-width: 900px;
-        margin: 0 auto;
-    }
-
-    .privacy__header__label {
-        display: inline-block;
-        margin-bottom: 18px;
-        font-size: 1rem;
-        font-weight: 600;
-        color: #9d6bc9;
-        text-transform: uppercase;
-        letter-spacing: 0.05em;
-    }
-
-    .privacy__header .page__title {
-        margin-bottom: 18px;
-    }
-
-    .privacy__header__date {
-        margin: 0;
-        font-size: 1rem;
-        opacity: 0.7;
-    }
-
     .privacy__content {
         max-width: 960px;
         margin: 0 auto;
@@ -64,12 +33,18 @@ ref: privacypolicy
         margin-bottom: 10px;
     }
 
+    .privacy__date {
+        margin-bottom: 35px;
+        text-align: right;
+        opacity: 0.7;
+    }
+
     .privacy__section {
         padding: 45px 0;
         border-bottom: 1px solid #e6e6e6;
     }
 
-    .privacy__section:first-child {
+    .privacy__section:first-of-type {
         padding-top: 0;
     }
 
@@ -137,12 +112,12 @@ ref: privacypolicy
     }
 
     @media (max-width: 768px) {
-        .privacy__header {
-            padding: 45px 20px 40px;
-        }
-
         .privacy__content {
             padding: 40px 20px 60px;
+        }
+
+        .privacy__date {
+            text-align: left;
         }
 
         .privacy__section {
@@ -165,178 +140,175 @@ ref: privacypolicy
     }
 </style>
 
+<header class="header header--ressources">
+  {% include navigation.html %}
 
-<header class="privacy__header">
-    <div class="privacy__header__content">
-        <span class="privacy__header__label">Applications mobiles Geotrek</span>
-        <h1 class="page__title">Politique de confidentialité et gestion des données personnelles (RGPD)</h1>
-        <p class="privacy__header__date"><em>Dernière mise à jour : 12 août 2026</em></p>
-    </div>
+  <div class="header__content ressources__header">
+    <h1 class="page__title">Applications mobiles Geotrek</h1>
+    <h2 class="page__subtitle">Politique de confidentialité et gestion des données personnelles (RGPD)</h2>
+  </div>
 </header>
 
-
 <main class="privacy__content">
+  <p class="privacy__date"><em>Dernière mise à jour : 12 août 2026</em></p>
 
-    <section class="privacy__section">
-        <h2>Préambule</h2>
+<section class="privacy__section">
+<h2>Préambule</h2>
 
-        <p><strong>Geotrek</strong> est une suite logicielle libre et open source dédiée à la gestion et à la valorisation des sentiers, itinéraires de randonnée et espaces naturels.</p>
+<p><strong>Geotrek</strong> est une suite logicielle libre et open source dédiée à la gestion et à la valorisation des sentiers, itinéraires de randonnée et espaces naturels.</p>
 
-        <p>Geotrek se compose de trois briques principales :</p>
+<p>Geotrek se compose de trois briques principales :</p>
 
+<ul>
+    <li><strong>Geotrek-admin</strong>, l'outil interne utilisé par les structures gestionnaires pour saisir et administrer leurs données (sentiers, points d'intérêt, événements, etc.) ;</li>
+    <li><strong>Geotrek-rando</strong>, le portail web de valorisation grand public des itinéraires, activités touristiques et de pleine nature ;</li>
+    <li><strong>Geotrek-mobile</strong>, l'application mobile, disponible sur l'App Store (Apple) et le Google Play Store (Android), qui permet aux randonneurs de consulter ces mêmes contenus directement depuis leur smartphone, y compris hors connexion, et de faciliter leur localisation sur les itinéraires.</li>
+</ul>
+
+<p>Chaque structure souhaitant valoriser ses sentiers déploie ses propres instances de ces outils : un Département, un parc naturel régional, une communauté de communes, un office de tourisme ou tout autre entité gestionnaire peut ainsi publier sa propre application mobile Geotrek, sous son propre nom, avec ses propres contenus.</p>
+
+<p>La présente page, publiée sur le site officiel <a href="https://www.geotrek.fr" target="_blank" rel="noopener noreferrer">geotrek.fr</a>, a vocation à décrire, de manière générale et pour l'ensemble des applications mobiles issues de la suite Geotrek, les pratiques appliquées en matière de traitement des données personnelles.</p>
+
+<p>Elle constitue une information de premier niveau et ne se substitue pas à toute possible Politique de confidentialité propre et spécifique à chaque instance.</p>
+
+<div class="privacy__references">
+<h3>Textes de référence</h3>
+
+<ul>
+    <li>Loi n°78-17 du 6 janvier 1978 relative à l'informatique, aux fichiers et aux libertés ;</li>
+    <li>Règlement (UE) 2016/679 du 27 avril 2016 relatif à la collecte, l'enregistrement et la conservation automatisés d'informations à caractère personnel (« RGPD ») ;</li>
+    <li>Article L. 226-13 du Code pénal.</li>
+</ul>
+
+<p>En application de ces dispositions, vous disposez toujours d’un droit d’accès, de rectification, d’effacement, d’opposition et de limitation du traitement de toute donnée personnelle vous concernant. Plus d’informations sur vos droits sont disponibles sur le <a href="https://www.cnil.fr/fr/mes-demarches/les-droits-pour-maitriser-vos-donnees-personnelles" target="_blank" rel="noopener noreferrer">site internet de la CNIL</a>.</p>
+</div>
+
+</section>
+
+<section class="privacy__section">
+<h2>Responsabilité du recueil et traitement de données personnelles via Geotrek-mobile</h2>
+
+<h3>Qui est responsable du traitement des données ?</h3>
+
+<p>Au sens du RGPD, la responsabilité du traitement des données personnelles incombe à la seule structure responsable de chaque instance Geotrek déployée en son nom.</p>
+
+<p>Le responsable du traitement de chaque application Geotrek-mobile est donc la structure porteuse de l'instance Geotrek concernée (collectivité, parc naturel, syndicat mixte, office de tourisme, etc.), c'est-à-dire l'organisme dont le nom et les contenus apparaissent dans l'application que vous utilisez.</p>
+
+<p>Chaque structure porteuse d'une instance Geotrek est invitée à rédiger et publier sa propre page « Données personnelles / Politique de confidentialité », décrivant ses propres usages, ses propres canaux de contact et, le cas échéant, les spécificités relatives à la collecte et gestion de données personnelles sur <strong>Geotrek-rando</strong> (le portail web) et <strong>Geotrek-mobile</strong> (l'application).</p>
+
+<div class="privacy__highlight">
+<p>En l'absence de telles pages spécifiques, <strong>la présente Politique de confidentialité générique s'applique par défaut pour toute application Geotrek-mobile.</strong></p>
+</div>
+
+<p>Makina Corpus, en tant que gestionnaire technique de la suite Geotrek, développe et maintient le logiciel, en sa seule qualité de prestataire technique. Makina Corpus n'édite pas les contenus, n'exploite pas les données de randonnée, et n’a accès à aucune donnée personnelle des utilisateurs finaux, puisque celles-ci ne sont ni collectées, ni transmises par les applications.</p>
+
+</section>
+
+<section class="privacy__section">
+<h2>Principe général de l’utilisation de Geotrek-mobile : aucune donnée personnelle n'est collectée</h2>
+
+<div class="privacy__highlight">
+<p>Les applications Geotrek-mobile sont conçues pour fonctionner <strong>principalement en local, sur l'appareil de l'utilisateur</strong>, dans le respect de sa vie privée. En conséquence, par défaut :</p>
+
+<ul>
+    <li>l'application <strong>ne collecte, ne stocke et ne transmet aucune donnée à caractère personnel</strong> vous concernant ;</li>
+    <li>elle <strong>ne recourt à aucun cookie</strong>, traceur publicitaire ou outil de mesure d'audience (type Matomo, Google Analytics ou équivalent) ;</li>
+    <li>elle <strong>ne nécessite ni compte, ni identifiant, ni connexion</strong> pour être utilisée ;</li>
+    <li>aucun formulaire de contact ni inscription à une newsletter n'est intégré au sein de l'application elle-même.</li>
+</ul>
+</div>
+
+<p>Aucune « donnée sensible » au sens du RGPD (origine raciale ou ethnique, opinions politiques, convictions religieuses, données de santé, données biométriques, etc.) n'est bien entendu collectée.</p>
+
+<h3>Utilisation de la géolocalisation (GPS)</h3>
+
+<p>En tant qu'application de cartographie et de suivi d'itinéraires de randonnée, l'application peut vous demander l'autorisation d'accéder à la position de votre appareil.</p>
+
+<p>Cette fonctionnalité vous est proposée dans les conditions suivantes :</p>
+
+<ul>
+    <li><strong>Traitement strictement local :</strong> votre position est utilisée en temps réel, uniquement sur votre téléphone, pour afficher votre localisation sur la carte, calculer votre progression sur un itinéraire ou enregistrer une trace de parcours que vous choisissez de conserver.</li>
+    <li><strong>Aucune transmission à un serveur :</strong> ces données de localisation ne sont envoyées à aucun serveur, ni celui de la structure porteuse, ni celui de Makina Corpus, ni celui d'un quelconque tiers.</li>
+    <li><strong>Contrôle total de l’autorisation de la localisation :</strong> vous pouvez à tout moment autoriser, refuser ou retirer l'accès à la géolocalisation depuis les réglages de votre smartphone (iOS ou Android), sans que cela n'affecte les autres fonctionnalités de l'application (consultation des fiches, cartes hors ligne, etc.).</li>
+</ul>
+
+<h3>Contenus téléchargés et fonctionnement hors connexion</h3>
+
+<p>L'application permet le téléchargement de cartes, de fiches de randonnées et de contenus multimédias associés (textes, images) afin de permettre une utilisation hors connexion. Ces contenus sont stockés localement sur l'appareil et ne sont associés à aucune identité ni à aucun profil utilisateur.</p>
+
+</section>
+
+<section class="privacy__section">
+<h2>Services tiers</h2>
+
+<h3>Services de suivi statistiques et cookies traceurs</h3>
+
+<p>Les applications Geotrek-mobile ne font appel à aucun service tiers de suivi publicitaire, d'analyse d'audience ou de revente de données.</p>
+
+<h3>Magasins d'applications (App Store / Google Play) et gestion de vos données personnelles</h3>
+
+<p>Le téléchargement et l'installation d'une application Geotrek-mobile s'effectuent via les plateformes <strong>Apple App Store</strong> et <strong>Google Play Store</strong>. Ce sont, à ce jour, les seuls acteurs susceptibles de collecter des données techniques vous concernant (identifiant d'appareil, statistiques de téléchargement, etc.), dans le cadre de leur propre politique de confidentialité, indépendante des applications elles-mêmes.</p>
+
+<p>Pour toute question relative à ces données, nous vous invitons à vous adresser directement à Apple ou à Google, via leurs politiques de confidentialité respectives.</p>
+
+</section>
+
+<section class="privacy__section">
+<h2>Durée de conservation</h2>
+
+<p>Aucune donnée personnelle n'étant collectée ni transmise par défaut, aucune durée de conservation n'est applicable. Les seules données stockées (traces GPS enregistrées, contenus téléchargés) le sont exclusivement sur l'appareil de l'utilisateur, sous sa seule maîtrise, et peuvent être supprimées à tout moment via les fonctionnalités de l'application ou en désinstallant celle-ci.</p>
+
+</section>
+
+<section class="privacy__section">
+<h2>Vos droits sur vos données personnelles</h2>
+
+<p>Conformément au RGPD, vous disposez toujours d'un droit d'accès, de rectification, d'effacement, de limitation, d'opposition et de portabilité concernant toute donnée personnelle qui vous concerne.</p>
+
+<p>Compte tenu de l'absence de collecte décrite ci-dessus, ce droit s'exerce principalement dans le cadre de vos échanges directs avec la structure porteuse de l'application.</p>
+
+<p>Si vous estimez que vos droits « Informatique et Libertés » ne sont pas respectés, vous pouvez adresser une réclamation à la CNIL :</p>
+
+<ul>
+    <li>en ligne : <a href="https://www.cnil.fr/fr/plaintes" target="_blank" rel="noopener noreferrer">cnil.fr/fr/plaintes</a> ;</li>
+    <li>par courrier : CNIL, 3 Place de Fontenoy – TSA 80715 – 75334 PARIS CEDEX 07.</li>
+</ul>
+
+</section>
+
+<section class="privacy__section">
+<h2>Une question sur vos données personnelles ? Qui contacter ?</h2>
+
+<p>Pour toute question relative à vos données personnelles dans le cadre de l'utilisation d'une application de la suite Geotrek, nous vous invitons à suivre l'ordre suivant :</p>
+
+<ol>
+    <li>
+        <strong>Si votre question porte sur des données techniques liées au téléchargement ou à l'installation de l'application</strong> (identifiant d'appareil, statistiques du store, etc.) : ces données sont exclusivement collectées par les stores. Contactez donc directement <strong>Apple</strong> ou <strong>Google</strong>, qui sont seuls responsables de ces traitements.
+    </li>
+    <li>
+        <strong>Si votre question est d'ordre général</strong> et concerne l'application elle-même, ses contenus ou son usage : recherchez la structure porteuse de l'instance Geotrek-mobile que vous utilisez, et contactez-la :
         <ul>
-            <li><strong>Geotrek-admin</strong>, l'outil interne utilisé par les structures gestionnaires pour saisir et administrer leurs données (sentiers, points d'intérêt, événements, etc.) ;</li>
-            <li><strong>Geotrek-rando</strong>, le portail web de valorisation grand public des itinéraires, activités touristiques et de pleine nature ;</li>
-            <li><strong>Geotrek-mobile</strong>, l'application mobile, disponible sur l'App Store (Apple) et le Google Play Store (Android), qui permet aux randonneurs de consulter ces mêmes contenus directement depuis leur smartphone, y compris hors connexion, et de faciliter leur localisation sur les itinéraires.</li>
+            <li>via son portail <strong>Geotrek-rando</strong> associé, si la structure en possède un (les coordonnées de contact y figurent généralement) ;</li>
+            <li>ou via le <strong>site internet général</strong> de la structure (collectivité, parc naturel, office de tourisme, etc.).</li>
         </ul>
+    </li>
+    <li>
+        <strong>En dernier recours</strong>, si vous ne parvenez pas à identifier ou joindre la structure porteuse, vous pouvez <a href="{{ site.baseurl }}/contact.html">utiliser le formulaire de contact</a> du présent site geotrek.fr, pour être réorienté vers le bon interlocuteur au sein de la structure concernée.
+    </li>
+</ol>
 
-        <p>Chaque structure souhaitant valoriser ses sentiers déploie ses propres instances de ces outils : un Département, un parc naturel régional, une communauté de communes, un office de tourisme ou tout autre entité gestionnaire peut ainsi publier sa propre application mobile Geotrek, sous son propre nom, avec ses propres contenus.</p>
+<div class="privacy__warning">
+<p><strong>Important :</strong> merci de ne jamais communiquer d'informations personnelles (identité, coordonnées, ou toute autre donnée personnelle) via ce canal de contact : il a pour seule vocation de vous rediriger vers le bon interlocuteur.</p>
+</div>
 
-        <p>La présente page, publiée sur le site officiel <a href="https://www.geotrek.fr" target="_blank" rel="noopener noreferrer">geotrek.fr</a>, a vocation à décrire, de manière générale et pour l'ensemble des applications mobiles issues de la suite Geotrek, les pratiques appliquées en matière de traitement des données personnelles.</p>
+</section>
 
-        <p>Elle constitue une information de premier niveau et ne se substitue pas à toute possible Politique de confidentialité propre et spécifique à chaque instance.</p>
+<section class="privacy__section">
+<h2>Modifications de la présente politique</h2>
 
-        <div class="privacy__references">
-            <h3>Textes de référence</h3>
+<p>Bien que nous ne prévoyions pas de modifier notre approche concernant la non-collecte de données personnelles via Geotrek-mobile, nous pourrions être amenés à mettre à jour ce document pour refléter des changements techniques ou légaux.</p>
 
-            <ul>
-                <li>Loi n°78-17 du 6 janvier 1978 relative à l'informatique, aux fichiers et aux libertés ;</li>
-                <li>Règlement (UE) 2016/679 du 27 avril 2016 relatif à la collecte, l'enregistrement et la conservation automatisés d'informations à caractère personnel (« RGPD ») ;</li>
-                <li>Article L. 226-13 du Code pénal.</li>
-            </ul>
-
-            <p>En application de ces dispositions, vous disposez toujours d’un droit d’accès, de rectification, d’effacement, d’opposition et de limitation du traitement de toute donnée personnelle vous concernant. Plus d’informations sur vos droits sont disponibles sur le <a href="https://www.cnil.fr/fr/mes-demarches/les-droits-pour-maitriser-vos-donnees-personnelles" target="_blank" rel="noopener noreferrer">site internet de la CNIL</a>.</p>
-        </div>
-    </section>
-
-
-    <section class="privacy__section">
-        <h2>Responsabilité du recueil et traitement de données personnelles via Geotrek-mobile</h2>
-
-        <h3>Qui est responsable du traitement des données ?</h3>
-
-        <p>Au sens du RGPD, la responsabilité du traitement des données personnelles incombe à la seule structure responsable de chaque instance Geotrek déployée en son nom.</p>
-
-        <p>Le responsable du traitement de chaque application Geotrek-mobile est donc la structure porteuse de l'instance Geotrek concernée (collectivité, parc naturel, syndicat mixte, office de tourisme, etc.), c'est-à-dire l'organisme dont le nom et les contenus apparaissent dans l'application que vous utilisez.</p>
-
-        <p>Chaque structure porteuse d'une instance Geotrek est invitée à rédiger et publier sa propre page « Données personnelles / Politique de confidentialité », décrivant ses propres usages, ses propres canaux de contact et, le cas échéant, les spécificités relatives à la collecte et gestion de données personnelles sur <strong>Geotrek-rando</strong> (le portail web) et <strong>Geotrek-mobile</strong> (l'application).</p>
-
-        <div class="privacy__highlight">
-            <p>En l'absence de telles pages spécifiques, <strong>la présente Politique de confidentialité générique s'applique par défaut pour toute application Geotrek-mobile.</strong></p>
-        </div>
-
-        <p>Makina Corpus, en tant que gestionnaire technique de la suite Geotrek, développe et maintient le logiciel, en sa seule qualité de prestataire technique. Makina Corpus n'édite pas les contenus, n'exploite pas les données de randonnée, et n’a accès à aucune donnée personnelle des utilisateurs finaux, puisque celles-ci ne sont ni collectées, ni transmises par les applications.</p>
-    </section>
-
-
-    <section class="privacy__section">
-        <h2>Principe général de l’utilisation de Geotrek-mobile : aucune donnée personnelle n'est collectée</h2>
-
-        <div class="privacy__highlight">
-            <p>Les applications Geotrek-mobile sont conçues pour fonctionner <strong>principalement en local, sur l'appareil de l'utilisateur</strong>, dans le respect de sa vie privée. En conséquence, par défaut :</p>
-
-            <ul>
-                <li>l'application <strong>ne collecte, ne stocke et ne transmet aucune donnée à caractère personnel</strong> vous concernant ;</li>
-                <li>elle <strong>ne recourt à aucun cookie</strong>, traceur publicitaire ou outil de mesure d'audience (type Matomo, Google Analytics ou équivalent) ;</li>
-                <li>elle <strong>ne nécessite ni compte, ni identifiant, ni connexion</strong> pour être utilisée ;</li>
-                <li>aucun formulaire de contact ni inscription à une newsletter n'est intégré au sein de l'application elle-même.</li>
-            </ul>
-        </div>
-
-        <p>Aucune « donnée sensible » au sens du RGPD (origine raciale ou ethnique, opinions politiques, convictions religieuses, données de santé, données biométriques, etc.) n'est bien entendu collectée.</p>
-
-        <h3>Utilisation de la géolocalisation (GPS)</h3>
-
-        <p>En tant qu'application de cartographie et de suivi d'itinéraires de randonnée, l'application peut vous demander l'autorisation d'accéder à la position de votre appareil.</p>
-
-        <p>Cette fonctionnalité vous est proposée dans les conditions suivantes :</p>
-
-        <ul>
-            <li><strong>Traitement strictement local :</strong> votre position est utilisée en temps réel, uniquement sur votre téléphone, pour afficher votre localisation sur la carte, calculer votre progression sur un itinéraire ou enregistrer une trace de parcours que vous choisissez de conserver.</li>
-            <li><strong>Aucune transmission à un serveur :</strong> ces données de localisation ne sont envoyées à aucun serveur, ni celui de la structure porteuse, ni celui de Makina Corpus, ni celui d'un quelconque tiers.</li>
-            <li><strong>Contrôle total de l’autorisation de la localisation :</strong> vous pouvez à tout moment autoriser, refuser ou retirer l'accès à la géolocalisation depuis les réglages de votre smartphone (iOS ou Android), sans que cela n'affecte les autres fonctionnalités de l'application (consultation des fiches, cartes hors ligne, etc.).</li>
-        </ul>
-
-        <h3>Contenus téléchargés et fonctionnement hors connexion</h3>
-
-        <p>L'application permet le téléchargement de cartes, de fiches de randonnées et de contenus multimédias associés (textes, images) afin de permettre une utilisation hors connexion. Ces contenus sont stockés localement sur l'appareil et ne sont associés à aucune identité ni à aucun profil utilisateur.</p>
-    </section>
-
-
-    <section class="privacy__section">
-        <h2>Services tiers</h2>
-
-        <h3>Services de suivi statistiques et cookies traceurs</h3>
-
-        <p>Les applications Geotrek-mobile ne font appel à aucun service tiers de suivi publicitaire, d'analyse d'audience ou de revente de données.</p>
-
-        <h3>Magasins d'applications (App Store / Google Play) et gestion de vos données personnelles</h3>
-
-        <p>Le téléchargement et l'installation d'une application Geotrek-mobile s'effectuent via les plateformes <strong>Apple App Store</strong> et <strong>Google Play Store</strong>. Ce sont, à ce jour, les seuls acteurs susceptibles de collecter des données techniques vous concernant (identifiant d'appareil, statistiques de téléchargement, etc.), dans le cadre de leur propre politique de confidentialité, indépendante des applications elles-mêmes.</p>
-
-        <p>Pour toute question relative à ces données, nous vous invitons à vous adresser directement à Apple ou à Google, via leurs politiques de confidentialité respectives.</p>
-    </section>
-
-
-    <section class="privacy__section">
-        <h2>Durée de conservation</h2>
-
-        <p>Aucune donnée personnelle n'étant collectée ni transmise par défaut, aucune durée de conservation n'est applicable. Les seules données stockées (traces GPS enregistrées, contenus téléchargés) le sont exclusivement sur l'appareil de l'utilisateur, sous sa seule maîtrise, et peuvent être supprimées à tout moment via les fonctionnalités de l'application ou en désinstallant celle-ci.</p>
-    </section>
-
-
-    <section class="privacy__section">
-        <h2>Vos droits sur vos données personnelles</h2>
-
-        <p>Conformément au RGPD, vous disposez toujours d'un droit d'accès, de rectification, d'effacement, de limitation, d'opposition et de portabilité concernant toute donnée personnelle qui vous concerne.</p>
-
-        <p>Compte tenu de l'absence de collecte décrite ci-dessus, ce droit s'exerce principalement dans le cadre de vos échanges directs avec la structure porteuse de l'application.</p>
-
-        <p>Si vous estimez que vos droits « Informatique et Libertés » ne sont pas respectés, vous pouvez adresser une réclamation à la CNIL :</p>
-
-        <ul>
-            <li>en ligne : <a href="https://www.cnil.fr/fr/plaintes" target="_blank" rel="noopener noreferrer">cnil.fr/fr/plaintes</a> ;</li>
-            <li>par courrier : CNIL, 3 Place de Fontenoy – TSA 80715 – 75334 PARIS CEDEX 07.</li>
-        </ul>
-    </section>
-
-
-    <section class="privacy__section">
-        <h2>Une question sur vos données personnelles ? Qui contacter ?</h2>
-
-        <p>Pour toute question relative à vos données personnelles dans le cadre de l'utilisation d'une application de la suite Geotrek, nous vous invitons à suivre l'ordre suivant :</p>
-
-        <ol>
-            <li>
-                <strong>Si votre question porte sur des données techniques liées au téléchargement ou à l'installation de l'application</strong> (identifiant d'appareil, statistiques du store, etc.) : ces données sont exclusivement collectées par les stores. Contactez donc directement <strong>Apple</strong> ou <strong>Google</strong>, qui sont seuls responsables de ces traitements.
-            </li>
-
-            <li>
-                <strong>Si votre question est d'ordre général</strong> et concerne l'application elle-même, ses contenus ou son usage : recherchez la structure porteuse de l'instance Geotrek-mobile que vous utilisez, et contactez-la :
-
-                <ul>
-                    <li>via son portail <strong>Geotrek-rando</strong> associé, si la structure en possède un (les coordonnées de contact y figurent généralement) ;</li>
-                    <li>ou via le <strong>site internet général</strong> de la structure (collectivité, parc naturel, office de tourisme, etc.).</li>
-                </ul>
-            </li>
-
-            <li>
-                <strong>En dernier recours</strong>, si vous ne parvenez pas à identifier ou joindre la structure porteuse, vous pouvez <a href="{{ site.baseurl }}/contact.html">utiliser le formulaire de contact</a> du présent site geotrek.fr, pour être réorienté vers le bon interlocuteur au sein de la structure concernée.
-            </li>
-        </ol>
-
-        <div class="privacy__warning">
-            <p><strong>Important :</strong> merci de ne jamais communiquer d'informations personnelles (identité, coordonnées, ou toute autre donnée personnelle) via ce canal de contact : il a pour seule vocation de vous rediriger vers le bon interlocuteur.</p>
-        </div>
-    </section>
-
-
-    <section class="privacy__section">
-        <h2>Modifications de la présente politique</h2>
-
-        <p>Bien que nous ne prévoyions pas de modifier notre approche concernant la non-collecte de données personnelles via Geotrek-mobile, nous pourrions être amenés à mettre à jour ce document pour refléter des changements techniques ou légaux.</p>
-
-        <p>Toute modification de la présente Politique de Confidentialité sera signalée par la date de « Dernière mise à jour » figurant en haut de cette page.</p>
-    </section>
+<p>Toute modification de la présente Politique de Confidentialité sera signalée par la date de « Dernière mise à jour » figurant en haut de cette page.</p>
+</section>
 
 </main>
